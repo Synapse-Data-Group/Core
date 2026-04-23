@@ -1,0 +1,9 @@
+{
+  "total_duration": 405.26233768463135,
+  "llm_calls": 51,
+  "web_searches": 9,
+  "agent_spawns": 16,
+  "coalitions_formed": 3,
+  "concepts_extracted": 9,
+  "total_events": 17
+}

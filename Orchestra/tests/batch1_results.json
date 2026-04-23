@@ -1,0 +1,23 @@
+{
+  "test": "Parallel Execution",
+  "prompt": "Analyze this business scenario and provide 3 key recommendations:\n    \n    A startup has $100k funding, 2 developers, and 6 months runway.\n    They need to decide between:\n    A) Building an MVP and launching quickly\n    B) Doing more market research first\n    C) Hiring more team members\n    \n    What should they do?",
+  "iterations": 3,
+  "orchestra": {
+    "execution_time": 7.6871256828308105,
+    "total_tokens": 0,
+    "total_cost": 0,
+    "agents_used": 0,
+    "consensus": "voting"
+  },
+  "baseline": {
+    "execution_time": 26.98892068862915,
+    "total_tokens": 1049,
+    "total_cost": 0.03147,
+    "calls": 3
+  },
+  "comparison": {
+    "speedup": 3.5109248634907693,
+    "time_saved": 19.30179500579834,
+    "cost_same": false
+  }
+}

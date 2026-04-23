@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Analyst_1",
+    "agent_id": "549ceb36-88e8-4d84-8459-7cd0faad16b7",
+    "proposals": 1,
+    "challenges": 20,
+    "rebuttals": 10,
+    "score": 50.0
+  },
+  {
+    "name": "Ethicist_2",
+    "agent_id": "a5cebd69-a491-4c9c-acda-94abc2745318",
+    "proposals": 1,
+    "challenges": 20,
+    "rebuttals": 10,
+    "score": 50.0
+  },
+  {
+    "name": "Innovator_3",
+    "agent_id": "7713a4a6-9444-448c-9660-45ab4314ac62",
+    "proposals": 1,
+    "challenges": 20,
+    "rebuttals": 10,
+    "score": 50.0
+  }
+]

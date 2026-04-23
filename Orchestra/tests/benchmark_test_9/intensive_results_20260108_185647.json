@@ -1,0 +1,44 @@
+{
+  "timestamp": "2026-01-08T18:00:55.570608",
+  "test_suite": "Intensive Test 9 - Production Workload",
+  "total_llm_calls": 150,
+  "total_cost": 3.65175,
+  "total_time": 3351.527164697647,
+  "benchmarks": {
+    "sustained_load": {
+      "total_tasks": 100,
+      "successful": 100,
+      "success_rate": 1.0,
+      "total_time_seconds": 1616.1927752494812,
+      "total_cost_usd": 2.42664,
+      "total_tokens": 42509,
+      "throughput_tasks_per_sec": 0.06187380709245136,
+      "avg_latency_seconds": 16.16190749168396,
+      "median_latency_seconds": 16.762406706809998,
+      "p95_latency_seconds": 24.47211911678314,
+      "p99_latency_seconds": 30.066477534770964
+    },
+    "burst_load": {
+      "total_tasks": 50,
+      "successful": 50,
+      "success_rate": 1.0,
+      "total_time_seconds": 917.0681841373444,
+      "total_cost_usd": 0.03209649999999998,
+      "total_tokens": 2218,
+      "throughput_tasks_per_sec": 0.05452157305733307,
+      "agents_used": 5,
+      "parallel_execution": true
+    },
+    "mixed_workload": {
+      "total_tasks": 50,
+      "simple_tasks": 25,
+      "complex_tasks": 25,
+      "total_time_seconds": 744.0220177173615,
+      "total_cost_usd": 1.22511,
+      "total_tokens": 21381,
+      "avg_simple_latency": 12.390071744918822,
+      "avg_complex_latency": 17.37078290939331,
+      "complexity_ratio": 1.4019921165119225
+    }
+  }
+}

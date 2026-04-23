@@ -1,0 +1,317 @@
+{
+  "test_name": "test3_coalition_formation",
+  "start_time": "2026-01-09T00:50:34.666531",
+  "duration_seconds": 0.007325172424316406,
+  "total_snapshots": 2,
+  "total_events": 1,
+  "snapshots": [
+    {
+      "timestamp": 0.00040721893310546875,
+      "datetime": "2026-01-09T00:50:34.666938",
+      "agent_count": 4,
+      "proposal_count": 0,
+      "agents": [
+        {
+          "name": "Agent_A",
+          "agent_id": "2e762971-3ffb-4eb7-a7eb-03070e432ae9",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.3572208212145097,
+            "boldness": 0.6236849465337299,
+            "aggressiveness": 0.4277366854871601,
+            "defensiveness": 0.4878275353086683,
+            "supportiveness": 0.5690913317413866,
+            "analytical_depth": 0.5093717020874429,
+            "evidence_reliance": 0.5161159796942028,
+            "confidence": 0.7641881929435922,
+            "optimism": 0.5244075094782394,
+            "verbosity": 0.5312316151869049,
+            "formality": 0.7754453264555277
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Agent_B",
+          "agent_id": "b1d397b3-668b-4084-b062-5858646cc519",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.8335200762299069,
+            "boldness": 0.3730847896740854,
+            "aggressiveness": 0.626199571791012,
+            "defensiveness": 0.40905900787232796,
+            "supportiveness": 0.6289885956043455,
+            "analytical_depth": 0.4343179518254059,
+            "evidence_reliance": 0.7869056742019527,
+            "confidence": 0.8812498390153853,
+            "optimism": 0.7113820969354969,
+            "verbosity": 0.47925194082490963,
+            "formality": 0.5384939136347774
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Agent_C",
+          "agent_id": "a3eae08d-8014-4155-8fa4-e4636c116584",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.572767631133765,
+            "boldness": 0.44115535076690404,
+            "aggressiveness": 0.6800937570249376,
+            "defensiveness": 0.3488179963813641,
+            "supportiveness": 0.3769166367503587,
+            "analytical_depth": 0.39834984108890215,
+            "evidence_reliance": 0.31068962264037775,
+            "confidence": 0.8013103280962754,
+            "optimism": 0.511895300448483,
+            "verbosity": 0.4249959989461871,
+            "formality": 0.7460823667993138
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Agent_D",
+          "agent_id": "7f084250-98b9-4390-a592-ac09ad03aeb7",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.5499791904183038,
+            "boldness": 0.46550892366364655,
+            "aggressiveness": 0.37958381596104407,
+            "defensiveness": 0.5094884854238869,
+            "supportiveness": 0.5841395429050423,
+            "analytical_depth": 0.3550862754902389,
+            "evidence_reliance": 0.5878645758205022,
+            "confidence": 0.7806346826606076,
+            "optimism": 0.6216643984407741,
+            "verbosity": 0.5551344159498757,
+            "formality": 0.40377995504807124
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [],
+      "context": {
+        "phase": "initialization"
+      }
+    },
+    {
+      "timestamp": 0.006857872009277344,
+      "datetime": "2026-01-09T00:50:34.673389",
+      "agent_count": 4,
+      "proposal_count": 4,
+      "agents": [
+        {
+          "name": "Agent_A",
+          "agent_id": "2e762971-3ffb-4eb7-a7eb-03070e432ae9",
+          "is_active": true,
+          "score": 56.076719576719576,
+          "proposals_made": 1,
+          "challenges_made": 1,
+          "rebuttals_made": 1,
+          "personality": {
+            "creativity": 0.3572208212145097,
+            "boldness": 0.6236849465337299,
+            "aggressiveness": 0.4277366854871601,
+            "defensiveness": 0.4878275353086683,
+            "supportiveness": 0.5690913317413866,
+            "analytical_depth": 0.5093717020874429,
+            "evidence_reliance": 0.5161159796942028,
+            "confidence": 0.7641881929435922,
+            "optimism": 0.5244075094782394,
+            "verbosity": 0.5312316151869049,
+            "formality": 0.7754453264555277
+          },
+          "exploration_rate": 0.2985,
+          "memory_size": 1
+        },
+        {
+          "name": "Agent_B",
+          "agent_id": "b1d397b3-668b-4084-b062-5858646cc519",
+          "is_active": true,
+          "score": 57.670170755170744,
+          "proposals_made": 1,
+          "challenges_made": 4,
+          "rebuttals_made": 1,
+          "personality": {
+            "creativity": 0.8335200762299069,
+            "boldness": 0.3730847896740854,
+            "aggressiveness": 0.626199571791012,
+            "defensiveness": 0.40905900787232796,
+            "supportiveness": 0.6289885956043455,
+            "analytical_depth": 0.4343179518254059,
+            "evidence_reliance": 0.7869056742019527,
+            "confidence": 0.8812498390153853,
+            "optimism": 0.7113820969354969,
+            "verbosity": 0.47925194082490963,
+            "formality": 0.5384939136347774
+          },
+          "exploration_rate": 0.2985,
+          "memory_size": 1
+        },
+        {
+          "name": "Agent_C",
+          "agent_id": "a3eae08d-8014-4155-8fa4-e4636c116584",
+          "is_active": true,
+          "score": 54.40724567099567,
+          "proposals_made": 1,
+          "challenges_made": 4,
+          "rebuttals_made": 2,
+          "personality": {
+            "creativity": 0.572767631133765,
+            "boldness": 0.44115535076690404,
+            "aggressiveness": 0.6800937570249376,
+            "defensiveness": 0.3488179963813641,
+            "supportiveness": 0.3769166367503587,
+            "analytical_depth": 0.39834984108890215,
+            "evidence_reliance": 0.31068962264037775,
+            "confidence": 0.8013103280962754,
+            "optimism": 0.511895300448483,
+            "verbosity": 0.4249959989461871,
+            "formality": 0.7460823667993138
+          },
+          "exploration_rate": 0.2985,
+          "memory_size": 1
+        },
+        {
+          "name": "Agent_D",
+          "agent_id": "7f084250-98b9-4390-a592-ac09ad03aeb7",
+          "is_active": true,
+          "score": 57.899049963924966,
+          "proposals_made": 1,
+          "challenges_made": 3,
+          "rebuttals_made": 2,
+          "personality": {
+            "creativity": 0.5499791904183038,
+            "boldness": 0.46550892366364655,
+            "aggressiveness": 0.37958381596104407,
+            "defensiveness": 0.5094884854238869,
+            "supportiveness": 0.5841395429050423,
+            "analytical_depth": 0.3550862754902389,
+            "evidence_reliance": 0.5878645758205022,
+            "confidence": 0.7806346826606076,
+            "optimism": 0.6216643984407741,
+            "verbosity": 0.5551344159498757,
+            "formality": 0.40377995504807124
+          },
+          "exploration_rate": 0.2985,
+          "memory_size": 1
+        }
+      ],
+      "proposals": [
+        {
+          "agent_name": "Agent_A",
+          "score": 52.282322280844156,
+          "challenges": 3,
+          "rebuttals": 1
+        },
+        {
+          "agent_name": "Agent_B",
+          "score": 61.63200086522968,
+          "challenges": 1,
+          "rebuttals": 1
+        },
+        {
+          "agent_name": "Agent_C",
+          "score": 54.04534261607143,
+          "challenges": 4,
+          "rebuttals": 2
+        },
+        {
+          "agent_name": "Agent_D",
+          "score": 57.783766858495675,
+          "challenges": 4,
+          "rebuttals": 2
+        }
+      ],
+      "context": {
+        "phase": "completed",
+        "decision": {
+          "decision": "Accept proposal from Agent_B",
+          "winning_proposal": {
+            "proposal_id": "d5169189-519d-47a0-ac2e-47b75eddfaa1",
+            "agent_id": "b1d397b3-668b-4084-b062-5858646cc519",
+            "agent_name": "Agent_B",
+            "content": "Comparing available options for What is the best strategy for space exploration?, while alternative approaches exist, they face significant limitations. I strongly recommend this course of action.",
+            "timestamp": 1767916234.6675231,
+            "score": 61.63200086522968,
+            "challenges": [
+              {
+                "agent_id": "a3eae08d-8014-4155-8fa4-e4636c116584",
+                "agent_name": "Agent_C",
+                "content": "A critical weakness in Comparing available options for What is the best strategy for space exploration?, while alternative approaches exist, they face significant limitations. I respectfully strongly recommend this course of action. is its failure to account for edge cases. This particular oversight could lead to cascading failures under stress conditions. A more robust alternative would incorporate fail-safes and contingency planning.",
+                "message_type": "challenge",
+                "timestamp": 1767916234.6685772,
+                "phase": "challenge",
+                "target_agent_id": "b1d397b3-668b-4084-b062-5858646cc519",
+                "metadata": {
+                  "proposal_id": "d5169189-519d-47a0-ac2e-47b75eddfaa1"
+                }
+              }
+            ],
+            "rebuttals": [
+              {
+                "agent_id": "b1d397b3-668b-4084-b062-5858646cc519",
+                "agent_name": "Agent_B",
+                "content": "Reframing the challenge reveals it as an opportunity rather than an obstacle. Within the broader context, this apparent conflict resolves naturally through proper implementation.",
+                "message_type": "rebuttal",
+                "timestamp": 1767916234.6692715,
+                "phase": "rebuttal",
+                "target_agent_id": "a3eae08d-8014-4155-8fa4-e4636c116584",
+                "metadata": {
+                  "proposal_id": "d5169189-519d-47a0-ac2e-47b75eddfaa1",
+                  "challenge_agent": "Agent_C"
+                }
+              }
+            ]
+          },
+          "all_scores": {
+            "9e4081db-b07d-4817-aaa5-9679d5c7c474": 52.282322280844156,
+            "d5169189-519d-47a0-ac2e-47b75eddfaa1": 61.63200086522968,
+            "b3f929e5-a6eb-40f1-9467-e972792d8062": 54.04534261607143,
+            "3760739f-764d-4c54-9813-be931fdd802b": 57.783766858495675
+          },
+          "reasoning": "After evaluating 4 proposals through adaptive scoring, I have determined that Agent_B's proposal is the strongest with a score of 61.6 points. This decision is made with moderate confidence. The proposal faced 1 challenges. The proposer provided 1 rebuttals, demonstrating strong defensive reasoning. This decision adapts to the specific context and learned patterns from previous debates.",
+          "confidence": 0.5973393877144717,
+          "score_variance": 3.59802660279878,
+          "timestamp": 1767916234.6719615
+        }
+      }
+    }
+  ],
+  "events": [
+    {
+      "timestamp": 0.006868124008178711,
+      "datetime": "2026-01-09T00:50:34.673399",
+      "event_type": "debate_completed",
+      "details": {
+        "decision": "Accept proposal from Agent_B"
+      }
+    }
+  ],
+  "summary": {
+    "agent_count_change": 0,
+    "total_proposals": 4,
+    "snapshots_taken": 2,
+    "events_logged": 1,
+    "duration": 0.007326602935791016
+  }
+}

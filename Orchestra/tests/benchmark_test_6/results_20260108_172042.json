@@ -1,0 +1,101 @@
+{
+  "timestamp": "2026-01-08T17:19:12.647819",
+  "test_suite": "Benchmark Test 6 - Real-World Use Cases",
+  "benchmarks": {
+    "ecommerce_product_analysis": {
+      "orchestra": {
+        "perspectives": 4,
+        "time": 16.671221256256104,
+        "parallel": true,
+        "consensus": "Merged insights"
+      },
+      "langchain": {
+        "perspectives": "Sequential",
+        "parallel": false,
+        "estimated_time": 66.68488502502441
+      },
+      "winner": "Orchestra"
+    },
+    "healthcare_diagnosis_support": {
+      "orchestra": {
+        "specialists": 3,
+        "time": 17.87715435028076,
+        "consensus": "Voting",
+        "multi_perspective": true
+      },
+      "langchain": {
+        "specialists": "Sequential",
+        "consensus": false,
+        "multi_perspective": false
+      },
+      "winner": "Orchestra"
+    },
+    "financial_risk_assessment": {
+      "orchestra": {
+        "analysts": 3,
+        "time": 13.485632181167603,
+        "consensus": "Weighted average",
+        "comprehensive": true
+      },
+      "langchain": {
+        "analysts": 1,
+        "consensus": false,
+        "comprehensive": false
+      },
+      "winner": "Orchestra"
+    },
+    "customer_service_routing": {
+      "orchestra": {
+        "queries": 5,
+        "accuracy": 100.0,
+        "avg_routing_time_ms": 0.001239776611328125,
+        "semantic": true
+      },
+      "langchain": {
+        "semantic": false,
+        "requires_custom": true
+      },
+      "winner": "Orchestra"
+    },
+    "content_generation_pipeline": {
+      "orchestra": {
+        "stages": 4,
+        "total_time": 42.21749210357666,
+        "stage_details": [
+          {
+            "stage": "research",
+            "time": 19.955563068389893,
+            "output_length": 2488
+          },
+          {
+            "stage": "outline",
+            "time": 8.615485429763794,
+            "output_length": 2140
+          },
+          {
+            "stage": "draft",
+            "time": 3.7088117599487305,
+            "output_length": 1798
+          },
+          {
+            "stage": "edit",
+            "time": 9.937631845474243,
+            "output_length": 2701
+          }
+        ],
+        "workflow_management": true
+      },
+      "langchain": {
+        "workflow_management": false,
+        "requires_custom": true
+      },
+      "winner": "Orchestra"
+    }
+  },
+  "summary": {
+    "total_benchmarks": 5,
+    "orchestra_wins": 5,
+    "langchain_wins": 0,
+    "overall_winner": "Orchestra"
+  }
+}

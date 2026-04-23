@@ -1,0 +1,81 @@
+{
+  "timestamp": "2026-01-08T17:13:46.844336",
+  "test_suite": "Benchmark Test 5 - Error Handling & Reliability",
+  "benchmarks": {
+    "retry_mechanisms": {
+      "orchestra": {
+        "success": true,
+        "time": 14.383368730545044,
+        "features": [
+          "Exponential backoff",
+          "Max retries",
+          "Timeout"
+        ],
+        "built_in": true
+      },
+      "langchain": {
+        "built_in": false,
+        "requires_manual": true
+      },
+      "winner": "Orchestra"
+    },
+    "fallback_agents": {
+      "orchestra": {
+        "fallback_count": 3,
+        "time": 21.62811303138733,
+        "automatic_failover": true
+      },
+      "langchain": {
+        "automatic_failover": false,
+        "requires_custom": true
+      },
+      "winner": "Orchestra"
+    },
+    "graceful_degradation": {
+      "orchestra": {
+        "total_agents": 5,
+        "successful": 5,
+        "partial_results": true,
+        "time": 19.14747452735901
+      },
+      "langchain": {
+        "partial_results": false,
+        "all_or_nothing": true
+      },
+      "winner": "Orchestra"
+    },
+    "timeout_handling": {
+      "orchestra": {
+        "success": false,
+        "time": 0.00011324882507324219,
+        "configurable": true,
+        "graceful": true
+      },
+      "langchain": {
+        "configurable": "Manual",
+        "graceful": false
+      },
+      "winner": "Orchestra"
+    },
+    "error_recovery_rate": {
+      "orchestra": {
+        "total_tasks": 10,
+        "successful": 10,
+        "recovery_rate": 100.0,
+        "avg_recovery_time": 14.091189885139466,
+        "automatic": true
+      },
+      "langchain": {
+        "automatic": false,
+        "requires_custom": true
+      },
+      "winner": "Orchestra"
+    }
+  },
+  "summary": {
+    "total_benchmarks": 5,
+    "orchestra_wins": 5,
+    "langchain_wins": 0,
+    "overall_winner": "Orchestra"
+  }
+}

@@ -1,0 +1,396 @@
+{
+  "nodes": [
+    {
+      "node_id": "node_1",
+      "concept": "approach",
+      "node_type": "debate_concept",
+      "mentions": 5,
+      "confidence": 0.7500000000000002,
+      "metadata": {
+        "agent_id": "46f9c5c2-9db1-43a4-81a6-be79bff9a6e2",
+        "message_type": "proposal",
+        "timestamp": 1767916759.4208276
+      }
+    },
+    {
+      "node_id": "node_2",
+      "concept": "comparing",
+      "node_type": "debate_concept",
+      "mentions": 6,
+      "confidence": 0.8000000000000003,
+      "metadata": {
+        "agent_id": "46f9c5c2-9db1-43a4-81a6-be79bff9a6e2",
+        "message_type": "proposal",
+        "timestamp": 1767916759.4208374
+      }
+    },
+    {
+      "node_id": "node_3",
+      "concept": "available",
+      "node_type": "debate_concept",
+      "mentions": 3,
+      "confidence": 0.6500000000000001,
+      "metadata": {
+        "agent_id": "46f9c5c2-9db1-43a4-81a6-be79bff9a6e2",
+        "message_type": "proposal",
+        "timestamp": 1767916759.4208412
+      }
+    },
+    {
+      "node_id": "node_4",
+      "concept": "options",
+      "node_type": "debate_concept",
+      "mentions": 2,
+      "confidence": 0.6000000000000001,
+      "metadata": {
+        "agent_id": "46f9c5c2-9db1-43a4-81a6-be79bff9a6e2",
+        "message_type": "proposal",
+        "timestamp": 1767916759.4208426
+      }
+    },
+    {
+      "node_id": "node_5",
+      "concept": "development",
+      "node_type": "debate_concept",
+      "mentions": 6,
+      "confidence": 0.8000000000000003,
+      "metadata": {
+        "agent_id": "46f9c5c2-9db1-43a4-81a6-be79bff9a6e2",
+        "message_type": "proposal",
+        "timestamp": 1767916759.420844
+      }
+    },
+    {
+      "node_id": "node_6",
+      "concept": "autonomous",
+      "node_type": "debate_concept",
+      "mentions": 6,
+      "confidence": 0.8000000000000003,
+      "metadata": {
+        "agent_id": "46f9c5c2-9db1-43a4-81a6-be79bff9a6e2",
+        "message_type": "proposal",
+        "timestamp": 1767916759.4208453
+      }
+    },
+    {
+      "node_id": "node_7",
+      "concept": "systems",
+      "node_type": "debate_concept",
+      "mentions": 5,
+      "confidence": 0.7500000000000002,
+      "metadata": {
+        "agent_id": "46f9c5c2-9db1-43a4-81a6-be79bff9a6e2",
+        "message_type": "proposal",
+        "timestamp": 1767916759.4208467
+      }
+    },
+    {
+      "node_id": "node_8",
+      "concept": "make",
+      "node_type": "debate_concept",
+      "mentions": 5,
+      "confidence": 0.7500000000000002,
+      "metadata": {
+        "agent_id": "46f9c5c2-9db1-43a4-81a6-be79bff9a6e2",
+        "message_type": "proposal",
+        "timestamp": 1767916759.4208477
+      }
+    },
+    {
+      "node_id": "node_9",
+      "concept": "critical",
+      "node_type": "debate_concept",
+      "mentions": 5,
+      "confidence": 0.7500000000000002,
+      "metadata": {
+        "agent_id": "46f9c5c2-9db1-43a4-81a6-be79bff9a6e2",
+        "message_type": "proposal",
+        "timestamp": 1767916759.4208486
+      }
+    },
+    {
+      "node_id": "node_10",
+      "concept": "decisions",
+      "node_type": "debate_concept",
+      "mentions": 5,
+      "confidence": 0.7500000000000002,
+      "metadata": {
+        "agent_id": "46f9c5c2-9db1-43a4-81a6-be79bff9a6e2",
+        "message_type": "proposal",
+        "timestamp": 1767916759.4208496
+      }
+    },
+    {
+      "node_id": "node_11",
+      "concept": "how",
+      "node_type": "debate_concept",
+      "mentions": 4,
+      "confidence": 0.7000000000000002,
+      "metadata": {
+        "agent_id": "46f9c5c2-9db1-43a4-81a6-be79bff9a6e2",
+        "message_type": "proposal",
+        "timestamp": 1767916759.4208527
+      }
+    },
+    {
+      "node_id": "node_12",
+      "concept": "proposal",
+      "node_type": "concept",
+      "mentions": 5,
+      "confidence": 0.7500000000000002,
+      "metadata": {}
+    },
+    {
+      "node_id": "node_13",
+      "concept": "affecting",
+      "node_type": "debate_concept",
+      "mentions": 2,
+      "confidence": 0.6000000000000001,
+      "metadata": {
+        "agent_id": "8a330c47-66db-42ae-98de-7d9e0758e07a",
+        "message_type": "proposal",
+        "timestamp": 1767916761.9228303
+      }
+    },
+    {
+      "node_id": "node_14",
+      "concept": "human",
+      "node_type": "debate_concept",
+      "mentions": 2,
+      "confidence": 0.6000000000000001,
+      "metadata": {
+        "agent_id": "8a330c47-66db-42ae-98de-7d9e0758e07a",
+        "message_type": "proposal",
+        "timestamp": 1767916761.9228334
+      }
+    },
+    {
+      "node_id": "node_15",
+      "concept": "lives",
+      "node_type": "debate_concept",
+      "mentions": 2,
+      "confidence": 0.6000000000000001,
+      "metadata": {
+        "agent_id": "8a330c47-66db-42ae-98de-7d9e0758e07a",
+        "message_type": "proposal",
+        "timestamp": 1767916761.9228354
+      }
+    },
+    {
+      "node_id": "node_16",
+      "concept": "examining how",
+      "node_type": "debate_concept",
+      "mentions": 2,
+      "confidence": 0.6000000000000001,
+      "metadata": {
+        "agent_id": "8a330c47-66db-42ae-98de-7d9e0758e07a",
+        "message_type": "proposal",
+        "timestamp": 1767916761.9228365
+      }
+    },
+    {
+      "node_id": "node_17",
+      "concept": "this",
+      "node_type": "debate_concept",
+      "mentions": 1,
+      "confidence": 0.55,
+      "metadata": {
+        "agent_id": "8a330c47-66db-42ae-98de-7d9e0758e07a",
+        "message_type": "proposal",
+        "timestamp": 1767916761.9228384
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source_id": "node_1",
+      "target_id": "node_2",
+      "relationship": "co_occurs_with",
+      "weight": 0.5,
+      "reinforcements": 1
+    },
+    {
+      "source_id": "node_2",
+      "target_id": "node_3",
+      "relationship": "co_occurs_with",
+      "weight": 0.5,
+      "reinforcements": 1
+    },
+    {
+      "source_id": "node_3",
+      "target_id": "node_4",
+      "relationship": "co_occurs_with",
+      "weight": 0.5,
+      "reinforcements": 1
+    },
+    {
+      "source_id": "node_4",
+      "target_id": "node_5",
+      "relationship": "co_occurs_with",
+      "weight": 0.5,
+      "reinforcements": 1
+    },
+    {
+      "source_id": "node_5",
+      "target_id": "node_6",
+      "relationship": "co_occurs_with",
+      "weight": 0.6,
+      "reinforcements": 2
+    },
+    {
+      "source_id": "node_6",
+      "target_id": "node_7",
+      "relationship": "co_occurs_with",
+      "weight": 0.6,
+      "reinforcements": 2
+    },
+    {
+      "source_id": "node_7",
+      "target_id": "node_8",
+      "relationship": "co_occurs_with",
+      "weight": 0.6,
+      "reinforcements": 2
+    },
+    {
+      "source_id": "node_8",
+      "target_id": "node_9",
+      "relationship": "co_occurs_with",
+      "weight": 0.6,
+      "reinforcements": 2
+    },
+    {
+      "source_id": "node_9",
+      "target_id": "node_10",
+      "relationship": "co_occurs_with",
+      "weight": 0.6,
+      "reinforcements": 2
+    },
+    {
+      "source_id": "node_10",
+      "target_id": "node_2",
+      "relationship": "co_occurs_with",
+      "weight": 0.5,
+      "reinforcements": 1
+    },
+    {
+      "source_id": "node_2",
+      "target_id": "node_11",
+      "relationship": "co_occurs_with",
+      "weight": 0.5,
+      "reinforcements": 1
+    },
+    {
+      "source_id": "node_12",
+      "target_id": "node_1",
+      "relationship": "contains",
+      "weight": 0.9,
+      "reinforcements": 2
+    },
+    {
+      "source_id": "node_12",
+      "target_id": "node_2",
+      "relationship": "contains",
+      "weight": 0.8,
+      "reinforcements": 1
+    },
+    {
+      "source_id": "node_12",
+      "target_id": "node_3",
+      "relationship": "contains",
+      "weight": 0.8,
+      "reinforcements": 1
+    },
+    {
+      "source_id": "node_1",
+      "target_id": "node_5",
+      "relationship": "co_occurs_with",
+      "weight": 0.5,
+      "reinforcements": 1
+    },
+    {
+      "source_id": "node_10",
+      "target_id": "node_13",
+      "relationship": "co_occurs_with",
+      "weight": 0.5,
+      "reinforcements": 1
+    },
+    {
+      "source_id": "node_13",
+      "target_id": "node_14",
+      "relationship": "co_occurs_with",
+      "weight": 0.5,
+      "reinforcements": 1
+    },
+    {
+      "source_id": "node_14",
+      "target_id": "node_15",
+      "relationship": "co_occurs_with",
+      "weight": 0.5,
+      "reinforcements": 1
+    },
+    {
+      "source_id": "node_15",
+      "target_id": "node_16",
+      "relationship": "co_occurs_with",
+      "weight": 0.5,
+      "reinforcements": 1
+    },
+    {
+      "source_id": "node_16",
+      "target_id": "node_11",
+      "relationship": "co_occurs_with",
+      "weight": 0.5,
+      "reinforcements": 1
+    },
+    {
+      "source_id": "node_11",
+      "target_id": "node_17",
+      "relationship": "co_occurs_with",
+      "weight": 0.5,
+      "reinforcements": 1
+    },
+    {
+      "source_id": "node_12",
+      "target_id": "node_5",
+      "relationship": "contains",
+      "weight": 0.8,
+      "reinforcements": 1
+    },
+    {
+      "source_id": "node_12",
+      "target_id": "node_6",
+      "relationship": "contains",
+      "weight": 0.8,
+      "reinforcements": 1
+    }
+  ],
+  "stats": {
+    "total_nodes": 17,
+    "total_edges": 23,
+    "total_concepts": 17,
+    "avg_node_degree": 2.7058823529411766,
+    "most_central": [
+      [
+        "comparing",
+        5
+      ],
+      [
+        "proposal",
+        5
+      ],
+      [
+        "development",
+        4
+      ],
+      [
+        "approach",
+        3
+      ],
+      [
+        "available",
+        3
+      ]
+    ],
+    "extractions": 2
+  }
+}

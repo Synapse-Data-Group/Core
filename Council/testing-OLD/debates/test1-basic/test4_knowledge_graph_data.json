@@ -1,0 +1,1066 @@
+{
+  "nodes": [
+    {
+      "node_id": "node_1",
+      "concept": "improve",
+      "node_type": "debate_concept",
+      "mentions": 8,
+      "confidence": 0.9000000000000004,
+      "metadata": {
+        "agent_id": "21d20ccf-337e-4b29-a122-fd5d88878fc3",
+        "message_type": "proposal",
+        "timestamp": 1767916237.6844769
+      }
+    },
+    {
+      "node_id": "node_2",
+      "concept": "renewable",
+      "node_type": "debate_concept",
+      "mentions": 25,
+      "confidence": 1.0,
+      "metadata": {
+        "agent_id": "21d20ccf-337e-4b29-a122-fd5d88878fc3",
+        "message_type": "proposal",
+        "timestamp": 1767916237.6844828
+      }
+    },
+    {
+      "node_id": "node_3",
+      "concept": "energy",
+      "node_type": "debate_concept",
+      "mentions": 25,
+      "confidence": 1.0,
+      "metadata": {
+        "agent_id": "21d20ccf-337e-4b29-a122-fd5d88878fc3",
+        "message_type": "proposal",
+        "timestamp": 1767916237.6844864
+      }
+    },
+    {
+      "node_id": "node_4",
+      "concept": "adoption",
+      "node_type": "debate_concept",
+      "mentions": 8,
+      "confidence": 0.9000000000000004,
+      "metadata": {
+        "agent_id": "21d20ccf-337e-4b29-a122-fd5d88878fc3",
+        "message_type": "proposal",
+        "timestamp": 1767916237.6844878
+      }
+    },
+    {
+      "node_id": "node_5",
+      "concept": "approach",
+      "node_type": "debate_concept",
+      "mentions": 14,
+      "confidence": 1.0,
+      "metadata": {
+        "agent_id": "21d20ccf-337e-4b29-a122-fd5d88878fc3",
+        "message_type": "proposal",
+        "timestamp": 1767916237.684489
+      }
+    },
+    {
+      "node_id": "node_6",
+      "concept": "looking",
+      "node_type": "debate_concept",
+      "mentions": 5,
+      "confidence": 0.7500000000000002,
+      "metadata": {
+        "agent_id": "21d20ccf-337e-4b29-a122-fd5d88878fc3",
+        "message_type": "proposal",
+        "timestamp": 1767916237.68449
+      }
+    },
+    {
+      "node_id": "node_7",
+      "concept": "respectfully",
+      "node_type": "debate_concept",
+      "mentions": 2,
+      "confidence": 0.6000000000000001,
+      "metadata": {
+        "agent_id": "21d20ccf-337e-4b29-a122-fd5d88878fc3",
+        "message_type": "proposal",
+        "timestamp": 1767916237.6844912
+      }
+    },
+    {
+      "node_id": "node_8",
+      "concept": "propose",
+      "node_type": "debate_concept",
+      "mentions": 5,
+      "confidence": 0.7500000000000002,
+      "metadata": {
+        "agent_id": "21d20ccf-337e-4b29-a122-fd5d88878fc3",
+        "message_type": "proposal",
+        "timestamp": 1767916237.684492
+      }
+    },
+    {
+      "node_id": "node_9",
+      "concept": "transformative",
+      "node_type": "debate_concept",
+      "mentions": 2,
+      "confidence": 0.6000000000000001,
+      "metadata": {
+        "agent_id": "21d20ccf-337e-4b29-a122-fd5d88878fc3",
+        "message_type": "proposal",
+        "timestamp": 1767916237.6844928
+      }
+    },
+    {
+      "node_id": "node_10",
+      "concept": "fundamentally",
+      "node_type": "debate_concept",
+      "mentions": 2,
+      "confidence": 0.6000000000000001,
+      "metadata": {
+        "agent_id": "21d20ccf-337e-4b29-a122-fd5d88878fc3",
+        "message_type": "proposal",
+        "timestamp": 1767916237.6844938
+      }
+    },
+    {
+      "node_id": "node_11",
+      "concept": "how",
+      "node_type": "debate_concept",
+      "mentions": 25,
+      "confidence": 1.0,
+      "metadata": {
+        "agent_id": "21d20ccf-337e-4b29-a122-fd5d88878fc3",
+        "message_type": "proposal",
+        "timestamp": 1767916237.6844964
+      }
+    },
+    {
+      "node_id": "node_12",
+      "concept": "this",
+      "node_type": "debate_concept",
+      "mentions": 9,
+      "confidence": 0.9500000000000004,
+      "metadata": {
+        "agent_id": "21d20ccf-337e-4b29-a122-fd5d88878fc3",
+        "message_type": "proposal",
+        "timestamp": 1767916237.6844995
+      }
+    },
+    {
+      "node_id": "node_13",
+      "concept": "proposal",
+      "node_type": "concept",
+      "mentions": 26,
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "node_id": "node_14",
+      "concept": "examining",
+      "node_type": "debate_concept",
+      "mentions": 5,
+      "confidence": 0.7500000000000002,
+      "metadata": {
+        "agent_id": "aee7b1c9-eade-46f3-8ccc-6fb2f0d3d6e4",
+        "message_type": "proposal",
+        "timestamp": 1767916237.68457
+      }
+    },
+    {
+      "node_id": "node_15",
+      "concept": "reveals",
+      "node_type": "debate_concept",
+      "mentions": 5,
+      "confidence": 0.7500000000000002,
+      "metadata": {
+        "agent_id": "aee7b1c9-eade-46f3-8ccc-6fb2f0d3d6e4",
+        "message_type": "proposal",
+        "timestamp": 1767916237.6845715
+      }
+    },
+    {
+      "node_id": "node_16",
+      "concept": "several",
+      "node_type": "debate_concept",
+      "mentions": 5,
+      "confidence": 0.7500000000000002,
+      "metadata": {
+        "agent_id": "aee7b1c9-eade-46f3-8ccc-6fb2f0d3d6e4",
+        "message_type": "proposal",
+        "timestamp": 1767916237.6845725
+      }
+    },
+    {
+      "node_id": "node_17",
+      "concept": "considerations",
+      "node_type": "debate_concept",
+      "mentions": 5,
+      "confidence": 0.7500000000000002,
+      "metadata": {
+        "agent_id": "aee7b1c9-eade-46f3-8ccc-6fb2f0d3d6e4",
+        "message_type": "proposal",
+        "timestamp": 1767916237.6845734
+      }
+    },
+    {
+      "node_id": "node_18",
+      "concept": "examining how",
+      "node_type": "debate_concept",
+      "mentions": 5,
+      "confidence": 0.7500000000000002,
+      "metadata": {
+        "agent_id": "aee7b1c9-eade-46f3-8ccc-6fb2f0d3d6e4",
+        "message_type": "proposal",
+        "timestamp": 1767916237.684575
+      }
+    },
+    {
+      "node_id": "node_19",
+      "concept": "systematic",
+      "node_type": "debate_concept",
+      "mentions": 5,
+      "confidence": 0.7500000000000002,
+      "metadata": {
+        "agent_id": "2af40b7b-76de-4aa5-99ce-dd729ac65929",
+        "message_type": "proposal",
+        "timestamp": 1767916237.6846418
+      }
+    },
+    {
+      "node_id": "node_20",
+      "concept": "analysis",
+      "node_type": "debate_concept",
+      "mentions": 5,
+      "confidence": 0.7500000000000002,
+      "metadata": {
+        "agent_id": "2af40b7b-76de-4aa5-99ce-dd729ac65929",
+        "message_type": "proposal",
+        "timestamp": 1767916237.6846433
+      }
+    },
+    {
+      "node_id": "node_21",
+      "concept": "identify",
+      "node_type": "debate_concept",
+      "mentions": 5,
+      "confidence": 0.7500000000000002,
+      "metadata": {
+        "agent_id": "2af40b7b-76de-4aa5-99ce-dd729ac65929",
+        "message_type": "proposal",
+        "timestamp": 1767916237.6846445
+      }
+    },
+    {
+      "node_id": "node_22",
+      "concept": "multiple",
+      "node_type": "debate_concept",
+      "mentions": 17,
+      "confidence": 1.0,
+      "metadata": {
+        "agent_id": "2af40b7b-76de-4aa5-99ce-dd729ac65929",
+        "message_type": "proposal",
+        "timestamp": 1767916237.6846454
+      }
+    },
+    {
+      "node_id": "node_23",
+      "concept": "interdependent",
+      "node_type": "debate_concept",
+      "mentions": 5,
+      "confidence": 0.7500000000000002,
+      "metadata": {
+        "agent_id": "2af40b7b-76de-4aa5-99ce-dd729ac65929",
+        "message_type": "proposal",
+        "timestamp": 1767916237.684647
+      }
+    },
+    {
+      "node_id": "node_24",
+      "concept": "factors",
+      "node_type": "debate_concept",
+      "mentions": 10,
+      "confidence": 1.0,
+      "metadata": {
+        "agent_id": "2af40b7b-76de-4aa5-99ce-dd729ac65929",
+        "message_type": "proposal",
+        "timestamp": 1767916237.6846485
+      }
+    },
+    {
+      "node_id": "node_25",
+      "concept": "through",
+      "node_type": "debate_concept",
+      "mentions": 5,
+      "confidence": 0.7500000000000002,
+      "metadata": {
+        "agent_id": "2af40b7b-76de-4aa5-99ce-dd729ac65929",
+        "message_type": "proposal",
+        "timestamp": 1767916237.6846495
+      }
+    },
+    {
+      "node_id": "node_26",
+      "concept": "comparing",
+      "node_type": "debate_concept",
+      "mentions": 11,
+      "confidence": 1.0,
+      "metadata": {
+        "agent_id": "08067d79-0bd7-4522-9df5-faad52807498",
+        "message_type": "proposal",
+        "timestamp": 1767916237.688281
+      }
+    },
+    {
+      "node_id": "node_27",
+      "concept": "available",
+      "node_type": "debate_concept",
+      "mentions": 7,
+      "confidence": 0.8500000000000003,
+      "metadata": {
+        "agent_id": "08067d79-0bd7-4522-9df5-faad52807498",
+        "message_type": "proposal",
+        "timestamp": 1767916237.6882837
+      }
+    },
+    {
+      "node_id": "node_28",
+      "concept": "options",
+      "node_type": "debate_concept",
+      "mentions": 7,
+      "confidence": 0.8500000000000003,
+      "metadata": {
+        "agent_id": "08067d79-0bd7-4522-9df5-faad52807498",
+        "message_type": "proposal",
+        "timestamp": 1767916237.6882846
+      }
+    },
+    {
+      "node_id": "node_29",
+      "concept": "challenges",
+      "node_type": "debate_concept",
+      "mentions": 5,
+      "confidence": 0.7500000000000002,
+      "metadata": {
+        "agent_id": "08067d79-0bd7-4522-9df5-faad52807498",
+        "message_type": "proposal",
+        "timestamp": 1767916237.6882856
+      }
+    },
+    {
+      "node_id": "node_30",
+      "concept": "alternative",
+      "node_type": "debate_concept",
+      "mentions": 5,
+      "confidence": 0.7500000000000002,
+      "metadata": {
+        "agent_id": "08067d79-0bd7-4522-9df5-faad52807498",
+        "message_type": "proposal",
+        "timestamp": 1767916237.6882882
+      }
+    },
+    {
+      "node_id": "node_31",
+      "concept": "approaches",
+      "node_type": "debate_concept",
+      "mentions": 5,
+      "confidence": 0.7500000000000002,
+      "metadata": {
+        "agent_id": "08067d79-0bd7-4522-9df5-faad52807498",
+        "message_type": "proposal",
+        "timestamp": 1767916237.6882892
+      }
+    },
+    {
+      "node_id": "node_32",
+      "concept": "exist",
+      "node_type": "debate_concept",
+      "mentions": 5,
+      "confidence": 0.7500000000000002,
+      "metadata": {
+        "agent_id": "08067d79-0bd7-4522-9df5-faad52807498",
+        "message_type": "proposal",
+        "timestamp": 1767916237.6882904
+      }
+    },
+    {
+      "node_id": "node_33",
+      "concept": "they",
+      "node_type": "debate_concept",
+      "mentions": 5,
+      "confidence": 0.7500000000000002,
+      "metadata": {
+        "agent_id": "08067d79-0bd7-4522-9df5-faad52807498",
+        "message_type": "proposal",
+        "timestamp": 1767916237.688291
+      }
+    },
+    {
+      "node_id": "node_34",
+      "concept": "what",
+      "node_type": "debate_concept",
+      "mentions": 5,
+      "confidence": 0.7500000000000002,
+      "metadata": {
+        "agent_id": "08067d79-0bd7-4522-9df5-faad52807498",
+        "message_type": "proposal",
+        "timestamp": 1767916237.6882925
+      }
+    },
+    {
+      "node_id": "node_35",
+      "concept": "support",
+      "node_type": "debate_concept",
+      "mentions": 7,
+      "confidence": 0.8500000000000003,
+      "metadata": {
+        "agent_id": "8c52db1a-2aca-4000-8855-4cc79400638a",
+        "message_type": "proposal",
+        "timestamp": 1767916237.688409
+      }
+    },
+    {
+      "node_id": "node_36",
+      "concept": "reasoning",
+      "node_type": "debate_concept",
+      "mentions": 5,
+      "confidence": 0.7500000000000002,
+      "metadata": {
+        "agent_id": "8c52db1a-2aca-4000-8855-4cc79400638a",
+        "message_type": "proposal",
+        "timestamp": 1767916237.688411
+      }
+    },
+    {
+      "node_id": "node_37",
+      "concept": "follows",
+      "node_type": "debate_concept",
+      "mentions": 5,
+      "confidence": 0.7500000000000002,
+      "metadata": {
+        "agent_id": "8c52db1a-2aca-4000-8855-4cc79400638a",
+        "message_type": "proposal",
+        "timestamp": 1767916237.6884117
+      }
+    },
+    {
+      "node_id": "node_38",
+      "concept": "first",
+      "node_type": "debate_concept",
+      "mentions": 5,
+      "confidence": 0.7500000000000002,
+      "metadata": {
+        "agent_id": "8c52db1a-2aca-4000-8855-4cc79400638a",
+        "message_type": "proposal",
+        "timestamp": 1767916237.6884124
+      }
+    },
+    {
+      "node_id": "node_39",
+      "concept": "principles",
+      "node_type": "debate_concept",
+      "mentions": 5,
+      "confidence": 0.7500000000000002,
+      "metadata": {
+        "agent_id": "8c52db1a-2aca-4000-8855-4cc79400638a",
+        "message_type": "proposal",
+        "timestamp": 1767916237.6884131
+      }
+    },
+    {
+      "node_id": "node_40",
+      "concept": "empirical",
+      "node_type": "debate_concept",
+      "mentions": 5,
+      "confidence": 0.7500000000000002,
+      "metadata": {
+        "agent_id": "8c52db1a-2aca-4000-8855-4cc79400638a",
+        "message_type": "proposal",
+        "timestamp": 1767916237.688414
+      }
+    },
+    {
+      "node_id": "node_41",
+      "concept": "observation",
+      "node_type": "debate_concept",
+      "mentions": 5,
+      "confidence": 0.7500000000000002,
+      "metadata": {
+        "agent_id": "8c52db1a-2aca-4000-8855-4cc79400638a",
+        "message_type": "proposal",
+        "timestamp": 1767916237.688415
+      }
+    },
+    {
+      "node_id": "node_42",
+      "concept": "the",
+      "node_type": "debate_concept",
+      "mentions": 5,
+      "confidence": 0.7500000000000002,
+      "metadata": {
+        "agent_id": "8c52db1a-2aca-4000-8855-4cc79400638a",
+        "message_type": "proposal",
+        "timestamp": 1767916237.6884162
+      }
+    },
+    {
+      "node_id": "node_43",
+      "concept": "therefore",
+      "node_type": "debate_concept",
+      "mentions": 5,
+      "confidence": 0.7500000000000002,
+      "metadata": {
+        "agent_id": "8c52db1a-2aca-4000-8855-4cc79400638a",
+        "message_type": "proposal",
+        "timestamp": 1767916237.688417
+      }
+    },
+    {
+      "node_id": "node_44",
+      "concept": "make",
+      "node_type": "debate_concept",
+      "mentions": 5,
+      "confidence": 0.7500000000000002,
+      "metadata": {
+        "agent_id": "3131662c-05c9-44e8-8e58-b95c32da22da",
+        "message_type": "proposal",
+        "timestamp": 1767916237.692231
+      }
+    },
+    {
+      "node_id": "node_45",
+      "concept": "economically",
+      "node_type": "debate_concept",
+      "mentions": 5,
+      "confidence": 0.7500000000000002,
+      "metadata": {
+        "agent_id": "3131662c-05c9-44e8-8e58-b95c32da22da",
+        "message_type": "proposal",
+        "timestamp": 1767916237.6922345
+      }
+    },
+    {
+      "node_id": "node_46",
+      "concept": "viable",
+      "node_type": "debate_concept",
+      "mentions": 5,
+      "confidence": 0.7500000000000002,
+      "metadata": {
+        "agent_id": "3131662c-05c9-44e8-8e58-b95c32da22da",
+        "message_type": "proposal",
+        "timestamp": 1767916237.6922355
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source_id": "node_1",
+      "target_id": "node_2",
+      "relationship": "co_occurs_with",
+      "weight": 0.7,
+      "reinforcements": 3
+    },
+    {
+      "source_id": "node_2",
+      "target_id": "node_3",
+      "relationship": "co_occurs_with",
+      "weight": 1.0,
+      "reinforcements": 7
+    },
+    {
+      "source_id": "node_3",
+      "target_id": "node_4",
+      "relationship": "co_occurs_with",
+      "weight": 0.7,
+      "reinforcements": 3
+    },
+    {
+      "source_id": "node_4",
+      "target_id": "node_5",
+      "relationship": "co_occurs_with",
+      "weight": 0.6,
+      "reinforcements": 2
+    },
+    {
+      "source_id": "node_5",
+      "target_id": "node_6",
+      "relationship": "co_occurs_with",
+      "weight": 0.5,
+      "reinforcements": 1
+    },
+    {
+      "source_id": "node_6",
+      "target_id": "node_7",
+      "relationship": "co_occurs_with",
+      "weight": 0.5,
+      "reinforcements": 1
+    },
+    {
+      "source_id": "node_7",
+      "target_id": "node_8",
+      "relationship": "co_occurs_with",
+      "weight": 0.5,
+      "reinforcements": 1
+    },
+    {
+      "source_id": "node_8",
+      "target_id": "node_9",
+      "relationship": "co_occurs_with",
+      "weight": 0.5,
+      "reinforcements": 1
+    },
+    {
+      "source_id": "node_9",
+      "target_id": "node_10",
+      "relationship": "co_occurs_with",
+      "weight": 0.5,
+      "reinforcements": 1
+    },
+    {
+      "source_id": "node_10",
+      "target_id": "node_6",
+      "relationship": "co_occurs_with",
+      "weight": 0.5,
+      "reinforcements": 1
+    },
+    {
+      "source_id": "node_6",
+      "target_id": "node_11",
+      "relationship": "co_occurs_with",
+      "weight": 0.5,
+      "reinforcements": 1
+    },
+    {
+      "source_id": "node_11",
+      "target_id": "node_11",
+      "relationship": "co_occurs_with",
+      "weight": 0.7,
+      "reinforcements": 3
+    },
+    {
+      "source_id": "node_11",
+      "target_id": "node_12",
+      "relationship": "co_occurs_with",
+      "weight": 0.8999999999999999,
+      "reinforcements": 5
+    },
+    {
+      "source_id": "node_13",
+      "target_id": "node_1",
+      "relationship": "contains",
+      "weight": 1.0,
+      "reinforcements": 3
+    },
+    {
+      "source_id": "node_13",
+      "target_id": "node_2",
+      "relationship": "contains",
+      "weight": 1.0,
+      "reinforcements": 5
+    },
+    {
+      "source_id": "node_13",
+      "target_id": "node_3",
+      "relationship": "contains",
+      "weight": 1.0,
+      "reinforcements": 5
+    },
+    {
+      "source_id": "node_5",
+      "target_id": "node_14",
+      "relationship": "co_occurs_with",
+      "weight": 0.6,
+      "reinforcements": 2
+    },
+    {
+      "source_id": "node_14",
+      "target_id": "node_15",
+      "relationship": "co_occurs_with",
+      "weight": 0.6,
+      "reinforcements": 2
+    },
+    {
+      "source_id": "node_15",
+      "target_id": "node_16",
+      "relationship": "co_occurs_with",
+      "weight": 0.6,
+      "reinforcements": 2
+    },
+    {
+      "source_id": "node_16",
+      "target_id": "node_17",
+      "relationship": "co_occurs_with",
+      "weight": 0.6,
+      "reinforcements": 2
+    },
+    {
+      "source_id": "node_17",
+      "target_id": "node_8",
+      "relationship": "co_occurs_with",
+      "weight": 0.5,
+      "reinforcements": 1
+    },
+    {
+      "source_id": "node_8",
+      "target_id": "node_18",
+      "relationship": "co_occurs_with",
+      "weight": 0.5,
+      "reinforcements": 1
+    },
+    {
+      "source_id": "node_18",
+      "target_id": "node_11",
+      "relationship": "co_occurs_with",
+      "weight": 0.6,
+      "reinforcements": 2
+    },
+    {
+      "source_id": "node_4",
+      "target_id": "node_19",
+      "relationship": "co_occurs_with",
+      "weight": 0.5,
+      "reinforcements": 1
+    },
+    {
+      "source_id": "node_19",
+      "target_id": "node_20",
+      "relationship": "co_occurs_with",
+      "weight": 0.6,
+      "reinforcements": 2
+    },
+    {
+      "source_id": "node_20",
+      "target_id": "node_21",
+      "relationship": "co_occurs_with",
+      "weight": 0.6,
+      "reinforcements": 2
+    },
+    {
+      "source_id": "node_21",
+      "target_id": "node_22",
+      "relationship": "co_occurs_with",
+      "weight": 0.6,
+      "reinforcements": 2
+    },
+    {
+      "source_id": "node_22",
+      "target_id": "node_23",
+      "relationship": "co_occurs_with",
+      "weight": 0.6,
+      "reinforcements": 2
+    },
+    {
+      "source_id": "node_23",
+      "target_id": "node_24",
+      "relationship": "co_occurs_with",
+      "weight": 0.5,
+      "reinforcements": 1
+    },
+    {
+      "source_id": "node_24",
+      "target_id": "node_25",
+      "relationship": "co_occurs_with",
+      "weight": 0.5,
+      "reinforcements": 1
+    },
+    {
+      "source_id": "node_25",
+      "target_id": "node_11",
+      "relationship": "co_occurs_with",
+      "weight": 0.6,
+      "reinforcements": 2
+    },
+    {
+      "source_id": "node_26",
+      "target_id": "node_27",
+      "relationship": "co_occurs_with",
+      "weight": 0.6,
+      "reinforcements": 2
+    },
+    {
+      "source_id": "node_27",
+      "target_id": "node_28",
+      "relationship": "co_occurs_with",
+      "weight": 0.6,
+      "reinforcements": 2
+    },
+    {
+      "source_id": "node_28",
+      "target_id": "node_29",
+      "relationship": "co_occurs_with",
+      "weight": 0.6,
+      "reinforcements": 2
+    },
+    {
+      "source_id": "node_29",
+      "target_id": "node_2",
+      "relationship": "co_occurs_with",
+      "weight": 0.6,
+      "reinforcements": 2
+    },
+    {
+      "source_id": "node_3",
+      "target_id": "node_30",
+      "relationship": "co_occurs_with",
+      "weight": 0.6,
+      "reinforcements": 2
+    },
+    {
+      "source_id": "node_30",
+      "target_id": "node_31",
+      "relationship": "co_occurs_with",
+      "weight": 0.6,
+      "reinforcements": 2
+    },
+    {
+      "source_id": "node_31",
+      "target_id": "node_32",
+      "relationship": "co_occurs_with",
+      "weight": 0.6,
+      "reinforcements": 2
+    },
+    {
+      "source_id": "node_32",
+      "target_id": "node_33",
+      "relationship": "co_occurs_with",
+      "weight": 0.6,
+      "reinforcements": 2
+    },
+    {
+      "source_id": "node_33",
+      "target_id": "node_26",
+      "relationship": "co_occurs_with",
+      "weight": 0.6,
+      "reinforcements": 2
+    },
+    {
+      "source_id": "node_26",
+      "target_id": "node_34",
+      "relationship": "co_occurs_with",
+      "weight": 0.6,
+      "reinforcements": 2
+    },
+    {
+      "source_id": "node_13",
+      "target_id": "node_26",
+      "relationship": "contains",
+      "weight": 0.9,
+      "reinforcements": 2
+    },
+    {
+      "source_id": "node_13",
+      "target_id": "node_27",
+      "relationship": "contains",
+      "weight": 0.9,
+      "reinforcements": 2
+    },
+    {
+      "source_id": "node_13",
+      "target_id": "node_28",
+      "relationship": "contains",
+      "weight": 0.9,
+      "reinforcements": 2
+    },
+    {
+      "source_id": "node_22",
+      "target_id": "node_24",
+      "relationship": "co_occurs_with",
+      "weight": 0.6,
+      "reinforcements": 2
+    },
+    {
+      "source_id": "node_24",
+      "target_id": "node_35",
+      "relationship": "co_occurs_with",
+      "weight": 0.6,
+      "reinforcements": 2
+    },
+    {
+      "source_id": "node_35",
+      "target_id": "node_5",
+      "relationship": "co_occurs_with",
+      "weight": 0.6,
+      "reinforcements": 2
+    },
+    {
+      "source_id": "node_5",
+      "target_id": "node_36",
+      "relationship": "co_occurs_with",
+      "weight": 0.6,
+      "reinforcements": 2
+    },
+    {
+      "source_id": "node_36",
+      "target_id": "node_37",
+      "relationship": "co_occurs_with",
+      "weight": 0.6,
+      "reinforcements": 2
+    },
+    {
+      "source_id": "node_37",
+      "target_id": "node_38",
+      "relationship": "co_occurs_with",
+      "weight": 0.6,
+      "reinforcements": 2
+    },
+    {
+      "source_id": "node_38",
+      "target_id": "node_39",
+      "relationship": "co_occurs_with",
+      "weight": 0.6,
+      "reinforcements": 2
+    },
+    {
+      "source_id": "node_39",
+      "target_id": "node_40",
+      "relationship": "co_occurs_with",
+      "weight": 0.6,
+      "reinforcements": 2
+    },
+    {
+      "source_id": "node_40",
+      "target_id": "node_41",
+      "relationship": "co_occurs_with",
+      "weight": 0.6,
+      "reinforcements": 2
+    },
+    {
+      "source_id": "node_41",
+      "target_id": "node_22",
+      "relationship": "co_occurs_with",
+      "weight": 0.6,
+      "reinforcements": 2
+    },
+    {
+      "source_id": "node_22",
+      "target_id": "node_42",
+      "relationship": "co_occurs_with",
+      "weight": 0.6,
+      "reinforcements": 2
+    },
+    {
+      "source_id": "node_42",
+      "target_id": "node_43",
+      "relationship": "co_occurs_with",
+      "weight": 0.6,
+      "reinforcements": 2
+    },
+    {
+      "source_id": "node_43",
+      "target_id": "node_34",
+      "relationship": "co_occurs_with",
+      "weight": 0.5,
+      "reinforcements": 1
+    },
+    {
+      "source_id": "node_13",
+      "target_id": "node_22",
+      "relationship": "contains",
+      "weight": 0.9,
+      "reinforcements": 2
+    },
+    {
+      "source_id": "node_13",
+      "target_id": "node_24",
+      "relationship": "contains",
+      "weight": 0.9,
+      "reinforcements": 2
+    },
+    {
+      "source_id": "node_13",
+      "target_id": "node_35",
+      "relationship": "contains",
+      "weight": 0.9,
+      "reinforcements": 2
+    },
+    {
+      "source_id": "node_44",
+      "target_id": "node_2",
+      "relationship": "co_occurs_with",
+      "weight": 0.6,
+      "reinforcements": 2
+    },
+    {
+      "source_id": "node_3",
+      "target_id": "node_45",
+      "relationship": "co_occurs_with",
+      "weight": 0.6,
+      "reinforcements": 2
+    },
+    {
+      "source_id": "node_45",
+      "target_id": "node_46",
+      "relationship": "co_occurs_with",
+      "weight": 0.6,
+      "reinforcements": 2
+    },
+    {
+      "source_id": "node_46",
+      "target_id": "node_19",
+      "relationship": "co_occurs_with",
+      "weight": 0.5,
+      "reinforcements": 1
+    },
+    {
+      "source_id": "node_23",
+      "target_id": "node_25",
+      "relationship": "co_occurs_with",
+      "weight": 0.5,
+      "reinforcements": 1
+    },
+    {
+      "source_id": "node_13",
+      "target_id": "node_44",
+      "relationship": "contains",
+      "weight": 0.9,
+      "reinforcements": 2
+    },
+    {
+      "source_id": "node_46",
+      "target_id": "node_5",
+      "relationship": "co_occurs_with",
+      "weight": 0.5,
+      "reinforcements": 1
+    },
+    {
+      "source_id": "node_17",
+      "target_id": "node_18",
+      "relationship": "co_occurs_with",
+      "weight": 0.5,
+      "reinforcements": 1
+    },
+    {
+      "source_id": "node_43",
+      "target_id": "node_11",
+      "relationship": "co_occurs_with",
+      "weight": 0.5,
+      "reinforcements": 1
+    }
+  ],
+  "stats": {
+    "total_nodes": 46,
+    "total_edges": 69,
+    "total_concepts": 46,
+    "avg_node_degree": 3.0,
+    "most_central": [
+      [
+        "proposal",
+        10
+      ],
+      [
+        "how",
+        7
+      ],
+      [
+        "approach",
+        6
+      ],
+      [
+        "multiple",
+        6
+      ],
+      [
+        "renewable",
+        5
+      ]
+    ],
+    "extractions": 9
+  }
+}

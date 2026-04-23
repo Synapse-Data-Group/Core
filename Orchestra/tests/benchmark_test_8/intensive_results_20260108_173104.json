@@ -1,0 +1,37 @@
+{
+  "timestamp": "2026-01-08T17:31:04.925536",
+  "test_suite": "Intensive Test 8 - Memory Under Load",
+  "benchmarks": {
+    "hundred_turn_conversation": {
+      "orchestra": {
+        "turns": 100,
+        "successful": 0,
+        "total_time": 0.003172636032104492,
+        "total_cost": 0,
+        "total_tokens": 0,
+        "cache_hit_rate": 0.0,
+        "avg_latency": 0,
+        "p95_latency": 0,
+        "p99_latency": 0,
+        "memory_entries": 0
+      },
+      "langchain": {
+        "embedded_memory": false,
+        "estimated_time": 0.006345272064208984,
+        "estimated_cost": 0
+      },
+      "winner": "Orchestra"
+    }
+  },
+  "summary": {
+    "total_benchmarks": 1,
+    "orchestra_wins": 1,
+    "langchain_wins": 0,
+    "overall_winner": "Orchestra"
+  },
+  "metrics": {
+    "total_llm_calls": 0,
+    "total_time": 0.004469394683837891,
+    "total_cost": 0
+  }
+}

@@ -1,0 +1,3007 @@
+{
+  "test_name": "test5_ultimate",
+  "start_time": "2026-01-09T01:33:54.985800",
+  "duration_seconds": 927.1278004646301,
+  "total_snapshots": 43,
+  "total_events": 26,
+  "snapshots": [
+    {
+      "timestamp": 2.0011398792266846,
+      "datetime": "2026-01-09T01:33:56.986942",
+      "agent_count": 2,
+      "proposal_count": 0,
+      "agents": [
+        {
+          "name": "Ethics_Scholar",
+          "agent_id": "bb8ae912-f542-473c-9323-f87e2e8b8313",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.7,
+            "boldness": 0.6,
+            "aggressiveness": 0.4,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Tech_Visionary",
+          "agent_id": "bac8d36f-2529-4ce6-a873-d20e8aa2a273",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.7,
+            "analytical_depth": 0.7,
+            "optimism": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [],
+      "context": {
+        "phase": "initialization",
+        "llm_powered": true,
+        "fluid_resourcing_enabled": true
+      }
+    },
+    {
+      "timestamp": 10.91466999053955,
+      "datetime": "2026-01-09T01:34:05.900474",
+      "agent_count": 2,
+      "proposal_count": 0,
+      "agents": [
+        {
+          "name": "Ethics_Scholar",
+          "agent_id": "bb8ae912-f542-473c-9323-f87e2e8b8313",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.7,
+            "boldness": 0.6,
+            "aggressiveness": 0.4,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Tech_Visionary",
+          "agent_id": "bac8d36f-2529-4ce6-a873-d20e8aa2a273",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.7,
+            "analytical_depth": 0.7,
+            "optimism": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [],
+      "context": {
+        "phase": "PROPOSAL"
+      }
+    },
+    {
+      "timestamp": 31.685415744781494,
+      "datetime": "2026-01-09T01:34:26.671219",
+      "agent_count": 2,
+      "proposal_count": 0,
+      "agents": [
+        {
+          "name": "Ethics_Scholar",
+          "agent_id": "bb8ae912-f542-473c-9323-f87e2e8b8313",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.7,
+            "boldness": 0.6,
+            "aggressiveness": 0.4,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Tech_Visionary",
+          "agent_id": "bac8d36f-2529-4ce6-a873-d20e8aa2a273",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.7,
+            "analytical_depth": 0.7,
+            "optimism": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [],
+      "context": {
+        "phase": "post_proposal",
+        "proposals": 2
+      }
+    },
+    {
+      "timestamp": 51.693339109420776,
+      "datetime": "2026-01-09T01:34:46.679142",
+      "agent_count": 3,
+      "proposal_count": 0,
+      "agents": [
+        {
+          "name": "Ethics_Scholar",
+          "agent_id": "bb8ae912-f542-473c-9323-f87e2e8b8313",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.7,
+            "boldness": 0.6,
+            "aggressiveness": 0.4,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Tech_Visionary",
+          "agent_id": "bac8d36f-2529-4ce6-a873-d20e8aa2a273",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.7,
+            "analytical_depth": 0.7,
+            "optimism": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Devils_Advocate",
+          "agent_id": "a832a88a-31b9-4a32-91e5-35cb81cb8065",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.8,
+            "boldness": 0.85,
+            "aggressiveness": 0.9,
+            "optimism": 0.3
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [],
+      "context": {
+        "phase": "CHALLENGE"
+      }
+    },
+    {
+      "timestamp": 104.4130482673645,
+      "datetime": "2026-01-09T01:35:39.398852",
+      "agent_count": 3,
+      "proposal_count": 0,
+      "agents": [
+        {
+          "name": "Ethics_Scholar",
+          "agent_id": "bb8ae912-f542-473c-9323-f87e2e8b8313",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.7,
+            "boldness": 0.6,
+            "aggressiveness": 0.4,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Tech_Visionary",
+          "agent_id": "bac8d36f-2529-4ce6-a873-d20e8aa2a273",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.7,
+            "analytical_depth": 0.7,
+            "optimism": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Devils_Advocate",
+          "agent_id": "a832a88a-31b9-4a32-91e5-35cb81cb8065",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.8,
+            "boldness": 0.85,
+            "aggressiveness": 0.9,
+            "optimism": 0.3
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [],
+      "context": {
+        "round": 1,
+        "phase": "post_challenge"
+      }
+    },
+    {
+      "timestamp": 104.41317367553711,
+      "datetime": "2026-01-09T01:35:39.398974",
+      "agent_count": 3,
+      "proposal_count": 0,
+      "agents": [
+        {
+          "name": "Ethics_Scholar",
+          "agent_id": "bb8ae912-f542-473c-9323-f87e2e8b8313",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.7,
+            "boldness": 0.6,
+            "aggressiveness": 0.4,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Tech_Visionary",
+          "agent_id": "bac8d36f-2529-4ce6-a873-d20e8aa2a273",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.7,
+            "analytical_depth": 0.7,
+            "optimism": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Devils_Advocate",
+          "agent_id": "a832a88a-31b9-4a32-91e5-35cb81cb8065",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.8,
+            "boldness": 0.85,
+            "aggressiveness": 0.9,
+            "optimism": 0.3
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [],
+      "context": {
+        "phase": "REBUTTAL"
+      }
+    },
+    {
+      "timestamp": 130.73839378356934,
+      "datetime": "2026-01-09T01:36:05.724196",
+      "agent_count": 3,
+      "proposal_count": 0,
+      "agents": [
+        {
+          "name": "Ethics_Scholar",
+          "agent_id": "bb8ae912-f542-473c-9323-f87e2e8b8313",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.7,
+            "boldness": 0.6,
+            "aggressiveness": 0.4,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Tech_Visionary",
+          "agent_id": "bac8d36f-2529-4ce6-a873-d20e8aa2a273",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.7,
+            "analytical_depth": 0.7,
+            "optimism": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Devils_Advocate",
+          "agent_id": "a832a88a-31b9-4a32-91e5-35cb81cb8065",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.8,
+            "boldness": 0.85,
+            "aggressiveness": 0.9,
+            "optimism": 0.3
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [],
+      "context": {
+        "round": 1,
+        "phase": "post_rebuttal"
+      }
+    },
+    {
+      "timestamp": 137.74250197410583,
+      "datetime": "2026-01-09T01:36:12.728305",
+      "agent_count": 3,
+      "proposal_count": 0,
+      "agents": [
+        {
+          "name": "Ethics_Scholar",
+          "agent_id": "bb8ae912-f542-473c-9323-f87e2e8b8313",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.7,
+            "boldness": 0.6,
+            "aggressiveness": 0.4,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Tech_Visionary",
+          "agent_id": "bac8d36f-2529-4ce6-a873-d20e8aa2a273",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.7,
+            "analytical_depth": 0.7,
+            "optimism": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Devils_Advocate",
+          "agent_id": "a832a88a-31b9-4a32-91e5-35cb81cb8065",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.8,
+            "boldness": 0.85,
+            "aggressiveness": 0.9,
+            "optimism": 0.3
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [],
+      "context": {
+        "phase": "CHALLENGE"
+      }
+    },
+    {
+      "timestamp": 194.79464721679688,
+      "datetime": "2026-01-09T01:37:09.780450",
+      "agent_count": 3,
+      "proposal_count": 0,
+      "agents": [
+        {
+          "name": "Ethics_Scholar",
+          "agent_id": "bb8ae912-f542-473c-9323-f87e2e8b8313",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.7,
+            "boldness": 0.6,
+            "aggressiveness": 0.4,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Tech_Visionary",
+          "agent_id": "bac8d36f-2529-4ce6-a873-d20e8aa2a273",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.7,
+            "analytical_depth": 0.7,
+            "optimism": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Devils_Advocate",
+          "agent_id": "a832a88a-31b9-4a32-91e5-35cb81cb8065",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.8,
+            "boldness": 0.85,
+            "aggressiveness": 0.9,
+            "optimism": 0.3
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [],
+      "context": {
+        "round": 2,
+        "phase": "post_challenge"
+      }
+    },
+    {
+      "timestamp": 194.79476714134216,
+      "datetime": "2026-01-09T01:37:09.780568",
+      "agent_count": 3,
+      "proposal_count": 0,
+      "agents": [
+        {
+          "name": "Ethics_Scholar",
+          "agent_id": "bb8ae912-f542-473c-9323-f87e2e8b8313",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.7,
+            "boldness": 0.6,
+            "aggressiveness": 0.4,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Tech_Visionary",
+          "agent_id": "bac8d36f-2529-4ce6-a873-d20e8aa2a273",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.7,
+            "analytical_depth": 0.7,
+            "optimism": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Devils_Advocate",
+          "agent_id": "a832a88a-31b9-4a32-91e5-35cb81cb8065",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.8,
+            "boldness": 0.85,
+            "aggressiveness": 0.9,
+            "optimism": 0.3
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [],
+      "context": {
+        "phase": "REBUTTAL"
+      }
+    },
+    {
+      "timestamp": 217.99887537956238,
+      "datetime": "2026-01-09T01:37:32.984678",
+      "agent_count": 3,
+      "proposal_count": 0,
+      "agents": [
+        {
+          "name": "Ethics_Scholar",
+          "agent_id": "bb8ae912-f542-473c-9323-f87e2e8b8313",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.7,
+            "boldness": 0.6,
+            "aggressiveness": 0.4,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Tech_Visionary",
+          "agent_id": "bac8d36f-2529-4ce6-a873-d20e8aa2a273",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.7,
+            "analytical_depth": 0.7,
+            "optimism": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Devils_Advocate",
+          "agent_id": "a832a88a-31b9-4a32-91e5-35cb81cb8065",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.8,
+            "boldness": 0.85,
+            "aggressiveness": 0.9,
+            "optimism": 0.3
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [],
+      "context": {
+        "round": 2,
+        "phase": "post_rebuttal"
+      }
+    },
+    {
+      "timestamp": 225.00364542007446,
+      "datetime": "2026-01-09T01:37:39.989449",
+      "agent_count": 3,
+      "proposal_count": 0,
+      "agents": [
+        {
+          "name": "Ethics_Scholar",
+          "agent_id": "bb8ae912-f542-473c-9323-f87e2e8b8313",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.7,
+            "boldness": 0.6,
+            "aggressiveness": 0.4,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Tech_Visionary",
+          "agent_id": "bac8d36f-2529-4ce6-a873-d20e8aa2a273",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.7,
+            "analytical_depth": 0.7,
+            "optimism": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Devils_Advocate",
+          "agent_id": "a832a88a-31b9-4a32-91e5-35cb81cb8065",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.8,
+            "boldness": 0.85,
+            "aggressiveness": 0.9,
+            "optimism": 0.3
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [],
+      "context": {
+        "phase": "CHALLENGE"
+      }
+    },
+    {
+      "timestamp": 275.3238739967346,
+      "datetime": "2026-01-09T01:38:30.309676",
+      "agent_count": 3,
+      "proposal_count": 0,
+      "agents": [
+        {
+          "name": "Ethics_Scholar",
+          "agent_id": "bb8ae912-f542-473c-9323-f87e2e8b8313",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.7,
+            "boldness": 0.6,
+            "aggressiveness": 0.4,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Tech_Visionary",
+          "agent_id": "bac8d36f-2529-4ce6-a873-d20e8aa2a273",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.7,
+            "analytical_depth": 0.7,
+            "optimism": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Devils_Advocate",
+          "agent_id": "a832a88a-31b9-4a32-91e5-35cb81cb8065",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.8,
+            "boldness": 0.85,
+            "aggressiveness": 0.9,
+            "optimism": 0.3
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [],
+      "context": {
+        "round": 3,
+        "phase": "post_challenge"
+      }
+    },
+    {
+      "timestamp": 275.3239758014679,
+      "datetime": "2026-01-09T01:38:30.309776",
+      "agent_count": 3,
+      "proposal_count": 0,
+      "agents": [
+        {
+          "name": "Ethics_Scholar",
+          "agent_id": "bb8ae912-f542-473c-9323-f87e2e8b8313",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.7,
+            "boldness": 0.6,
+            "aggressiveness": 0.4,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Tech_Visionary",
+          "agent_id": "bac8d36f-2529-4ce6-a873-d20e8aa2a273",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.7,
+            "analytical_depth": 0.7,
+            "optimism": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Devils_Advocate",
+          "agent_id": "a832a88a-31b9-4a32-91e5-35cb81cb8065",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.8,
+            "boldness": 0.85,
+            "aggressiveness": 0.9,
+            "optimism": 0.3
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [],
+      "context": {
+        "phase": "REBUTTAL"
+      }
+    },
+    {
+      "timestamp": 300.365873336792,
+      "datetime": "2026-01-09T01:38:55.351675",
+      "agent_count": 3,
+      "proposal_count": 0,
+      "agents": [
+        {
+          "name": "Ethics_Scholar",
+          "agent_id": "bb8ae912-f542-473c-9323-f87e2e8b8313",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.7,
+            "boldness": 0.6,
+            "aggressiveness": 0.4,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Tech_Visionary",
+          "agent_id": "bac8d36f-2529-4ce6-a873-d20e8aa2a273",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.7,
+            "analytical_depth": 0.7,
+            "optimism": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Devils_Advocate",
+          "agent_id": "a832a88a-31b9-4a32-91e5-35cb81cb8065",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.8,
+            "boldness": 0.85,
+            "aggressiveness": 0.9,
+            "optimism": 0.3
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [],
+      "context": {
+        "round": 3,
+        "phase": "post_rebuttal"
+      }
+    },
+    {
+      "timestamp": 307.3700342178345,
+      "datetime": "2026-01-09T01:39:02.355837",
+      "agent_count": 3,
+      "proposal_count": 0,
+      "agents": [
+        {
+          "name": "Ethics_Scholar",
+          "agent_id": "bb8ae912-f542-473c-9323-f87e2e8b8313",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.7,
+            "boldness": 0.6,
+            "aggressiveness": 0.4,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Tech_Visionary",
+          "agent_id": "bac8d36f-2529-4ce6-a873-d20e8aa2a273",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.7,
+            "analytical_depth": 0.7,
+            "optimism": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Devils_Advocate",
+          "agent_id": "a832a88a-31b9-4a32-91e5-35cb81cb8065",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.8,
+            "boldness": 0.85,
+            "aggressiveness": 0.9,
+            "optimism": 0.3
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [],
+      "context": {
+        "phase": "CHALLENGE"
+      }
+    },
+    {
+      "timestamp": 362.8670175075531,
+      "datetime": "2026-01-09T01:39:57.852820",
+      "agent_count": 3,
+      "proposal_count": 0,
+      "agents": [
+        {
+          "name": "Ethics_Scholar",
+          "agent_id": "bb8ae912-f542-473c-9323-f87e2e8b8313",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.7,
+            "boldness": 0.6,
+            "aggressiveness": 0.4,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Tech_Visionary",
+          "agent_id": "bac8d36f-2529-4ce6-a873-d20e8aa2a273",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.7,
+            "analytical_depth": 0.7,
+            "optimism": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Devils_Advocate",
+          "agent_id": "a832a88a-31b9-4a32-91e5-35cb81cb8065",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.8,
+            "boldness": 0.85,
+            "aggressiveness": 0.9,
+            "optimism": 0.3
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [],
+      "context": {
+        "round": 4,
+        "phase": "post_challenge"
+      }
+    },
+    {
+      "timestamp": 362.8671545982361,
+      "datetime": "2026-01-09T01:39:57.852956",
+      "agent_count": 3,
+      "proposal_count": 0,
+      "agents": [
+        {
+          "name": "Ethics_Scholar",
+          "agent_id": "bb8ae912-f542-473c-9323-f87e2e8b8313",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.7,
+            "boldness": 0.6,
+            "aggressiveness": 0.4,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Tech_Visionary",
+          "agent_id": "bac8d36f-2529-4ce6-a873-d20e8aa2a273",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.7,
+            "analytical_depth": 0.7,
+            "optimism": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Devils_Advocate",
+          "agent_id": "a832a88a-31b9-4a32-91e5-35cb81cb8065",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.8,
+            "boldness": 0.85,
+            "aggressiveness": 0.9,
+            "optimism": 0.3
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [],
+      "context": {
+        "phase": "REBUTTAL"
+      }
+    },
+    {
+      "timestamp": 389.79538774490356,
+      "datetime": "2026-01-09T01:40:24.781190",
+      "agent_count": 3,
+      "proposal_count": 0,
+      "agents": [
+        {
+          "name": "Ethics_Scholar",
+          "agent_id": "bb8ae912-f542-473c-9323-f87e2e8b8313",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.7,
+            "boldness": 0.6,
+            "aggressiveness": 0.4,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Tech_Visionary",
+          "agent_id": "bac8d36f-2529-4ce6-a873-d20e8aa2a273",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.7,
+            "analytical_depth": 0.7,
+            "optimism": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Devils_Advocate",
+          "agent_id": "a832a88a-31b9-4a32-91e5-35cb81cb8065",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.8,
+            "boldness": 0.85,
+            "aggressiveness": 0.9,
+            "optimism": 0.3
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [],
+      "context": {
+        "round": 4,
+        "phase": "post_rebuttal"
+      }
+    },
+    {
+      "timestamp": 396.79909205436707,
+      "datetime": "2026-01-09T01:40:31.784895",
+      "agent_count": 3,
+      "proposal_count": 0,
+      "agents": [
+        {
+          "name": "Ethics_Scholar",
+          "agent_id": "bb8ae912-f542-473c-9323-f87e2e8b8313",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.7,
+            "boldness": 0.6,
+            "aggressiveness": 0.4,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Tech_Visionary",
+          "agent_id": "bac8d36f-2529-4ce6-a873-d20e8aa2a273",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.7,
+            "analytical_depth": 0.7,
+            "optimism": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Devils_Advocate",
+          "agent_id": "a832a88a-31b9-4a32-91e5-35cb81cb8065",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.8,
+            "boldness": 0.85,
+            "aggressiveness": 0.9,
+            "optimism": 0.3
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [],
+      "context": {
+        "phase": "CHALLENGE"
+      }
+    },
+    {
+      "timestamp": 446.17151165008545,
+      "datetime": "2026-01-09T01:41:21.157314",
+      "agent_count": 3,
+      "proposal_count": 0,
+      "agents": [
+        {
+          "name": "Ethics_Scholar",
+          "agent_id": "bb8ae912-f542-473c-9323-f87e2e8b8313",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.7,
+            "boldness": 0.6,
+            "aggressiveness": 0.4,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Tech_Visionary",
+          "agent_id": "bac8d36f-2529-4ce6-a873-d20e8aa2a273",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.7,
+            "analytical_depth": 0.7,
+            "optimism": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Devils_Advocate",
+          "agent_id": "a832a88a-31b9-4a32-91e5-35cb81cb8065",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.8,
+            "boldness": 0.85,
+            "aggressiveness": 0.9,
+            "optimism": 0.3
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [],
+      "context": {
+        "round": 5,
+        "phase": "post_challenge"
+      }
+    },
+    {
+      "timestamp": 446.17162585258484,
+      "datetime": "2026-01-09T01:41:21.157426",
+      "agent_count": 3,
+      "proposal_count": 0,
+      "agents": [
+        {
+          "name": "Ethics_Scholar",
+          "agent_id": "bb8ae912-f542-473c-9323-f87e2e8b8313",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.7,
+            "boldness": 0.6,
+            "aggressiveness": 0.4,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Tech_Visionary",
+          "agent_id": "bac8d36f-2529-4ce6-a873-d20e8aa2a273",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.7,
+            "analytical_depth": 0.7,
+            "optimism": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Devils_Advocate",
+          "agent_id": "a832a88a-31b9-4a32-91e5-35cb81cb8065",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.8,
+            "boldness": 0.85,
+            "aggressiveness": 0.9,
+            "optimism": 0.3
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [],
+      "context": {
+        "phase": "REBUTTAL"
+      }
+    },
+    {
+      "timestamp": 469.47976779937744,
+      "datetime": "2026-01-09T01:41:44.465570",
+      "agent_count": 3,
+      "proposal_count": 0,
+      "agents": [
+        {
+          "name": "Ethics_Scholar",
+          "agent_id": "bb8ae912-f542-473c-9323-f87e2e8b8313",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.7,
+            "boldness": 0.6,
+            "aggressiveness": 0.4,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Tech_Visionary",
+          "agent_id": "bac8d36f-2529-4ce6-a873-d20e8aa2a273",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.7,
+            "analytical_depth": 0.7,
+            "optimism": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Devils_Advocate",
+          "agent_id": "a832a88a-31b9-4a32-91e5-35cb81cb8065",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.8,
+            "boldness": 0.85,
+            "aggressiveness": 0.9,
+            "optimism": 0.3
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [],
+      "context": {
+        "round": 5,
+        "phase": "post_rebuttal"
+      }
+    },
+    {
+      "timestamp": 476.48321318626404,
+      "datetime": "2026-01-09T01:41:51.469016",
+      "agent_count": 3,
+      "proposal_count": 0,
+      "agents": [
+        {
+          "name": "Ethics_Scholar",
+          "agent_id": "bb8ae912-f542-473c-9323-f87e2e8b8313",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.7,
+            "boldness": 0.6,
+            "aggressiveness": 0.4,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Tech_Visionary",
+          "agent_id": "bac8d36f-2529-4ce6-a873-d20e8aa2a273",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.7,
+            "analytical_depth": 0.7,
+            "optimism": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Devils_Advocate",
+          "agent_id": "a832a88a-31b9-4a32-91e5-35cb81cb8065",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.8,
+            "boldness": 0.85,
+            "aggressiveness": 0.9,
+            "optimism": 0.3
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [],
+      "context": {
+        "phase": "CHALLENGE"
+      }
+    },
+    {
+      "timestamp": 537.2365255355835,
+      "datetime": "2026-01-09T01:42:52.222328",
+      "agent_count": 3,
+      "proposal_count": 0,
+      "agents": [
+        {
+          "name": "Ethics_Scholar",
+          "agent_id": "bb8ae912-f542-473c-9323-f87e2e8b8313",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.7,
+            "boldness": 0.6,
+            "aggressiveness": 0.4,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Tech_Visionary",
+          "agent_id": "bac8d36f-2529-4ce6-a873-d20e8aa2a273",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.7,
+            "analytical_depth": 0.7,
+            "optimism": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Devils_Advocate",
+          "agent_id": "a832a88a-31b9-4a32-91e5-35cb81cb8065",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.8,
+            "boldness": 0.85,
+            "aggressiveness": 0.9,
+            "optimism": 0.3
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [],
+      "context": {
+        "round": 6,
+        "phase": "post_challenge"
+      }
+    },
+    {
+      "timestamp": 537.236643075943,
+      "datetime": "2026-01-09T01:42:52.222443",
+      "agent_count": 3,
+      "proposal_count": 0,
+      "agents": [
+        {
+          "name": "Ethics_Scholar",
+          "agent_id": "bb8ae912-f542-473c-9323-f87e2e8b8313",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.7,
+            "boldness": 0.6,
+            "aggressiveness": 0.4,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Tech_Visionary",
+          "agent_id": "bac8d36f-2529-4ce6-a873-d20e8aa2a273",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.7,
+            "analytical_depth": 0.7,
+            "optimism": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Devils_Advocate",
+          "agent_id": "a832a88a-31b9-4a32-91e5-35cb81cb8065",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.8,
+            "boldness": 0.85,
+            "aggressiveness": 0.9,
+            "optimism": 0.3
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [],
+      "context": {
+        "phase": "REBUTTAL"
+      }
+    },
+    {
+      "timestamp": 566.8986616134644,
+      "datetime": "2026-01-09T01:43:21.884465",
+      "agent_count": 3,
+      "proposal_count": 0,
+      "agents": [
+        {
+          "name": "Ethics_Scholar",
+          "agent_id": "bb8ae912-f542-473c-9323-f87e2e8b8313",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.7,
+            "boldness": 0.6,
+            "aggressiveness": 0.4,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Tech_Visionary",
+          "agent_id": "bac8d36f-2529-4ce6-a873-d20e8aa2a273",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.7,
+            "analytical_depth": 0.7,
+            "optimism": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Devils_Advocate",
+          "agent_id": "a832a88a-31b9-4a32-91e5-35cb81cb8065",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.8,
+            "boldness": 0.85,
+            "aggressiveness": 0.9,
+            "optimism": 0.3
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [],
+      "context": {
+        "round": 6,
+        "phase": "post_rebuttal"
+      }
+    },
+    {
+      "timestamp": 573.9026138782501,
+      "datetime": "2026-01-09T01:43:28.888417",
+      "agent_count": 3,
+      "proposal_count": 0,
+      "agents": [
+        {
+          "name": "Ethics_Scholar",
+          "agent_id": "bb8ae912-f542-473c-9323-f87e2e8b8313",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.7,
+            "boldness": 0.6,
+            "aggressiveness": 0.4,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Tech_Visionary",
+          "agent_id": "bac8d36f-2529-4ce6-a873-d20e8aa2a273",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.7,
+            "analytical_depth": 0.7,
+            "optimism": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Devils_Advocate",
+          "agent_id": "a832a88a-31b9-4a32-91e5-35cb81cb8065",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.8,
+            "boldness": 0.85,
+            "aggressiveness": 0.9,
+            "optimism": 0.3
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [],
+      "context": {
+        "phase": "CHALLENGE"
+      }
+    },
+    {
+      "timestamp": 631.2483193874359,
+      "datetime": "2026-01-09T01:44:26.234122",
+      "agent_count": 3,
+      "proposal_count": 0,
+      "agents": [
+        {
+          "name": "Ethics_Scholar",
+          "agent_id": "bb8ae912-f542-473c-9323-f87e2e8b8313",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.7,
+            "boldness": 0.6,
+            "aggressiveness": 0.4,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Tech_Visionary",
+          "agent_id": "bac8d36f-2529-4ce6-a873-d20e8aa2a273",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.7,
+            "analytical_depth": 0.7,
+            "optimism": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Devils_Advocate",
+          "agent_id": "a832a88a-31b9-4a32-91e5-35cb81cb8065",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.8,
+            "boldness": 0.85,
+            "aggressiveness": 0.9,
+            "optimism": 0.3
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [],
+      "context": {
+        "round": 7,
+        "phase": "post_challenge"
+      }
+    },
+    {
+      "timestamp": 631.2484323978424,
+      "datetime": "2026-01-09T01:44:26.234233",
+      "agent_count": 3,
+      "proposal_count": 0,
+      "agents": [
+        {
+          "name": "Ethics_Scholar",
+          "agent_id": "bb8ae912-f542-473c-9323-f87e2e8b8313",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.7,
+            "boldness": 0.6,
+            "aggressiveness": 0.4,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Tech_Visionary",
+          "agent_id": "bac8d36f-2529-4ce6-a873-d20e8aa2a273",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.7,
+            "analytical_depth": 0.7,
+            "optimism": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Devils_Advocate",
+          "agent_id": "a832a88a-31b9-4a32-91e5-35cb81cb8065",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.8,
+            "boldness": 0.85,
+            "aggressiveness": 0.9,
+            "optimism": 0.3
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [],
+      "context": {
+        "phase": "REBUTTAL"
+      }
+    },
+    {
+      "timestamp": 657.4482002258301,
+      "datetime": "2026-01-09T01:44:52.434002",
+      "agent_count": 3,
+      "proposal_count": 0,
+      "agents": [
+        {
+          "name": "Ethics_Scholar",
+          "agent_id": "bb8ae912-f542-473c-9323-f87e2e8b8313",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.7,
+            "boldness": 0.6,
+            "aggressiveness": 0.4,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Tech_Visionary",
+          "agent_id": "bac8d36f-2529-4ce6-a873-d20e8aa2a273",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.7,
+            "analytical_depth": 0.7,
+            "optimism": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Devils_Advocate",
+          "agent_id": "a832a88a-31b9-4a32-91e5-35cb81cb8065",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.8,
+            "boldness": 0.85,
+            "aggressiveness": 0.9,
+            "optimism": 0.3
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [],
+      "context": {
+        "round": 7,
+        "phase": "post_rebuttal"
+      }
+    },
+    {
+      "timestamp": 664.4529383182526,
+      "datetime": "2026-01-09T01:44:59.438742",
+      "agent_count": 3,
+      "proposal_count": 0,
+      "agents": [
+        {
+          "name": "Ethics_Scholar",
+          "agent_id": "bb8ae912-f542-473c-9323-f87e2e8b8313",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.7,
+            "boldness": 0.6,
+            "aggressiveness": 0.4,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Tech_Visionary",
+          "agent_id": "bac8d36f-2529-4ce6-a873-d20e8aa2a273",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.7,
+            "analytical_depth": 0.7,
+            "optimism": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Devils_Advocate",
+          "agent_id": "a832a88a-31b9-4a32-91e5-35cb81cb8065",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.8,
+            "boldness": 0.85,
+            "aggressiveness": 0.9,
+            "optimism": 0.3
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [],
+      "context": {
+        "phase": "CHALLENGE"
+      }
+    },
+    {
+      "timestamp": 720.3489470481873,
+      "datetime": "2026-01-09T01:45:55.334750",
+      "agent_count": 3,
+      "proposal_count": 0,
+      "agents": [
+        {
+          "name": "Ethics_Scholar",
+          "agent_id": "bb8ae912-f542-473c-9323-f87e2e8b8313",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.7,
+            "boldness": 0.6,
+            "aggressiveness": 0.4,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Tech_Visionary",
+          "agent_id": "bac8d36f-2529-4ce6-a873-d20e8aa2a273",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.7,
+            "analytical_depth": 0.7,
+            "optimism": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Devils_Advocate",
+          "agent_id": "a832a88a-31b9-4a32-91e5-35cb81cb8065",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.8,
+            "boldness": 0.85,
+            "aggressiveness": 0.9,
+            "optimism": 0.3
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [],
+      "context": {
+        "round": 8,
+        "phase": "post_challenge"
+      }
+    },
+    {
+      "timestamp": 720.3490991592407,
+      "datetime": "2026-01-09T01:45:55.334900",
+      "agent_count": 3,
+      "proposal_count": 0,
+      "agents": [
+        {
+          "name": "Ethics_Scholar",
+          "agent_id": "bb8ae912-f542-473c-9323-f87e2e8b8313",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.7,
+            "boldness": 0.6,
+            "aggressiveness": 0.4,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Tech_Visionary",
+          "agent_id": "bac8d36f-2529-4ce6-a873-d20e8aa2a273",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.7,
+            "analytical_depth": 0.7,
+            "optimism": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Devils_Advocate",
+          "agent_id": "a832a88a-31b9-4a32-91e5-35cb81cb8065",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.8,
+            "boldness": 0.85,
+            "aggressiveness": 0.9,
+            "optimism": 0.3
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [],
+      "context": {
+        "phase": "REBUTTAL"
+      }
+    },
+    {
+      "timestamp": 748.0943789482117,
+      "datetime": "2026-01-09T01:46:23.080181",
+      "agent_count": 3,
+      "proposal_count": 0,
+      "agents": [
+        {
+          "name": "Ethics_Scholar",
+          "agent_id": "bb8ae912-f542-473c-9323-f87e2e8b8313",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.7,
+            "boldness": 0.6,
+            "aggressiveness": 0.4,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Tech_Visionary",
+          "agent_id": "bac8d36f-2529-4ce6-a873-d20e8aa2a273",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.7,
+            "analytical_depth": 0.7,
+            "optimism": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Devils_Advocate",
+          "agent_id": "a832a88a-31b9-4a32-91e5-35cb81cb8065",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.8,
+            "boldness": 0.85,
+            "aggressiveness": 0.9,
+            "optimism": 0.3
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [],
+      "context": {
+        "round": 8,
+        "phase": "post_rebuttal"
+      }
+    },
+    {
+      "timestamp": 755.0989952087402,
+      "datetime": "2026-01-09T01:46:30.084798",
+      "agent_count": 3,
+      "proposal_count": 0,
+      "agents": [
+        {
+          "name": "Ethics_Scholar",
+          "agent_id": "bb8ae912-f542-473c-9323-f87e2e8b8313",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.7,
+            "boldness": 0.6,
+            "aggressiveness": 0.4,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Tech_Visionary",
+          "agent_id": "bac8d36f-2529-4ce6-a873-d20e8aa2a273",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.7,
+            "analytical_depth": 0.7,
+            "optimism": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Devils_Advocate",
+          "agent_id": "a832a88a-31b9-4a32-91e5-35cb81cb8065",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.8,
+            "boldness": 0.85,
+            "aggressiveness": 0.9,
+            "optimism": 0.3
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [],
+      "context": {
+        "phase": "CHALLENGE"
+      }
+    },
+    {
+      "timestamp": 805.5423369407654,
+      "datetime": "2026-01-09T01:47:20.528139",
+      "agent_count": 3,
+      "proposal_count": 0,
+      "agents": [
+        {
+          "name": "Ethics_Scholar",
+          "agent_id": "bb8ae912-f542-473c-9323-f87e2e8b8313",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.7,
+            "boldness": 0.6,
+            "aggressiveness": 0.4,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Tech_Visionary",
+          "agent_id": "bac8d36f-2529-4ce6-a873-d20e8aa2a273",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.7,
+            "analytical_depth": 0.7,
+            "optimism": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Devils_Advocate",
+          "agent_id": "a832a88a-31b9-4a32-91e5-35cb81cb8065",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.8,
+            "boldness": 0.85,
+            "aggressiveness": 0.9,
+            "optimism": 0.3
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [],
+      "context": {
+        "round": 9,
+        "phase": "post_challenge"
+      }
+    },
+    {
+      "timestamp": 805.5427017211914,
+      "datetime": "2026-01-09T01:47:20.528503",
+      "agent_count": 3,
+      "proposal_count": 0,
+      "agents": [
+        {
+          "name": "Ethics_Scholar",
+          "agent_id": "bb8ae912-f542-473c-9323-f87e2e8b8313",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.7,
+            "boldness": 0.6,
+            "aggressiveness": 0.4,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Tech_Visionary",
+          "agent_id": "bac8d36f-2529-4ce6-a873-d20e8aa2a273",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.7,
+            "analytical_depth": 0.7,
+            "optimism": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Devils_Advocate",
+          "agent_id": "a832a88a-31b9-4a32-91e5-35cb81cb8065",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.8,
+            "boldness": 0.85,
+            "aggressiveness": 0.9,
+            "optimism": 0.3
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [],
+      "context": {
+        "phase": "REBUTTAL"
+      }
+    },
+    {
+      "timestamp": 832.8862686157227,
+      "datetime": "2026-01-09T01:47:47.872070",
+      "agent_count": 3,
+      "proposal_count": 0,
+      "agents": [
+        {
+          "name": "Ethics_Scholar",
+          "agent_id": "bb8ae912-f542-473c-9323-f87e2e8b8313",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.7,
+            "boldness": 0.6,
+            "aggressiveness": 0.4,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Tech_Visionary",
+          "agent_id": "bac8d36f-2529-4ce6-a873-d20e8aa2a273",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.7,
+            "analytical_depth": 0.7,
+            "optimism": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Devils_Advocate",
+          "agent_id": "a832a88a-31b9-4a32-91e5-35cb81cb8065",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.8,
+            "boldness": 0.85,
+            "aggressiveness": 0.9,
+            "optimism": 0.3
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [],
+      "context": {
+        "round": 9,
+        "phase": "post_rebuttal"
+      }
+    },
+    {
+      "timestamp": 839.8907754421234,
+      "datetime": "2026-01-09T01:47:54.876578",
+      "agent_count": 3,
+      "proposal_count": 0,
+      "agents": [
+        {
+          "name": "Ethics_Scholar",
+          "agent_id": "bb8ae912-f542-473c-9323-f87e2e8b8313",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.7,
+            "boldness": 0.6,
+            "aggressiveness": 0.4,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Tech_Visionary",
+          "agent_id": "bac8d36f-2529-4ce6-a873-d20e8aa2a273",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.7,
+            "analytical_depth": 0.7,
+            "optimism": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Devils_Advocate",
+          "agent_id": "a832a88a-31b9-4a32-91e5-35cb81cb8065",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.8,
+            "boldness": 0.85,
+            "aggressiveness": 0.9,
+            "optimism": 0.3
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [],
+      "context": {
+        "phase": "CHALLENGE"
+      }
+    },
+    {
+      "timestamp": 892.1566708087921,
+      "datetime": "2026-01-09T01:48:47.142473",
+      "agent_count": 3,
+      "proposal_count": 0,
+      "agents": [
+        {
+          "name": "Ethics_Scholar",
+          "agent_id": "bb8ae912-f542-473c-9323-f87e2e8b8313",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.7,
+            "boldness": 0.6,
+            "aggressiveness": 0.4,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Tech_Visionary",
+          "agent_id": "bac8d36f-2529-4ce6-a873-d20e8aa2a273",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.7,
+            "analytical_depth": 0.7,
+            "optimism": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Devils_Advocate",
+          "agent_id": "a832a88a-31b9-4a32-91e5-35cb81cb8065",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.8,
+            "boldness": 0.85,
+            "aggressiveness": 0.9,
+            "optimism": 0.3
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [],
+      "context": {
+        "round": 10,
+        "phase": "post_challenge"
+      }
+    },
+    {
+      "timestamp": 892.1567583084106,
+      "datetime": "2026-01-09T01:48:47.142558",
+      "agent_count": 3,
+      "proposal_count": 0,
+      "agents": [
+        {
+          "name": "Ethics_Scholar",
+          "agent_id": "bb8ae912-f542-473c-9323-f87e2e8b8313",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.7,
+            "boldness": 0.6,
+            "aggressiveness": 0.4,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Tech_Visionary",
+          "agent_id": "bac8d36f-2529-4ce6-a873-d20e8aa2a273",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.7,
+            "analytical_depth": 0.7,
+            "optimism": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Devils_Advocate",
+          "agent_id": "a832a88a-31b9-4a32-91e5-35cb81cb8065",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.8,
+            "boldness": 0.85,
+            "aggressiveness": 0.9,
+            "optimism": 0.3
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [],
+      "context": {
+        "phase": "REBUTTAL"
+      }
+    },
+    {
+      "timestamp": 915.1188099384308,
+      "datetime": "2026-01-09T01:49:10.104612",
+      "agent_count": 3,
+      "proposal_count": 0,
+      "agents": [
+        {
+          "name": "Ethics_Scholar",
+          "agent_id": "bb8ae912-f542-473c-9323-f87e2e8b8313",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.7,
+            "boldness": 0.6,
+            "aggressiveness": 0.4,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Tech_Visionary",
+          "agent_id": "bac8d36f-2529-4ce6-a873-d20e8aa2a273",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.7,
+            "analytical_depth": 0.7,
+            "optimism": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Devils_Advocate",
+          "agent_id": "a832a88a-31b9-4a32-91e5-35cb81cb8065",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.8,
+            "boldness": 0.85,
+            "aggressiveness": 0.9,
+            "optimism": 0.3
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [],
+      "context": {
+        "round": 10,
+        "phase": "post_rebuttal"
+      }
+    }
+  ],
+  "events": [
+    {
+      "timestamp": 5.130253553390503,
+      "datetime": "2026-01-09T01:34:00.116055",
+      "event_type": "web_research",
+      "details": {
+        "agent": "Ethics_Scholar",
+        "query": "AI ethics autonomous systems safety",
+        "results_length": 952
+      }
+    },
+    {
+      "timestamp": 8.914232969284058,
+      "datetime": "2026-01-09T01:34:03.900036",
+      "event_type": "web_research",
+      "details": {
+        "agent": "Tech_Visionary",
+        "query": "AI innovation regulation balance",
+        "results_length": 1068
+      }
+    },
+    {
+      "timestamp": 10.914695978164673,
+      "datetime": "2026-01-09T01:34:05.900496",
+      "event_type": "phase_start",
+      "details": {
+        "phase": "PROPOSAL"
+      }
+    },
+    {
+      "timestamp": 34.68727946281433,
+      "datetime": "2026-01-09T01:34:29.673081",
+      "event_type": "agent_spawn",
+      "details": {
+        "agent": "Devils_Advocate",
+        "reason": "insufficient_challenge",
+        "archetype": "devils_advocate"
+      }
+    },
+    {
+      "timestamp": 34.687289237976074,
+      "datetime": "2026-01-09T01:34:29.673090",
+      "event_type": "agent_spawned",
+      "details": {
+        "agent": "Devils_Advocate",
+        "archetype": "devils_advocate",
+        "reason": "insufficient_challenge",
+        "moderator_analysis": {
+          "similarity": 0.20948616600790515,
+          "avg_length": 1691.5,
+          "aggressive_count": 4
+        }
+      }
+    },
+    {
+      "timestamp": 51.693363666534424,
+      "datetime": "2026-01-09T01:34:46.679164",
+      "event_type": "phase_start",
+      "details": {
+        "phase": "CHALLENGE"
+      }
+    },
+    {
+      "timestamp": 104.4131817817688,
+      "datetime": "2026-01-09T01:35:39.398982",
+      "event_type": "phase_start",
+      "details": {
+        "phase": "REBUTTAL"
+      }
+    },
+    {
+      "timestamp": 137.74252557754517,
+      "datetime": "2026-01-09T01:36:12.728326",
+      "event_type": "phase_start",
+      "details": {
+        "phase": "CHALLENGE"
+      }
+    },
+    {
+      "timestamp": 194.79477858543396,
+      "datetime": "2026-01-09T01:37:09.780579",
+      "event_type": "phase_start",
+      "details": {
+        "phase": "REBUTTAL"
+      }
+    },
+    {
+      "timestamp": 225.00367045402527,
+      "datetime": "2026-01-09T01:37:39.989471",
+      "event_type": "phase_start",
+      "details": {
+        "phase": "CHALLENGE"
+      }
+    },
+    {
+      "timestamp": 275.32398533821106,
+      "datetime": "2026-01-09T01:38:30.309785",
+      "event_type": "phase_start",
+      "details": {
+        "phase": "REBUTTAL"
+      }
+    },
+    {
+      "timestamp": 307.3700566291809,
+      "datetime": "2026-01-09T01:39:02.355858",
+      "event_type": "phase_start",
+      "details": {
+        "phase": "CHALLENGE"
+      }
+    },
+    {
+      "timestamp": 362.86717200279236,
+      "datetime": "2026-01-09T01:39:57.852972",
+      "event_type": "phase_start",
+      "details": {
+        "phase": "REBUTTAL"
+      }
+    },
+    {
+      "timestamp": 396.79911637306213,
+      "datetime": "2026-01-09T01:40:31.784917",
+      "event_type": "phase_start",
+      "details": {
+        "phase": "CHALLENGE"
+      }
+    },
+    {
+      "timestamp": 446.1716344356537,
+      "datetime": "2026-01-09T01:41:21.157434",
+      "event_type": "phase_start",
+      "details": {
+        "phase": "REBUTTAL"
+      }
+    },
+    {
+      "timestamp": 476.4832375049591,
+      "datetime": "2026-01-09T01:41:51.469038",
+      "event_type": "phase_start",
+      "details": {
+        "phase": "CHALLENGE"
+      }
+    },
+    {
+      "timestamp": 537.2366511821747,
+      "datetime": "2026-01-09T01:42:52.222451",
+      "event_type": "phase_start",
+      "details": {
+        "phase": "REBUTTAL"
+      }
+    },
+    {
+      "timestamp": 573.9026427268982,
+      "datetime": "2026-01-09T01:43:28.888443",
+      "event_type": "phase_start",
+      "details": {
+        "phase": "CHALLENGE"
+      }
+    },
+    {
+      "timestamp": 631.248441696167,
+      "datetime": "2026-01-09T01:44:26.234242",
+      "event_type": "phase_start",
+      "details": {
+        "phase": "REBUTTAL"
+      }
+    },
+    {
+      "timestamp": 664.4529712200165,
+      "datetime": "2026-01-09T01:44:59.438772",
+      "event_type": "phase_start",
+      "details": {
+        "phase": "CHALLENGE"
+      }
+    },
+    {
+      "timestamp": 720.3491113185883,
+      "datetime": "2026-01-09T01:45:55.334911",
+      "event_type": "phase_start",
+      "details": {
+        "phase": "REBUTTAL"
+      }
+    },
+    {
+      "timestamp": 755.0990192890167,
+      "datetime": "2026-01-09T01:46:30.084819",
+      "event_type": "phase_start",
+      "details": {
+        "phase": "CHALLENGE"
+      }
+    },
+    {
+      "timestamp": 805.5427143573761,
+      "datetime": "2026-01-09T01:47:20.528515",
+      "event_type": "phase_start",
+      "details": {
+        "phase": "REBUTTAL"
+      }
+    },
+    {
+      "timestamp": 839.8907980918884,
+      "datetime": "2026-01-09T01:47:54.876598",
+      "event_type": "phase_start",
+      "details": {
+        "phase": "CHALLENGE"
+      }
+    },
+    {
+      "timestamp": 892.1567676067352,
+      "datetime": "2026-01-09T01:48:47.142568",
+      "event_type": "phase_start",
+      "details": {
+        "phase": "REBUTTAL"
+      }
+    },
+    {
+      "timestamp": 922.1230115890503,
+      "datetime": "2026-01-09T01:49:17.108814",
+      "event_type": "meta_debate",
+      "details": {
+        "triggered": true,
+        "reason": "debate_complexity"
+      }
+    }
+  ],
+  "summary": {
+    "agent_count_change": 1,
+    "total_proposals": 0,
+    "snapshots_taken": 43,
+    "events_logged": 26,
+    "duration": 927.1278038024902
+  }
+}

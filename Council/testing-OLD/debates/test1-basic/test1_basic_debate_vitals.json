@@ -1,0 +1,1348 @@
+{
+  "test_name": "test1_basic_debate",
+  "start_time": "2026-01-09T00:50:28.635931",
+  "duration_seconds": 0.006028413772583008,
+  "total_snapshots": 14,
+  "total_events": 9,
+  "snapshots": [
+    {
+      "timestamp": 0.0006463527679443359,
+      "datetime": "2026-01-09T00:50:28.636578",
+      "agent_count": 3,
+      "proposal_count": 0,
+      "agents": [
+        {
+          "name": "Alice_Optimist",
+          "agent_id": "0cca00ef-fbc4-42ec-9f45-0865958c1db4",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.8,
+            "boldness": 0.7,
+            "aggressiveness": 0.4,
+            "optimism": 0.9,
+            "analytical_depth": 0.6
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Bob_Skeptic",
+          "agent_id": "d60caabb-d9cc-4d21-94b0-b42163bf9bff",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.4,
+            "boldness": 0.6,
+            "aggressiveness": 0.8,
+            "optimism": 0.2,
+            "analytical_depth": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Carol_Balanced",
+          "agent_id": "35fa2131-4af4-4f62-b8a2-ddc1b5233c0d",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.5,
+            "aggressiveness": 0.5,
+            "optimism": 0.5,
+            "analytical_depth": 0.7
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [],
+      "context": {
+        "phase": "initialization"
+      }
+    },
+    {
+      "timestamp": 0.0007865428924560547,
+      "datetime": "2026-01-09T00:50:28.636718",
+      "agent_count": 3,
+      "proposal_count": 0,
+      "agents": [
+        {
+          "name": "Alice_Optimist",
+          "agent_id": "0cca00ef-fbc4-42ec-9f45-0865958c1db4",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.8,
+            "boldness": 0.7,
+            "aggressiveness": 0.4,
+            "optimism": 0.9,
+            "analytical_depth": 0.6
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Bob_Skeptic",
+          "agent_id": "d60caabb-d9cc-4d21-94b0-b42163bf9bff",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.4,
+            "boldness": 0.6,
+            "aggressiveness": 0.8,
+            "optimism": 0.2,
+            "analytical_depth": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Carol_Balanced",
+          "agent_id": "35fa2131-4af4-4f62-b8a2-ddc1b5233c0d",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.5,
+            "aggressiveness": 0.5,
+            "optimism": 0.5,
+            "analytical_depth": 0.7
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [],
+      "context": {
+        "phase": "PROPOSAL"
+      }
+    },
+    {
+      "timestamp": 0.0015478134155273438,
+      "datetime": "2026-01-09T00:50:28.637479",
+      "agent_count": 3,
+      "proposal_count": 3,
+      "agents": [
+        {
+          "name": "Alice_Optimist",
+          "agent_id": "0cca00ef-fbc4-42ec-9f45-0865958c1db4",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.8,
+            "boldness": 0.7,
+            "aggressiveness": 0.4,
+            "optimism": 0.9,
+            "analytical_depth": 0.6
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Bob_Skeptic",
+          "agent_id": "d60caabb-d9cc-4d21-94b0-b42163bf9bff",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.4,
+            "boldness": 0.6,
+            "aggressiveness": 0.8,
+            "optimism": 0.2,
+            "analytical_depth": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Carol_Balanced",
+          "agent_id": "35fa2131-4af4-4f62-b8a2-ddc1b5233c0d",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.5,
+            "aggressiveness": 0.5,
+            "optimism": 0.5,
+            "analytical_depth": 0.7
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [
+        {
+          "agent_name": "Alice_Optimist",
+          "score": 0.0,
+          "challenges": 0,
+          "rebuttals": 0
+        },
+        {
+          "agent_name": "Bob_Skeptic",
+          "score": 0.0,
+          "challenges": 0,
+          "rebuttals": 0
+        },
+        {
+          "agent_name": "Carol_Balanced",
+          "score": 0.0,
+          "challenges": 0,
+          "rebuttals": 0
+        }
+      ],
+      "context": {
+        "phase": "post_proposal"
+      }
+    },
+    {
+      "timestamp": 0.00164031982421875,
+      "datetime": "2026-01-09T00:50:28.637571",
+      "agent_count": 3,
+      "proposal_count": 3,
+      "agents": [
+        {
+          "name": "Alice_Optimist",
+          "agent_id": "0cca00ef-fbc4-42ec-9f45-0865958c1db4",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.8,
+            "boldness": 0.7,
+            "aggressiveness": 0.4,
+            "optimism": 0.9,
+            "analytical_depth": 0.6
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Bob_Skeptic",
+          "agent_id": "d60caabb-d9cc-4d21-94b0-b42163bf9bff",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.4,
+            "boldness": 0.6,
+            "aggressiveness": 0.8,
+            "optimism": 0.2,
+            "analytical_depth": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Carol_Balanced",
+          "agent_id": "35fa2131-4af4-4f62-b8a2-ddc1b5233c0d",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.5,
+            "aggressiveness": 0.5,
+            "optimism": 0.5,
+            "analytical_depth": 0.7
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [
+        {
+          "agent_name": "Alice_Optimist",
+          "score": 0.0,
+          "challenges": 0,
+          "rebuttals": 0
+        },
+        {
+          "agent_name": "Bob_Skeptic",
+          "score": 0.0,
+          "challenges": 0,
+          "rebuttals": 0
+        },
+        {
+          "agent_name": "Carol_Balanced",
+          "score": 0.0,
+          "challenges": 0,
+          "rebuttals": 0
+        }
+      ],
+      "context": {
+        "phase": "CHALLENGE"
+      }
+    },
+    {
+      "timestamp": 0.002255678176879883,
+      "datetime": "2026-01-09T00:50:28.638187",
+      "agent_count": 3,
+      "proposal_count": 3,
+      "agents": [
+        {
+          "name": "Alice_Optimist",
+          "agent_id": "0cca00ef-fbc4-42ec-9f45-0865958c1db4",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 1,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.8,
+            "boldness": 0.7,
+            "aggressiveness": 0.4,
+            "optimism": 0.9,
+            "analytical_depth": 0.6
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Bob_Skeptic",
+          "agent_id": "d60caabb-d9cc-4d21-94b0-b42163bf9bff",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.4,
+            "boldness": 0.6,
+            "aggressiveness": 0.8,
+            "optimism": 0.2,
+            "analytical_depth": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Carol_Balanced",
+          "agent_id": "35fa2131-4af4-4f62-b8a2-ddc1b5233c0d",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 2,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.5,
+            "aggressiveness": 0.5,
+            "optimism": 0.5,
+            "analytical_depth": 0.7
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [
+        {
+          "agent_name": "Alice_Optimist",
+          "score": 0.0,
+          "challenges": 1,
+          "rebuttals": 0
+        },
+        {
+          "agent_name": "Bob_Skeptic",
+          "score": 0.0,
+          "challenges": 2,
+          "rebuttals": 0
+        },
+        {
+          "agent_name": "Carol_Balanced",
+          "score": 0.0,
+          "challenges": 0,
+          "rebuttals": 0
+        }
+      ],
+      "context": {
+        "round": 1,
+        "phase": "post_challenge"
+      }
+    },
+    {
+      "timestamp": 0.00226593017578125,
+      "datetime": "2026-01-09T00:50:28.638197",
+      "agent_count": 3,
+      "proposal_count": 3,
+      "agents": [
+        {
+          "name": "Alice_Optimist",
+          "agent_id": "0cca00ef-fbc4-42ec-9f45-0865958c1db4",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 1,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.8,
+            "boldness": 0.7,
+            "aggressiveness": 0.4,
+            "optimism": 0.9,
+            "analytical_depth": 0.6
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Bob_Skeptic",
+          "agent_id": "d60caabb-d9cc-4d21-94b0-b42163bf9bff",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.4,
+            "boldness": 0.6,
+            "aggressiveness": 0.8,
+            "optimism": 0.2,
+            "analytical_depth": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Carol_Balanced",
+          "agent_id": "35fa2131-4af4-4f62-b8a2-ddc1b5233c0d",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 2,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.5,
+            "aggressiveness": 0.5,
+            "optimism": 0.5,
+            "analytical_depth": 0.7
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [
+        {
+          "agent_name": "Alice_Optimist",
+          "score": 0.0,
+          "challenges": 1,
+          "rebuttals": 0
+        },
+        {
+          "agent_name": "Bob_Skeptic",
+          "score": 0.0,
+          "challenges": 2,
+          "rebuttals": 0
+        },
+        {
+          "agent_name": "Carol_Balanced",
+          "score": 0.0,
+          "challenges": 0,
+          "rebuttals": 0
+        }
+      ],
+      "context": {
+        "phase": "REBUTTAL"
+      }
+    },
+    {
+      "timestamp": 0.0026702880859375,
+      "datetime": "2026-01-09T00:50:28.638601",
+      "agent_count": 3,
+      "proposal_count": 3,
+      "agents": [
+        {
+          "name": "Alice_Optimist",
+          "agent_id": "0cca00ef-fbc4-42ec-9f45-0865958c1db4",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 1,
+          "rebuttals_made": 1,
+          "personality": {
+            "creativity": 0.8,
+            "boldness": 0.7,
+            "aggressiveness": 0.4,
+            "optimism": 0.9,
+            "analytical_depth": 0.6
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Bob_Skeptic",
+          "agent_id": "d60caabb-d9cc-4d21-94b0-b42163bf9bff",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 0,
+          "rebuttals_made": 1,
+          "personality": {
+            "creativity": 0.4,
+            "boldness": 0.6,
+            "aggressiveness": 0.8,
+            "optimism": 0.2,
+            "analytical_depth": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Carol_Balanced",
+          "agent_id": "35fa2131-4af4-4f62-b8a2-ddc1b5233c0d",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 2,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.5,
+            "aggressiveness": 0.5,
+            "optimism": 0.5,
+            "analytical_depth": 0.7
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [
+        {
+          "agent_name": "Alice_Optimist",
+          "score": 0.0,
+          "challenges": 1,
+          "rebuttals": 1
+        },
+        {
+          "agent_name": "Bob_Skeptic",
+          "score": 0.0,
+          "challenges": 2,
+          "rebuttals": 1
+        },
+        {
+          "agent_name": "Carol_Balanced",
+          "score": 0.0,
+          "challenges": 0,
+          "rebuttals": 0
+        }
+      ],
+      "context": {
+        "round": 1,
+        "phase": "post_rebuttal"
+      }
+    },
+    {
+      "timestamp": 0.0027420520782470703,
+      "datetime": "2026-01-09T00:50:28.638673",
+      "agent_count": 3,
+      "proposal_count": 3,
+      "agents": [
+        {
+          "name": "Alice_Optimist",
+          "agent_id": "0cca00ef-fbc4-42ec-9f45-0865958c1db4",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 1,
+          "rebuttals_made": 1,
+          "personality": {
+            "creativity": 0.8,
+            "boldness": 0.7,
+            "aggressiveness": 0.4,
+            "optimism": 0.9,
+            "analytical_depth": 0.6
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Bob_Skeptic",
+          "agent_id": "d60caabb-d9cc-4d21-94b0-b42163bf9bff",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 0,
+          "rebuttals_made": 1,
+          "personality": {
+            "creativity": 0.4,
+            "boldness": 0.6,
+            "aggressiveness": 0.8,
+            "optimism": 0.2,
+            "analytical_depth": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Carol_Balanced",
+          "agent_id": "35fa2131-4af4-4f62-b8a2-ddc1b5233c0d",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 2,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.5,
+            "aggressiveness": 0.5,
+            "optimism": 0.5,
+            "analytical_depth": 0.7
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [
+        {
+          "agent_name": "Alice_Optimist",
+          "score": 0.0,
+          "challenges": 1,
+          "rebuttals": 1
+        },
+        {
+          "agent_name": "Bob_Skeptic",
+          "score": 0.0,
+          "challenges": 2,
+          "rebuttals": 1
+        },
+        {
+          "agent_name": "Carol_Balanced",
+          "score": 0.0,
+          "challenges": 0,
+          "rebuttals": 0
+        }
+      ],
+      "context": {
+        "phase": "CHALLENGE"
+      }
+    },
+    {
+      "timestamp": 0.0034461021423339844,
+      "datetime": "2026-01-09T00:50:28.639377",
+      "agent_count": 3,
+      "proposal_count": 3,
+      "agents": [
+        {
+          "name": "Alice_Optimist",
+          "agent_id": "0cca00ef-fbc4-42ec-9f45-0865958c1db4",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 3,
+          "rebuttals_made": 1,
+          "personality": {
+            "creativity": 0.8,
+            "boldness": 0.7,
+            "aggressiveness": 0.4,
+            "optimism": 0.9,
+            "analytical_depth": 0.6
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Bob_Skeptic",
+          "agent_id": "d60caabb-d9cc-4d21-94b0-b42163bf9bff",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 1,
+          "rebuttals_made": 1,
+          "personality": {
+            "creativity": 0.4,
+            "boldness": 0.6,
+            "aggressiveness": 0.8,
+            "optimism": 0.2,
+            "analytical_depth": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Carol_Balanced",
+          "agent_id": "35fa2131-4af4-4f62-b8a2-ddc1b5233c0d",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 3,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.5,
+            "aggressiveness": 0.5,
+            "optimism": 0.5,
+            "analytical_depth": 0.7
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [
+        {
+          "agent_name": "Alice_Optimist",
+          "score": 0.0,
+          "challenges": 1,
+          "rebuttals": 1
+        },
+        {
+          "agent_name": "Bob_Skeptic",
+          "score": 0.0,
+          "challenges": 4,
+          "rebuttals": 1
+        },
+        {
+          "agent_name": "Carol_Balanced",
+          "score": 0.0,
+          "challenges": 2,
+          "rebuttals": 0
+        }
+      ],
+      "context": {
+        "round": 2,
+        "phase": "post_challenge"
+      }
+    },
+    {
+      "timestamp": 0.0034596920013427734,
+      "datetime": "2026-01-09T00:50:28.639390",
+      "agent_count": 3,
+      "proposal_count": 3,
+      "agents": [
+        {
+          "name": "Alice_Optimist",
+          "agent_id": "0cca00ef-fbc4-42ec-9f45-0865958c1db4",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 3,
+          "rebuttals_made": 1,
+          "personality": {
+            "creativity": 0.8,
+            "boldness": 0.7,
+            "aggressiveness": 0.4,
+            "optimism": 0.9,
+            "analytical_depth": 0.6
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Bob_Skeptic",
+          "agent_id": "d60caabb-d9cc-4d21-94b0-b42163bf9bff",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 1,
+          "rebuttals_made": 1,
+          "personality": {
+            "creativity": 0.4,
+            "boldness": 0.6,
+            "aggressiveness": 0.8,
+            "optimism": 0.2,
+            "analytical_depth": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Carol_Balanced",
+          "agent_id": "35fa2131-4af4-4f62-b8a2-ddc1b5233c0d",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 3,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.5,
+            "aggressiveness": 0.5,
+            "optimism": 0.5,
+            "analytical_depth": 0.7
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [
+        {
+          "agent_name": "Alice_Optimist",
+          "score": 0.0,
+          "challenges": 1,
+          "rebuttals": 1
+        },
+        {
+          "agent_name": "Bob_Skeptic",
+          "score": 0.0,
+          "challenges": 4,
+          "rebuttals": 1
+        },
+        {
+          "agent_name": "Carol_Balanced",
+          "score": 0.0,
+          "challenges": 2,
+          "rebuttals": 0
+        }
+      ],
+      "context": {
+        "phase": "REBUTTAL"
+      }
+    },
+    {
+      "timestamp": 0.003728151321411133,
+      "datetime": "2026-01-09T00:50:28.639659",
+      "agent_count": 3,
+      "proposal_count": 3,
+      "agents": [
+        {
+          "name": "Alice_Optimist",
+          "agent_id": "0cca00ef-fbc4-42ec-9f45-0865958c1db4",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 3,
+          "rebuttals_made": 1,
+          "personality": {
+            "creativity": 0.8,
+            "boldness": 0.7,
+            "aggressiveness": 0.4,
+            "optimism": 0.9,
+            "analytical_depth": 0.6
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Bob_Skeptic",
+          "agent_id": "d60caabb-d9cc-4d21-94b0-b42163bf9bff",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 1,
+          "rebuttals_made": 2,
+          "personality": {
+            "creativity": 0.4,
+            "boldness": 0.6,
+            "aggressiveness": 0.8,
+            "optimism": 0.2,
+            "analytical_depth": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Carol_Balanced",
+          "agent_id": "35fa2131-4af4-4f62-b8a2-ddc1b5233c0d",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 3,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.5,
+            "aggressiveness": 0.5,
+            "optimism": 0.5,
+            "analytical_depth": 0.7
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [
+        {
+          "agent_name": "Alice_Optimist",
+          "score": 0.0,
+          "challenges": 1,
+          "rebuttals": 1
+        },
+        {
+          "agent_name": "Bob_Skeptic",
+          "score": 0.0,
+          "challenges": 4,
+          "rebuttals": 2
+        },
+        {
+          "agent_name": "Carol_Balanced",
+          "score": 0.0,
+          "challenges": 2,
+          "rebuttals": 0
+        }
+      ],
+      "context": {
+        "round": 2,
+        "phase": "post_rebuttal"
+      }
+    },
+    {
+      "timestamp": 0.003739595413208008,
+      "datetime": "2026-01-09T00:50:28.639670",
+      "agent_count": 3,
+      "proposal_count": 3,
+      "agents": [
+        {
+          "name": "Alice_Optimist",
+          "agent_id": "0cca00ef-fbc4-42ec-9f45-0865958c1db4",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 3,
+          "rebuttals_made": 1,
+          "personality": {
+            "creativity": 0.8,
+            "boldness": 0.7,
+            "aggressiveness": 0.4,
+            "optimism": 0.9,
+            "analytical_depth": 0.6
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Bob_Skeptic",
+          "agent_id": "d60caabb-d9cc-4d21-94b0-b42163bf9bff",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 1,
+          "rebuttals_made": 2,
+          "personality": {
+            "creativity": 0.4,
+            "boldness": 0.6,
+            "aggressiveness": 0.8,
+            "optimism": 0.2,
+            "analytical_depth": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Carol_Balanced",
+          "agent_id": "35fa2131-4af4-4f62-b8a2-ddc1b5233c0d",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 3,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.5,
+            "aggressiveness": 0.5,
+            "optimism": 0.5,
+            "analytical_depth": 0.7
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [
+        {
+          "agent_name": "Alice_Optimist",
+          "score": 0.0,
+          "challenges": 1,
+          "rebuttals": 1
+        },
+        {
+          "agent_name": "Bob_Skeptic",
+          "score": 0.0,
+          "challenges": 4,
+          "rebuttals": 2
+        },
+        {
+          "agent_name": "Carol_Balanced",
+          "score": 0.0,
+          "challenges": 2,
+          "rebuttals": 0
+        }
+      ],
+      "context": {
+        "phase": "SCORING"
+      }
+    },
+    {
+      "timestamp": 0.004334449768066406,
+      "datetime": "2026-01-09T00:50:28.640265",
+      "agent_count": 3,
+      "proposal_count": 3,
+      "agents": [
+        {
+          "name": "Alice_Optimist",
+          "agent_id": "0cca00ef-fbc4-42ec-9f45-0865958c1db4",
+          "is_active": true,
+          "score": 58.5637330754352,
+          "proposals_made": 1,
+          "challenges_made": 3,
+          "rebuttals_made": 1,
+          "personality": {
+            "creativity": 0.8,
+            "boldness": 0.7,
+            "aggressiveness": 0.4,
+            "optimism": 0.9,
+            "analytical_depth": 0.6
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Bob_Skeptic",
+          "agent_id": "d60caabb-d9cc-4d21-94b0-b42163bf9bff",
+          "is_active": true,
+          "score": 64.39044439071567,
+          "proposals_made": 1,
+          "challenges_made": 1,
+          "rebuttals_made": 2,
+          "personality": {
+            "creativity": 0.4,
+            "boldness": 0.6,
+            "aggressiveness": 0.8,
+            "optimism": 0.2,
+            "analytical_depth": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Carol_Balanced",
+          "agent_id": "35fa2131-4af4-4f62-b8a2-ddc1b5233c0d",
+          "is_active": true,
+          "score": 59.87437661992263,
+          "proposals_made": 1,
+          "challenges_made": 3,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.5,
+            "aggressiveness": 0.5,
+            "optimism": 0.5,
+            "analytical_depth": 0.7
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [
+        {
+          "agent_name": "Alice_Optimist",
+          "score": 58.5637330754352,
+          "challenges": 1,
+          "rebuttals": 1
+        },
+        {
+          "agent_name": "Bob_Skeptic",
+          "score": 64.39044439071567,
+          "challenges": 4,
+          "rebuttals": 2
+        },
+        {
+          "agent_name": "Carol_Balanced",
+          "score": 59.87437661992263,
+          "challenges": 2,
+          "rebuttals": 0
+        }
+      ],
+      "context": {
+        "phase": "RESOLUTION"
+      }
+    },
+    {
+      "timestamp": 0.005152702331542969,
+      "datetime": "2026-01-09T00:50:28.641084",
+      "agent_count": 3,
+      "proposal_count": 3,
+      "agents": [
+        {
+          "name": "Alice_Optimist",
+          "agent_id": "0cca00ef-fbc4-42ec-9f45-0865958c1db4",
+          "is_active": true,
+          "score": 58.5637330754352,
+          "proposals_made": 1,
+          "challenges_made": 3,
+          "rebuttals_made": 1,
+          "personality": {
+            "creativity": 0.8,
+            "boldness": 0.7,
+            "aggressiveness": 0.4,
+            "optimism": 0.9,
+            "analytical_depth": 0.6
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Bob_Skeptic",
+          "agent_id": "d60caabb-d9cc-4d21-94b0-b42163bf9bff",
+          "is_active": true,
+          "score": 64.39044439071567,
+          "proposals_made": 1,
+          "challenges_made": 1,
+          "rebuttals_made": 2,
+          "personality": {
+            "creativity": 0.4,
+            "boldness": 0.6,
+            "aggressiveness": 0.8,
+            "optimism": 0.2,
+            "analytical_depth": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Carol_Balanced",
+          "agent_id": "35fa2131-4af4-4f62-b8a2-ddc1b5233c0d",
+          "is_active": true,
+          "score": 59.87437661992263,
+          "proposals_made": 1,
+          "challenges_made": 3,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.5,
+            "aggressiveness": 0.5,
+            "optimism": 0.5,
+            "analytical_depth": 0.7
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [
+        {
+          "agent_name": "Alice_Optimist",
+          "score": 55.17800724613153,
+          "challenges": 1,
+          "rebuttals": 1
+        },
+        {
+          "agent_name": "Bob_Skeptic",
+          "score": 60.41533252544728,
+          "challenges": 4,
+          "rebuttals": 2
+        },
+        {
+          "agent_name": "Carol_Balanced",
+          "score": 51.803609086004585,
+          "challenges": 2,
+          "rebuttals": 0
+        }
+      ],
+      "context": {
+        "phase": "completed",
+        "decision": {
+          "decision": "Accept proposal from Bob_Skeptic",
+          "winning_proposal": {
+            "proposal_id": "bfe53d46-8050-493b-98d2-dccbc93cf786",
+            "agent_id": "d60caabb-d9cc-4d21-94b0-b42163bf9bff",
+            "agent_name": "Bob_Skeptic",
+            "content": "Through systematic analysis of Should companies implement a 4-day work week?, we can identify multiple interdependent factors. I propose a balanced strategy that addresses Should companies implement a 4-day work week? through measured innovation. This approach balances effectiveness with feasibility.",
+            "timestamp": 1767916228.6371305,
+            "score": 60.41533252544728,
+            "challenges": [
+              {
+                "agent_id": "0cca00ef-fbc4-42ec-9f45-0865958c1db4",
+                "agent_name": "Alice_Optimist",
+                "content": "Consider a scenario where initial assumptions prove incorrect. This directly contradicts the proposal's core premise. The implications undermine the entire approach.",
+                "message_type": "challenge",
+                "timestamp": 1767916228.6377347,
+                "phase": "challenge",
+                "target_agent_id": "d60caabb-d9cc-4d21-94b0-b42163bf9bff",
+                "metadata": {
+                  "proposal_id": "bfe53d46-8050-493b-98d2-dccbc93cf786"
+                }
+              },
+              {
+                "agent_id": "35fa2131-4af4-4f62-b8a2-ddc1b5233c0d",
+                "agent_name": "Carol_Balanced",
+                "content": "Consider a scenario where initial assumptions prove incorrect. This directly contradicts the proposal's core premise. The implications undermine the entire approach.",
+                "message_type": "challenge",
+                "timestamp": 1767916228.6380677,
+                "phase": "challenge",
+                "target_agent_id": "d60caabb-d9cc-4d21-94b0-b42163bf9bff",
+                "metadata": {
+                  "proposal_id": "bfe53d46-8050-493b-98d2-dccbc93cf786"
+                }
+              },
+              {
+                "agent_id": "0cca00ef-fbc4-42ec-9f45-0865958c1db4",
+                "agent_name": "Alice_Optimist",
+                "content": "A critical weakness in Through systematic analysis of Should companies implement a 4-day work week?, we can identify multiple interdependent factors. I propose a balanced strategy that addresses Should companies implement a 4-day work week? through measured innovation. This approach balances effectiveness with feasibility. is its failure to account for edge cases. This oversight could lead to cascading failures under stress conditions. A more robust alternative would incorporate fail-safes and contingency planning.",
+                "message_type": "challenge",
+                "timestamp": 1767916228.6387923,
+                "phase": "challenge",
+                "target_agent_id": "d60caabb-d9cc-4d21-94b0-b42163bf9bff",
+                "metadata": {
+                  "proposal_id": "bfe53d46-8050-493b-98d2-dccbc93cf786"
+                }
+              },
+              {
+                "agent_id": "35fa2131-4af4-4f62-b8a2-ddc1b5233c0d",
+                "agent_name": "Carol_Balanced",
+                "content": "The proposal claims to solve the problem comprehensively. However, what evidence supports this claim? Concrete metrics and validation criteria are required.",
+                "message_type": "challenge",
+                "timestamp": 1767916228.6392467,
+                "phase": "challenge",
+                "target_agent_id": "d60caabb-d9cc-4d21-94b0-b42163bf9bff",
+                "metadata": {
+                  "proposal_id": "bfe53d46-8050-493b-98d2-dccbc93cf786"
+                }
+              }
+            ],
+            "rebuttals": [
+              {
+                "agent_id": "d60caabb-d9cc-4d21-94b0-b42163bf9bff",
+                "agent_name": "Bob_Skeptic",
+                "content": "While I understand the concern, the underlying analysis actually supports my proposal when examined more carefully. In fact, this reinforces the need for my proposed approach.",
+                "message_type": "rebuttal",
+                "timestamp": 1767916228.638476,
+                "phase": "rebuttal",
+                "target_agent_id": "35fa2131-4af4-4f62-b8a2-ddc1b5233c0d",
+                "metadata": {
+                  "proposal_id": "bfe53d46-8050-493b-98d2-dccbc93cf786",
+                  "challenge_agent": "Carol_Balanced"
+                }
+              },
+              {
+                "agent_id": "d60caabb-d9cc-4d21-94b0-b42163bf9bff",
+                "agent_name": "Bob_Skeptic",
+                "content": "Reframing the challenge reveals it as an opportunity rather than an obstacle. Within the broader context, this apparent conflict resolves naturally through proper implementation.",
+                "message_type": "rebuttal",
+                "timestamp": 1767916228.6395268,
+                "phase": "rebuttal",
+                "target_agent_id": "0cca00ef-fbc4-42ec-9f45-0865958c1db4",
+                "metadata": {
+                  "proposal_id": "bfe53d46-8050-493b-98d2-dccbc93cf786",
+                  "challenge_agent": "Alice_Optimist"
+                }
+              }
+            ]
+          },
+          "all_scores": {
+            "238349f7-90a4-443e-9fc4-5a1db4a8417e": 55.17800724613153,
+            "bfe53d46-8050-493b-98d2-dccbc93cf786": 60.41533252544728,
+            "d3bb09ab-df37-4de0-9172-9f766e9ada54": 51.803609086004585
+          },
+          "reasoning": "After evaluating 3 proposals through adaptive scoring, I have determined that Bob_Skeptic's proposal is the strongest with a score of 60.4 points. This decision is made with moderate confidence. The proposal faced 4 challenges. The proposer provided 2 rebuttals, demonstrating strong defensive reasoning. The proposal demonstrates systematic analysis. This decision adapts to the specific context and learned patterns from previous debates. Historical data supports similar approaches with 61% success rate.",
+          "confidence": 0.4666854677823563,
+          "score_variance": 3.5430357294569164,
+          "timestamp": 1767916228.6405895
+        }
+      }
+    }
+  ],
+  "events": [
+    {
+      "timestamp": 0.0008015632629394531,
+      "datetime": "2026-01-09T00:50:28.636733",
+      "event_type": "phase_start",
+      "details": {
+        "phase": "PROPOSAL"
+      }
+    },
+    {
+      "timestamp": 0.00165557861328125,
+      "datetime": "2026-01-09T00:50:28.637587",
+      "event_type": "phase_start",
+      "details": {
+        "phase": "CHALLENGE"
+      }
+    },
+    {
+      "timestamp": 0.002270936965942383,
+      "datetime": "2026-01-09T00:50:28.638201",
+      "event_type": "phase_start",
+      "details": {
+        "phase": "REBUTTAL"
+      }
+    },
+    {
+      "timestamp": 0.0027511119842529297,
+      "datetime": "2026-01-09T00:50:28.638684",
+      "event_type": "phase_start",
+      "details": {
+        "phase": "CHALLENGE"
+      }
+    },
+    {
+      "timestamp": 0.003467082977294922,
+      "datetime": "2026-01-09T00:50:28.639398",
+      "event_type": "phase_start",
+      "details": {
+        "phase": "REBUTTAL"
+      }
+    },
+    {
+      "timestamp": 0.0037450790405273438,
+      "datetime": "2026-01-09T00:50:28.639676",
+      "event_type": "phase_start",
+      "details": {
+        "phase": "SCORING"
+      }
+    },
+    {
+      "timestamp": 0.004329204559326172,
+      "datetime": "2026-01-09T00:50:28.640260",
+      "event_type": "scoring",
+      "details": {
+        "scores": {
+          "Alice_Optimist": 58.5637330754352,
+          "Bob_Skeptic": 64.39044439071567,
+          "Carol_Balanced": 59.87437661992263
+        }
+      }
+    },
+    {
+      "timestamp": 0.004342555999755859,
+      "datetime": "2026-01-09T00:50:28.640273",
+      "event_type": "phase_start",
+      "details": {
+        "phase": "RESOLUTION"
+      }
+    },
+    {
+      "timestamp": 0.005167484283447266,
+      "datetime": "2026-01-09T00:50:28.641098",
+      "event_type": "debate_completed",
+      "details": {
+        "decision": "Accept proposal from Bob_Skeptic"
+      }
+    }
+  ],
+  "summary": {
+    "agent_count_change": 0,
+    "total_proposals": 3,
+    "snapshots_taken": 14,
+    "events_logged": 9,
+    "duration": 0.006031990051269531
+  }
+}

@@ -1,0 +1,85 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "synapse-clm"
+version = "1.0.0"
+description = "Cognitive Language Model — a self-developing cognitive AI that grows from LLM-dependent to fully sovereign"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "Apache-2.0"}
+authors = [
+    {name = "Ivan Lluch / Synapse Data"}
+]
+keywords = [
+    "cognitive-ai",
+    "cognitive-language-model",
+    "self-organizing",
+    "sovereign-ai",
+    "developmental-ai",
+    "neural-network",
+    "hebbian-learning",
+    "no-gpu",
+    "llm-alternative",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Developers",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+
+# Zero mandatory dependencies — pure Python stdlib
+dependencies = []
+
+[project.optional-dependencies]
+# LLM providers (infancy grounding only — not needed at maturity)
+ollama = []                                    # Uses urllib — no extra package needed
+openai = ["openai>=1.0.0"]
+anthropic = ["anthropic>=0.18.0"]
+
+# Server deployment
+server = ["fastapi>=0.100.0", "uvicorn>=0.23.0"]
+
+# All optional features
+all = [
+    "openai>=1.0.0",
+    "anthropic>=0.18.0",
+    "fastapi>=0.100.0",
+    "uvicorn>=0.23.0",
+]
+
+# Development
+dev = [
+    "pytest>=7.0.0",
+    "pytest-asyncio>=0.21.0",
+    "black>=23.0.0",
+    "mypy>=1.0.0",
+]
+
+[project.scripts]
+clm = "clm.__main__:main"
+
+[project.urls]
+Homepage = "https://github.com/synapse-data/clm"
+Documentation = "https://github.com/synapse-data/clm#readme"
+Repository = "https://github.com/synapse-data/clm"
+Issues = "https://github.com/synapse-data/clm/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["clm*"]
+
+[tool.black]
+line-length = 100
+target-version = ["py310"]
+
+[tool.mypy]
+python_version = "3.10"
+ignore_missing_imports = true

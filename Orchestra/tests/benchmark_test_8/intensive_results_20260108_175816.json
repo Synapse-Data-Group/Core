@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-01-08T17:34:23.441989",
+  "test_suite": "Intensive Test 8 - Memory Under Load",
+  "total_llm_calls": 101,
+  "total_cost": 2.14893,
+  "total_time": 1432.6266343593597,
+  "benchmarks": {
+    "100_turn_conversation": {
+      "total_turns": 100,
+      "successful": 101,
+      "total_time_seconds": 1432.6254119873047,
+      "total_cost_usd": 2.14893,
+      "total_tokens": 37851,
+      "avg_latency_seconds": 14.184391623676413,
+      "median_latency_seconds": 14.259988069534302,
+      "p95_latency_seconds": 23.232563781738282,
+      "p99_latency_seconds": 71.35650311946868,
+      "throughput_turns_per_sec": 0.07049993609976186
+    }
+  }
+}

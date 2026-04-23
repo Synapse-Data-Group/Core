@@ -1,0 +1,63 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "smart-resilience"
+version = "0.1.0"
+description = "Cognitive-aware resilience primitives for AI agents - retry, circuit breaker, rate limiting with intelligence"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "Apache-2.0"}
+authors = [
+    {name = "Synapse Data / Ivan Lluch"}
+]
+keywords = [
+    "ai-agents",
+    "resilience",
+    "retry",
+    "circuit-breaker",
+    "rate-limiting",
+    "cognitive-load",
+    "reliability",
+    "fault-tolerance"
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Operating System :: OS Independent",
+]
+
+dependencies = []
+
+[project.optional-dependencies]
+cognitive = [
+    "cognitive-load-monitor>=0.1.0",
+    "synapse-meo>=0.1.0",
+]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-asyncio>=0.21.0",
+    "black>=23.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/synapse-data/smart-resilience"
+Documentation = "https://github.com/synapse-data/smart-resilience#readme"
+Repository = "https://github.com/synapse-data/smart-resilience"
+Issues = "https://github.com/synapse-data/smart-resilience/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["smart_resilience*"]
+
+[tool.black]
+line-length = 100
+target-version = ['py310']

@@ -1,0 +1,64 @@
+{
+  "timestamp": "2026-01-08T16:34:24.453626",
+  "benchmarks": {
+    "parallel_vs_sequential": {
+      "orchestra": {
+        "avg_time": 19.065895080566406,
+        "total_cost": 0,
+        "method": "Parallel Swarm with Consensus"
+      },
+      "langchain": {
+        "avg_time": 15.010749459266663,
+        "method": "Sequential Execution"
+      },
+      "speedup": 0.7873089302042213,
+      "winner": "LangChain"
+    },
+    "memory_cache": {
+      "orchestra": {
+        "avg_time": 5.7697296142578125e-05,
+        "cache_hit_rate": 0.0,
+        "feature": "Built-in embedded memory with LRU cache"
+      },
+      "langchain": {
+        "feature": "Requires external caching (Redis/DB)",
+        "setup_complexity": "High"
+      },
+      "winner": "Orchestra"
+    },
+    "wisdom_layer": {
+      "orchestra": {
+        "patterns_discovered": 0,
+        "feature": "Automatic pattern learning and recommendations"
+      },
+      "langchain": {
+        "feature": "Not available"
+      },
+      "winner": "Orchestra"
+    },
+    "capability_discovery": {
+      "orchestra": {
+        "feature": "Automatic self-learning capability profiles"
+      },
+      "langchain": {
+        "feature": "Manual agent configuration"
+      },
+      "winner": "Orchestra"
+    },
+    "rl_routing": {
+      "orchestra": {
+        "feature": "Q-learning based routing that improves over time"
+      },
+      "langchain": {
+        "feature": "Static if-else routing"
+      },
+      "winner": "Orchestra"
+    }
+  },
+  "summary": {
+    "total_benchmarks": 5,
+    "orchestra_wins": 4,
+    "langchain_wins": 1,
+    "overall_winner": "Orchestra"
+  }
+}

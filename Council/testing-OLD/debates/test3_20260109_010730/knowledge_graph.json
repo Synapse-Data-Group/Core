@@ -1,0 +1,396 @@
+{
+  "nodes": [
+    {
+      "node_id": "node_1",
+      "concept": "innovation",
+      "node_type": "debate_concept",
+      "mentions": 5,
+      "confidence": 0.7500000000000002,
+      "metadata": {
+        "agent_id": "5ae669cf-96ae-445c-a375-0059e871c6c9",
+        "message_type": "proposal",
+        "timestamp": 1767917264.4636652
+      }
+    },
+    {
+      "node_id": "node_2",
+      "concept": "regulatory",
+      "node_type": "debate_concept",
+      "mentions": 11,
+      "confidence": 1.0,
+      "metadata": {
+        "agent_id": "5ae669cf-96ae-445c-a375-0059e871c6c9",
+        "message_type": "proposal",
+        "timestamp": 1767917264.4636743
+      }
+    },
+    {
+      "node_id": "node_3",
+      "concept": "framework",
+      "node_type": "debate_concept",
+      "mentions": 10,
+      "confidence": 1.0,
+      "metadata": {
+        "agent_id": "5ae669cf-96ae-445c-a375-0059e871c6c9",
+        "message_type": "proposal",
+        "timestamp": 1767917264.4636781
+      }
+    },
+    {
+      "node_id": "node_4",
+      "concept": "govern",
+      "node_type": "debate_concept",
+      "mentions": 8,
+      "confidence": 0.9000000000000004,
+      "metadata": {
+        "agent_id": "5ae669cf-96ae-445c-a375-0059e871c6c9",
+        "message_type": "proposal",
+        "timestamp": 1767917264.4636798
+      }
+    },
+    {
+      "node_id": "node_5",
+      "concept": "systems",
+      "node_type": "debate_concept",
+      "mentions": 8,
+      "confidence": 0.9000000000000004,
+      "metadata": {
+        "agent_id": "5ae669cf-96ae-445c-a375-0059e871c6c9",
+        "message_type": "proposal",
+        "timestamp": 1767917264.4636812
+      }
+    },
+    {
+      "node_id": "node_6",
+      "concept": "healthcare",
+      "node_type": "debate_concept",
+      "mentions": 8,
+      "confidence": 0.9000000000000004,
+      "metadata": {
+        "agent_id": "5ae669cf-96ae-445c-a375-0059e871c6c9",
+        "message_type": "proposal",
+        "timestamp": 1767917264.4636824
+      }
+    },
+    {
+      "node_id": "node_7",
+      "concept": "considering",
+      "node_type": "debate_concept",
+      "mentions": 8,
+      "confidence": 0.9000000000000004,
+      "metadata": {
+        "agent_id": "5ae669cf-96ae-445c-a375-0059e871c6c9",
+        "message_type": "proposal",
+        "timestamp": 1767917264.4636836
+      }
+    },
+    {
+      "node_id": "node_8",
+      "concept": "patient",
+      "node_type": "debate_concept",
+      "mentions": 8,
+      "confidence": 0.9000000000000004,
+      "metadata": {
+        "agent_id": "5ae669cf-96ae-445c-a375-0059e871c6c9",
+        "message_type": "proposal",
+        "timestamp": 1767917264.4636848
+      }
+    },
+    {
+      "node_id": "node_9",
+      "concept": "safety",
+      "node_type": "debate_concept",
+      "mentions": 8,
+      "confidence": 0.9000000000000004,
+      "metadata": {
+        "agent_id": "5ae669cf-96ae-445c-a375-0059e871c6c9",
+        "message_type": "proposal",
+        "timestamp": 1767917264.4636858
+      }
+    },
+    {
+      "node_id": "node_10",
+      "concept": "ethical",
+      "node_type": "debate_concept",
+      "mentions": 5,
+      "confidence": 0.7500000000000002,
+      "metadata": {
+        "agent_id": "5ae669cf-96ae-445c-a375-0059e871c6c9",
+        "message_type": "proposal",
+        "timestamp": 1767917264.4636867
+      }
+    },
+    {
+      "node_id": "node_11",
+      "concept": "through",
+      "node_type": "debate_concept",
+      "mentions": 5,
+      "confidence": 0.7500000000000002,
+      "metadata": {
+        "agent_id": "5ae669cf-96ae-445c-a375-0059e871c6c9",
+        "message_type": "proposal",
+        "timestamp": 1767917264.4636877
+      }
+    },
+    {
+      "node_id": "node_12",
+      "concept": "what",
+      "node_type": "debate_concept",
+      "mentions": 14,
+      "confidence": 1.0,
+      "metadata": {
+        "agent_id": "5ae669cf-96ae-445c-a375-0059e871c6c9",
+        "message_type": "proposal",
+        "timestamp": 1767917264.4636893
+      }
+    },
+    {
+      "node_id": "node_13",
+      "concept": "this",
+      "node_type": "debate_concept",
+      "mentions": 3,
+      "confidence": 0.6500000000000001,
+      "metadata": {
+        "agent_id": "5ae669cf-96ae-445c-a375-0059e871c6c9",
+        "message_type": "proposal",
+        "timestamp": 1767917264.4636922
+      }
+    },
+    {
+      "node_id": "node_14",
+      "concept": "proposal",
+      "node_type": "concept",
+      "mentions": 8,
+      "confidence": 0.9000000000000004,
+      "metadata": {}
+    },
+    {
+      "node_id": "node_15",
+      "concept": "conventional",
+      "node_type": "debate_concept",
+      "mentions": 2,
+      "confidence": 0.6000000000000001,
+      "metadata": {
+        "agent_id": "11d7a538-e206-401e-8ed6-909ff06e076c",
+        "message_type": "proposal",
+        "timestamp": 1767917269.4678347
+      }
+    },
+    {
+      "node_id": "node_16",
+      "concept": "wisdom",
+      "node_type": "debate_concept",
+      "mentions": 3,
+      "confidence": 0.6500000000000001,
+      "metadata": {
+        "agent_id": "11d7a538-e206-401e-8ed6-909ff06e076c",
+        "message_type": "proposal",
+        "timestamp": 1767917269.4678388
+      }
+    },
+    {
+      "node_id": "node_17",
+      "concept": "the",
+      "node_type": "debate_concept",
+      "mentions": 4,
+      "confidence": 0.7000000000000002,
+      "metadata": {
+        "agent_id": "11d7a538-e206-401e-8ed6-909ff06e076c",
+        "message_type": "proposal",
+        "timestamp": 1767917269.467846
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source_id": "node_1",
+      "target_id": "node_2",
+      "relationship": "co_occurs_with",
+      "weight": 0.6,
+      "reinforcements": 2
+    },
+    {
+      "source_id": "node_2",
+      "target_id": "node_3",
+      "relationship": "co_occurs_with",
+      "weight": 0.7,
+      "reinforcements": 3
+    },
+    {
+      "source_id": "node_3",
+      "target_id": "node_4",
+      "relationship": "co_occurs_with",
+      "weight": 0.7,
+      "reinforcements": 3
+    },
+    {
+      "source_id": "node_4",
+      "target_id": "node_5",
+      "relationship": "co_occurs_with",
+      "weight": 0.7,
+      "reinforcements": 3
+    },
+    {
+      "source_id": "node_5",
+      "target_id": "node_6",
+      "relationship": "co_occurs_with",
+      "weight": 0.7,
+      "reinforcements": 3
+    },
+    {
+      "source_id": "node_6",
+      "target_id": "node_7",
+      "relationship": "co_occurs_with",
+      "weight": 0.7,
+      "reinforcements": 3
+    },
+    {
+      "source_id": "node_7",
+      "target_id": "node_8",
+      "relationship": "co_occurs_with",
+      "weight": 0.7,
+      "reinforcements": 3
+    },
+    {
+      "source_id": "node_8",
+      "target_id": "node_9",
+      "relationship": "co_occurs_with",
+      "weight": 0.7,
+      "reinforcements": 3
+    },
+    {
+      "source_id": "node_9",
+      "target_id": "node_10",
+      "relationship": "co_occurs_with",
+      "weight": 0.6,
+      "reinforcements": 2
+    },
+    {
+      "source_id": "node_10",
+      "target_id": "node_11",
+      "relationship": "co_occurs_with",
+      "weight": 0.6,
+      "reinforcements": 2
+    },
+    {
+      "source_id": "node_11",
+      "target_id": "node_12",
+      "relationship": "co_occurs_with",
+      "weight": 0.6,
+      "reinforcements": 2
+    },
+    {
+      "source_id": "node_12",
+      "target_id": "node_12",
+      "relationship": "co_occurs_with",
+      "weight": 0.6,
+      "reinforcements": 2
+    },
+    {
+      "source_id": "node_12",
+      "target_id": "node_13",
+      "relationship": "co_occurs_with",
+      "weight": 0.6,
+      "reinforcements": 2
+    },
+    {
+      "source_id": "node_14",
+      "target_id": "node_1",
+      "relationship": "contains",
+      "weight": 0.9,
+      "reinforcements": 2
+    },
+    {
+      "source_id": "node_14",
+      "target_id": "node_2",
+      "relationship": "contains",
+      "weight": 1.0,
+      "reinforcements": 3
+    },
+    {
+      "source_id": "node_14",
+      "target_id": "node_3",
+      "relationship": "contains",
+      "weight": 0.9,
+      "reinforcements": 2
+    },
+    {
+      "source_id": "node_15",
+      "target_id": "node_16",
+      "relationship": "co_occurs_with",
+      "weight": 0.5,
+      "reinforcements": 1
+    },
+    {
+      "source_id": "node_16",
+      "target_id": "node_2",
+      "relationship": "co_occurs_with",
+      "weight": 0.5,
+      "reinforcements": 1
+    },
+    {
+      "source_id": "node_9",
+      "target_id": "node_17",
+      "relationship": "co_occurs_with",
+      "weight": 0.5,
+      "reinforcements": 1
+    },
+    {
+      "source_id": "node_17",
+      "target_id": "node_12",
+      "relationship": "co_occurs_with",
+      "weight": 0.5,
+      "reinforcements": 1
+    },
+    {
+      "source_id": "node_12",
+      "target_id": "node_17",
+      "relationship": "co_occurs_with",
+      "weight": 0.5,
+      "reinforcements": 1
+    },
+    {
+      "source_id": "node_14",
+      "target_id": "node_15",
+      "relationship": "contains",
+      "weight": 0.8,
+      "reinforcements": 1
+    },
+    {
+      "source_id": "node_14",
+      "target_id": "node_16",
+      "relationship": "contains",
+      "weight": 0.8,
+      "reinforcements": 1
+    }
+  ],
+  "stats": {
+    "total_nodes": 17,
+    "total_edges": 23,
+    "total_concepts": 17,
+    "avg_node_degree": 2.7058823529411766,
+    "most_central": [
+      [
+        "what",
+        6
+      ],
+      [
+        "proposal",
+        5
+      ],
+      [
+        "regulatory",
+        4
+      ],
+      [
+        "framework",
+        3
+      ],
+      [
+        "safety",
+        3
+      ]
+    ],
+    "extractions": 3
+  }
+}

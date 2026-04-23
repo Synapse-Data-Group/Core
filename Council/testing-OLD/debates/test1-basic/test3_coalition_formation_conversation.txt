@@ -1,0 +1,21 @@
+================================================================================
+DEBATE CONVERSATION LOG
+Test: test3_coalition_formation
+Timestamp: 2026-01-09T00:50:34.666930
+================================================================================
+
+Problem: What is the best strategy for space exploration?
+Initial Agents: 4
+
+================================================================================
+
+
+================================================================================
+FINAL DECISION
+================================================================================
+
+Winner: Accept proposal from Agent_B
+Confidence: 59.7%
+
+Reasoning:
+After evaluating 4 proposals through adaptive scoring, I have determined that Agent_B's proposal is the strongest with a score of 61.6 points. This decision is made with moderate confidence. The proposal faced 1 challenges. The proposer provided 1 rebuttals, demonstrating strong defensive reasoning. This decision adapts to the specific context and learned patterns from previous debates.

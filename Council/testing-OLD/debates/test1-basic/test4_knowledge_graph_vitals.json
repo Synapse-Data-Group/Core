@@ -1,0 +1,168 @@
+{
+  "test_name": "test4_knowledge_graph",
+  "start_time": "2026-01-09T00:50:37.680112",
+  "duration_seconds": 0.012747764587402344,
+  "total_snapshots": 3,
+  "total_events": 3,
+  "snapshots": [
+    {
+      "timestamp": 0.004589557647705078,
+      "datetime": "2026-01-09T00:50:37.684702",
+      "agent_count": 0,
+      "proposal_count": 0,
+      "agents": [],
+      "proposals": [],
+      "context": {
+        "debate": 1,
+        "knowledge_graph": {
+          "total_nodes": 25,
+          "total_edges": 31,
+          "total_concepts": 25,
+          "avg_node_degree": 2.48,
+          "most_central": [
+            [
+              "how",
+              6
+            ],
+            [
+              "looking",
+              4
+            ],
+            [
+              "propose",
+              4
+            ],
+            [
+              "renewable",
+              3
+            ],
+            [
+              "energy",
+              3
+            ]
+          ],
+          "extractions": 3
+        }
+      }
+    },
+    {
+      "timestamp": 0.008377790451049805,
+      "datetime": "2026-01-09T00:50:37.688490",
+      "agent_count": 0,
+      "proposal_count": 0,
+      "agents": [],
+      "proposals": [],
+      "context": {
+        "debate": 2,
+        "knowledge_graph": {
+          "total_nodes": 43,
+          "total_edges": 60,
+          "total_concepts": 43,
+          "avg_node_degree": 2.7906976744186047,
+          "most_central": [
+            [
+              "proposal",
+              9
+            ],
+            [
+              "how",
+              6
+            ],
+            [
+              "multiple",
+              6
+            ],
+            [
+              "approach",
+              5
+            ],
+            [
+              "factors",
+              5
+            ]
+          ],
+          "extractions": 6
+        }
+      }
+    },
+    {
+      "timestamp": 0.012293815612792969,
+      "datetime": "2026-01-09T00:50:37.692406",
+      "agent_count": 0,
+      "proposal_count": 0,
+      "agents": [],
+      "proposals": [],
+      "context": {
+        "debate": 3,
+        "knowledge_graph": {
+          "total_nodes": 46,
+          "total_edges": 69,
+          "total_concepts": 46,
+          "avg_node_degree": 3.0,
+          "most_central": [
+            [
+              "proposal",
+              10
+            ],
+            [
+              "how",
+              7
+            ],
+            [
+              "approach",
+              6
+            ],
+            [
+              "multiple",
+              6
+            ],
+            [
+              "renewable",
+              5
+            ]
+          ],
+          "extractions": 9
+        }
+      }
+    }
+  ],
+  "events": [
+    {
+      "timestamp": 0.004583597183227539,
+      "datetime": "2026-01-09T00:50:37.684696",
+      "event_type": "debate_1_completed",
+      "details": {
+        "problem": "How to improve renewable energy adoption?",
+        "concepts": 25,
+        "relationships": 31
+      }
+    },
+    {
+      "timestamp": 0.008372306823730469,
+      "datetime": "2026-01-09T00:50:37.688485",
+      "event_type": "debate_2_completed",
+      "details": {
+        "problem": "What are the challenges in renewable energy?",
+        "concepts": 43,
+        "relationships": 60
+      }
+    },
+    {
+      "timestamp": 0.012289285659790039,
+      "datetime": "2026-01-09T00:50:37.692402",
+      "event_type": "debate_3_completed",
+      "details": {
+        "problem": "How to make renewable energy economically viable?",
+        "concepts": 46,
+        "relationships": 69
+      }
+    }
+  ],
+  "summary": {
+    "agent_count_change": 0,
+    "total_proposals": 0,
+    "snapshots_taken": 3,
+    "events_logged": 3,
+    "duration": 0.012748956680297852
+  }
+}

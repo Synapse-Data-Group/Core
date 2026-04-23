@@ -1,0 +1,5337 @@
+{
+  "test_name": "test6_end_to_end",
+  "start_time": "2026-01-09T11:29:47.593366",
+  "duration_seconds": 733.316573381424,
+  "total_snapshots": 50,
+  "total_events": 34,
+  "snapshots": [
+    {
+      "timestamp": 2.0022642612457275,
+      "datetime": "2026-01-09T11:29:49.595631",
+      "agent_count": 0,
+      "proposal_count": 0,
+      "agents": [],
+      "proposals": [],
+      "context": {
+        "phase": "initialization",
+        "initial_agents": 0,
+        "moderator_only": true,
+        "fluid_resourcing_enabled": true
+      }
+    },
+    {
+      "timestamp": 8.00949215888977,
+      "datetime": "2026-01-09T11:29:55.602859",
+      "agent_count": 1,
+      "proposal_count": 0,
+      "agents": [
+        {
+          "name": "Analyst_1",
+          "agent_id": "549ceb36-88e8-4d84-8459-7cd0faad16b7",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.3,
+            "boldness": 0.4,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.5,
+            "supportiveness": 0.5,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.95,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.8,
+            "formality": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [],
+      "context": {
+        "event": "agent_spawned",
+        "agent": "Analyst_1",
+        "role": "analyze",
+        "reason": "bootstrap_foundation",
+        "llm_powered": true,
+        "capabilities": [
+          "gpt_reasoning",
+          "emotion_engine",
+          "real_web_search",
+          "reputation",
+          "coalition",
+          "knowledge_graph",
+          "multimodal",
+          "quality_metrics"
+        ]
+      }
+    },
+    {
+      "timestamp": 11.01175308227539,
+      "datetime": "2026-01-09T11:29:58.605119",
+      "agent_count": 2,
+      "proposal_count": 0,
+      "agents": [
+        {
+          "name": "Analyst_1",
+          "agent_id": "549ceb36-88e8-4d84-8459-7cd0faad16b7",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.3,
+            "boldness": 0.4,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.5,
+            "supportiveness": 0.5,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.95,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.8,
+            "formality": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Ethicist_2",
+          "agent_id": "a5cebd69-a491-4c9c-acda-94abc2745318",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.5,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.6,
+            "supportiveness": 0.6,
+            "analytical_depth": 0.8,
+            "evidence_reliance": 0.7,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.7,
+            "formality": 0.8
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [],
+      "context": {
+        "event": "agent_spawned",
+        "agent": "Ethicist_2",
+        "role": "ethics",
+        "reason": "bootstrap_foundation",
+        "llm_powered": true,
+        "capabilities": [
+          "gpt_reasoning",
+          "emotion_engine",
+          "real_web_search",
+          "reputation",
+          "coalition",
+          "knowledge_graph",
+          "multimodal",
+          "quality_metrics"
+        ]
+      }
+    },
+    {
+      "timestamp": 14.013604164123535,
+      "datetime": "2026-01-09T11:30:01.606970",
+      "agent_count": 3,
+      "proposal_count": 0,
+      "agents": [
+        {
+          "name": "Analyst_1",
+          "agent_id": "549ceb36-88e8-4d84-8459-7cd0faad16b7",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.3,
+            "boldness": 0.4,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.5,
+            "supportiveness": 0.5,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.95,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.8,
+            "formality": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Ethicist_2",
+          "agent_id": "a5cebd69-a491-4c9c-acda-94abc2745318",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.5,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.6,
+            "supportiveness": 0.6,
+            "analytical_depth": 0.8,
+            "evidence_reliance": 0.7,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.7,
+            "formality": 0.8
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Innovator_3",
+          "agent_id": "7713a4a6-9444-448c-9660-45ab4314ac62",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.5,
+            "defensiveness": 0.6,
+            "supportiveness": 0.4,
+            "analytical_depth": 0.5,
+            "evidence_reliance": 0.4,
+            "confidence": 0.8,
+            "optimism": 0.9,
+            "verbosity": 0.7,
+            "formality": 0.4
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [],
+      "context": {
+        "event": "agent_spawned",
+        "agent": "Innovator_3",
+        "role": "innovate",
+        "reason": "bootstrap_foundation",
+        "llm_powered": true,
+        "capabilities": [
+          "gpt_reasoning",
+          "emotion_engine",
+          "real_web_search",
+          "reputation",
+          "coalition",
+          "knowledge_graph",
+          "multimodal",
+          "quality_metrics"
+        ]
+      }
+    },
+    {
+      "timestamp": 16.014413833618164,
+      "datetime": "2026-01-09T11:30:03.607783",
+      "agent_count": 3,
+      "proposal_count": 0,
+      "agents": [
+        {
+          "name": "Analyst_1",
+          "agent_id": "549ceb36-88e8-4d84-8459-7cd0faad16b7",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.3,
+            "boldness": 0.4,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.5,
+            "supportiveness": 0.5,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.95,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.8,
+            "formality": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Ethicist_2",
+          "agent_id": "a5cebd69-a491-4c9c-acda-94abc2745318",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.5,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.6,
+            "supportiveness": 0.6,
+            "analytical_depth": 0.8,
+            "evidence_reliance": 0.7,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.7,
+            "formality": 0.8
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Innovator_3",
+          "agent_id": "7713a4a6-9444-448c-9660-45ab4314ac62",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.5,
+            "defensiveness": 0.6,
+            "supportiveness": 0.4,
+            "analytical_depth": 0.5,
+            "evidence_reliance": 0.4,
+            "confidence": 0.8,
+            "optimism": 0.9,
+            "verbosity": 0.7,
+            "formality": 0.4
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [],
+      "context": {
+        "phase": "bootstrap_complete",
+        "agent_count": 3
+      }
+    },
+    {
+      "timestamp": 16.014629125595093,
+      "datetime": "2026-01-09T11:30:03.607996",
+      "agent_count": 3,
+      "proposal_count": 0,
+      "agents": [
+        {
+          "name": "Analyst_1",
+          "agent_id": "549ceb36-88e8-4d84-8459-7cd0faad16b7",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.3,
+            "boldness": 0.4,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.5,
+            "supportiveness": 0.5,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.95,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.8,
+            "formality": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Ethicist_2",
+          "agent_id": "a5cebd69-a491-4c9c-acda-94abc2745318",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.5,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.6,
+            "supportiveness": 0.6,
+            "analytical_depth": 0.8,
+            "evidence_reliance": 0.7,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.7,
+            "formality": 0.8
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Innovator_3",
+          "agent_id": "7713a4a6-9444-448c-9660-45ab4314ac62",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.5,
+            "defensiveness": 0.6,
+            "supportiveness": 0.4,
+            "analytical_depth": 0.5,
+            "evidence_reliance": 0.4,
+            "confidence": 0.8,
+            "optimism": 0.9,
+            "verbosity": 0.7,
+            "formality": 0.4
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [],
+      "context": {
+        "phase": "PROPOSAL"
+      }
+    },
+    {
+      "timestamp": 43.40623497962952,
+      "datetime": "2026-01-09T11:30:30.999604",
+      "agent_count": 3,
+      "proposal_count": 3,
+      "agents": [
+        {
+          "name": "Analyst_1",
+          "agent_id": "549ceb36-88e8-4d84-8459-7cd0faad16b7",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.3,
+            "boldness": 0.4,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.5,
+            "supportiveness": 0.5,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.95,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.8,
+            "formality": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Ethicist_2",
+          "agent_id": "a5cebd69-a491-4c9c-acda-94abc2745318",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.5,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.6,
+            "supportiveness": 0.6,
+            "analytical_depth": 0.8,
+            "evidence_reliance": 0.7,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.7,
+            "formality": 0.8
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Innovator_3",
+          "agent_id": "7713a4a6-9444-448c-9660-45ab4314ac62",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.5,
+            "defensiveness": 0.6,
+            "supportiveness": 0.4,
+            "analytical_depth": 0.5,
+            "evidence_reliance": 0.4,
+            "confidence": 0.8,
+            "optimism": 0.9,
+            "verbosity": 0.7,
+            "formality": 0.4
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [
+        {
+          "agent_name": "Analyst_1",
+          "score": 50.0,
+          "challenges": 0,
+          "rebuttals": 0
+        },
+        {
+          "agent_name": "Ethicist_2",
+          "score": 50.0,
+          "challenges": 0,
+          "rebuttals": 0
+        },
+        {
+          "agent_name": "Innovator_3",
+          "score": 50.0,
+          "challenges": 0,
+          "rebuttals": 0
+        }
+      ],
+      "context": {
+        "phase": "post_proposal",
+        "proposal_count": 3
+      }
+    },
+    {
+      "timestamp": 47.40935277938843,
+      "datetime": "2026-01-09T11:30:35.002721",
+      "agent_count": 3,
+      "proposal_count": 3,
+      "agents": [
+        {
+          "name": "Analyst_1",
+          "agent_id": "549ceb36-88e8-4d84-8459-7cd0faad16b7",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.3,
+            "boldness": 0.4,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.5,
+            "supportiveness": 0.5,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.95,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.8,
+            "formality": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Ethicist_2",
+          "agent_id": "a5cebd69-a491-4c9c-acda-94abc2745318",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.5,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.6,
+            "supportiveness": 0.6,
+            "analytical_depth": 0.8,
+            "evidence_reliance": 0.7,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.7,
+            "formality": 0.8
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Innovator_3",
+          "agent_id": "7713a4a6-9444-448c-9660-45ab4314ac62",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.5,
+            "defensiveness": 0.6,
+            "supportiveness": 0.4,
+            "analytical_depth": 0.5,
+            "evidence_reliance": 0.4,
+            "confidence": 0.8,
+            "optimism": 0.9,
+            "verbosity": 0.7,
+            "formality": 0.4
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [
+        {
+          "agent_name": "Analyst_1",
+          "score": 50.0,
+          "challenges": 0,
+          "rebuttals": 0
+        },
+        {
+          "agent_name": "Ethicist_2",
+          "score": 50.0,
+          "challenges": 0,
+          "rebuttals": 0
+        },
+        {
+          "agent_name": "Innovator_3",
+          "score": 50.0,
+          "challenges": 0,
+          "rebuttals": 0
+        }
+      ],
+      "context": {
+        "phase": "CHALLENGE"
+      }
+    },
+    {
+      "timestamp": 91.70776128768921,
+      "datetime": "2026-01-09T11:31:19.301129",
+      "agent_count": 3,
+      "proposal_count": 3,
+      "agents": [
+        {
+          "name": "Analyst_1",
+          "agent_id": "549ceb36-88e8-4d84-8459-7cd0faad16b7",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 2,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.3,
+            "boldness": 0.4,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.5,
+            "supportiveness": 0.5,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.95,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.8,
+            "formality": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Ethicist_2",
+          "agent_id": "a5cebd69-a491-4c9c-acda-94abc2745318",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 2,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.5,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.6,
+            "supportiveness": 0.6,
+            "analytical_depth": 0.8,
+            "evidence_reliance": 0.7,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.7,
+            "formality": 0.8
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Innovator_3",
+          "agent_id": "7713a4a6-9444-448c-9660-45ab4314ac62",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 2,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.5,
+            "defensiveness": 0.6,
+            "supportiveness": 0.4,
+            "analytical_depth": 0.5,
+            "evidence_reliance": 0.4,
+            "confidence": 0.8,
+            "optimism": 0.9,
+            "verbosity": 0.7,
+            "formality": 0.4
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [
+        {
+          "agent_name": "Analyst_1",
+          "score": 50.0,
+          "challenges": 2,
+          "rebuttals": 0
+        },
+        {
+          "agent_name": "Ethicist_2",
+          "score": 50.0,
+          "challenges": 2,
+          "rebuttals": 0
+        },
+        {
+          "agent_name": "Innovator_3",
+          "score": 50.0,
+          "challenges": 2,
+          "rebuttals": 0
+        }
+      ],
+      "context": {
+        "round": 1,
+        "phase": "post_challenge",
+        "challenges": 6
+      }
+    },
+    {
+      "timestamp": 91.70790338516235,
+      "datetime": "2026-01-09T11:31:19.301270",
+      "agent_count": 3,
+      "proposal_count": 3,
+      "agents": [
+        {
+          "name": "Analyst_1",
+          "agent_id": "549ceb36-88e8-4d84-8459-7cd0faad16b7",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 2,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.3,
+            "boldness": 0.4,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.5,
+            "supportiveness": 0.5,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.95,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.8,
+            "formality": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Ethicist_2",
+          "agent_id": "a5cebd69-a491-4c9c-acda-94abc2745318",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 2,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.5,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.6,
+            "supportiveness": 0.6,
+            "analytical_depth": 0.8,
+            "evidence_reliance": 0.7,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.7,
+            "formality": 0.8
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Innovator_3",
+          "agent_id": "7713a4a6-9444-448c-9660-45ab4314ac62",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 2,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.5,
+            "defensiveness": 0.6,
+            "supportiveness": 0.4,
+            "analytical_depth": 0.5,
+            "evidence_reliance": 0.4,
+            "confidence": 0.8,
+            "optimism": 0.9,
+            "verbosity": 0.7,
+            "formality": 0.4
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [
+        {
+          "agent_name": "Analyst_1",
+          "score": 50.0,
+          "challenges": 2,
+          "rebuttals": 0
+        },
+        {
+          "agent_name": "Ethicist_2",
+          "score": 50.0,
+          "challenges": 2,
+          "rebuttals": 0
+        },
+        {
+          "agent_name": "Innovator_3",
+          "score": 50.0,
+          "challenges": 2,
+          "rebuttals": 0
+        }
+      ],
+      "context": {
+        "phase": "REBUTTAL"
+      }
+    },
+    {
+      "timestamp": 114.79979991912842,
+      "datetime": "2026-01-09T11:31:42.393167",
+      "agent_count": 3,
+      "proposal_count": 3,
+      "agents": [
+        {
+          "name": "Analyst_1",
+          "agent_id": "549ceb36-88e8-4d84-8459-7cd0faad16b7",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 2,
+          "rebuttals_made": 1,
+          "personality": {
+            "creativity": 0.3,
+            "boldness": 0.4,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.5,
+            "supportiveness": 0.5,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.95,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.8,
+            "formality": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Ethicist_2",
+          "agent_id": "a5cebd69-a491-4c9c-acda-94abc2745318",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 2,
+          "rebuttals_made": 1,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.5,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.6,
+            "supportiveness": 0.6,
+            "analytical_depth": 0.8,
+            "evidence_reliance": 0.7,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.7,
+            "formality": 0.8
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Innovator_3",
+          "agent_id": "7713a4a6-9444-448c-9660-45ab4314ac62",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 2,
+          "rebuttals_made": 1,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.5,
+            "defensiveness": 0.6,
+            "supportiveness": 0.4,
+            "analytical_depth": 0.5,
+            "evidence_reliance": 0.4,
+            "confidence": 0.8,
+            "optimism": 0.9,
+            "verbosity": 0.7,
+            "formality": 0.4
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [
+        {
+          "agent_name": "Analyst_1",
+          "score": 50.0,
+          "challenges": 2,
+          "rebuttals": 1
+        },
+        {
+          "agent_name": "Ethicist_2",
+          "score": 50.0,
+          "challenges": 2,
+          "rebuttals": 1
+        },
+        {
+          "agent_name": "Innovator_3",
+          "score": 50.0,
+          "challenges": 2,
+          "rebuttals": 1
+        }
+      ],
+      "context": {
+        "round": 1,
+        "phase": "post_rebuttal",
+        "rebuttals": 3
+      }
+    },
+    {
+      "timestamp": 118.80311155319214,
+      "datetime": "2026-01-09T11:31:46.396480",
+      "agent_count": 3,
+      "proposal_count": 3,
+      "agents": [
+        {
+          "name": "Analyst_1",
+          "agent_id": "549ceb36-88e8-4d84-8459-7cd0faad16b7",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 2,
+          "rebuttals_made": 1,
+          "personality": {
+            "creativity": 0.3,
+            "boldness": 0.4,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.5,
+            "supportiveness": 0.5,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.95,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.8,
+            "formality": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Ethicist_2",
+          "agent_id": "a5cebd69-a491-4c9c-acda-94abc2745318",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 2,
+          "rebuttals_made": 1,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.5,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.6,
+            "supportiveness": 0.6,
+            "analytical_depth": 0.8,
+            "evidence_reliance": 0.7,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.7,
+            "formality": 0.8
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Innovator_3",
+          "agent_id": "7713a4a6-9444-448c-9660-45ab4314ac62",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 2,
+          "rebuttals_made": 1,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.5,
+            "defensiveness": 0.6,
+            "supportiveness": 0.4,
+            "analytical_depth": 0.5,
+            "evidence_reliance": 0.4,
+            "confidence": 0.8,
+            "optimism": 0.9,
+            "verbosity": 0.7,
+            "formality": 0.4
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [
+        {
+          "agent_name": "Analyst_1",
+          "score": 50.0,
+          "challenges": 2,
+          "rebuttals": 1
+        },
+        {
+          "agent_name": "Ethicist_2",
+          "score": 50.0,
+          "challenges": 2,
+          "rebuttals": 1
+        },
+        {
+          "agent_name": "Innovator_3",
+          "score": 50.0,
+          "challenges": 2,
+          "rebuttals": 1
+        }
+      ],
+      "context": {
+        "phase": "CHALLENGE"
+      }
+    },
+    {
+      "timestamp": 159.40841341018677,
+      "datetime": "2026-01-09T11:32:27.001782",
+      "agent_count": 3,
+      "proposal_count": 3,
+      "agents": [
+        {
+          "name": "Analyst_1",
+          "agent_id": "549ceb36-88e8-4d84-8459-7cd0faad16b7",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 4,
+          "rebuttals_made": 1,
+          "personality": {
+            "creativity": 0.3,
+            "boldness": 0.4,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.5,
+            "supportiveness": 0.5,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.95,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.8,
+            "formality": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Ethicist_2",
+          "agent_id": "a5cebd69-a491-4c9c-acda-94abc2745318",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 4,
+          "rebuttals_made": 1,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.5,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.6,
+            "supportiveness": 0.6,
+            "analytical_depth": 0.8,
+            "evidence_reliance": 0.7,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.7,
+            "formality": 0.8
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Innovator_3",
+          "agent_id": "7713a4a6-9444-448c-9660-45ab4314ac62",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 4,
+          "rebuttals_made": 1,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.5,
+            "defensiveness": 0.6,
+            "supportiveness": 0.4,
+            "analytical_depth": 0.5,
+            "evidence_reliance": 0.4,
+            "confidence": 0.8,
+            "optimism": 0.9,
+            "verbosity": 0.7,
+            "formality": 0.4
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [
+        {
+          "agent_name": "Analyst_1",
+          "score": 50.0,
+          "challenges": 4,
+          "rebuttals": 1
+        },
+        {
+          "agent_name": "Ethicist_2",
+          "score": 50.0,
+          "challenges": 4,
+          "rebuttals": 1
+        },
+        {
+          "agent_name": "Innovator_3",
+          "score": 50.0,
+          "challenges": 4,
+          "rebuttals": 1
+        }
+      ],
+      "context": {
+        "round": 2,
+        "phase": "post_challenge",
+        "challenges": 6
+      }
+    },
+    {
+      "timestamp": 159.40854692459106,
+      "datetime": "2026-01-09T11:32:27.001913",
+      "agent_count": 3,
+      "proposal_count": 3,
+      "agents": [
+        {
+          "name": "Analyst_1",
+          "agent_id": "549ceb36-88e8-4d84-8459-7cd0faad16b7",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 4,
+          "rebuttals_made": 1,
+          "personality": {
+            "creativity": 0.3,
+            "boldness": 0.4,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.5,
+            "supportiveness": 0.5,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.95,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.8,
+            "formality": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Ethicist_2",
+          "agent_id": "a5cebd69-a491-4c9c-acda-94abc2745318",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 4,
+          "rebuttals_made": 1,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.5,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.6,
+            "supportiveness": 0.6,
+            "analytical_depth": 0.8,
+            "evidence_reliance": 0.7,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.7,
+            "formality": 0.8
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Innovator_3",
+          "agent_id": "7713a4a6-9444-448c-9660-45ab4314ac62",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 4,
+          "rebuttals_made": 1,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.5,
+            "defensiveness": 0.6,
+            "supportiveness": 0.4,
+            "analytical_depth": 0.5,
+            "evidence_reliance": 0.4,
+            "confidence": 0.8,
+            "optimism": 0.9,
+            "verbosity": 0.7,
+            "formality": 0.4
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [
+        {
+          "agent_name": "Analyst_1",
+          "score": 50.0,
+          "challenges": 4,
+          "rebuttals": 1
+        },
+        {
+          "agent_name": "Ethicist_2",
+          "score": 50.0,
+          "challenges": 4,
+          "rebuttals": 1
+        },
+        {
+          "agent_name": "Innovator_3",
+          "score": 50.0,
+          "challenges": 4,
+          "rebuttals": 1
+        }
+      ],
+      "context": {
+        "phase": "REBUTTAL"
+      }
+    },
+    {
+      "timestamp": 182.07298970222473,
+      "datetime": "2026-01-09T11:32:49.666357",
+      "agent_count": 3,
+      "proposal_count": 3,
+      "agents": [
+        {
+          "name": "Analyst_1",
+          "agent_id": "549ceb36-88e8-4d84-8459-7cd0faad16b7",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 4,
+          "rebuttals_made": 2,
+          "personality": {
+            "creativity": 0.3,
+            "boldness": 0.4,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.5,
+            "supportiveness": 0.5,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.95,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.8,
+            "formality": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Ethicist_2",
+          "agent_id": "a5cebd69-a491-4c9c-acda-94abc2745318",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 4,
+          "rebuttals_made": 2,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.5,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.6,
+            "supportiveness": 0.6,
+            "analytical_depth": 0.8,
+            "evidence_reliance": 0.7,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.7,
+            "formality": 0.8
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Innovator_3",
+          "agent_id": "7713a4a6-9444-448c-9660-45ab4314ac62",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 4,
+          "rebuttals_made": 2,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.5,
+            "defensiveness": 0.6,
+            "supportiveness": 0.4,
+            "analytical_depth": 0.5,
+            "evidence_reliance": 0.4,
+            "confidence": 0.8,
+            "optimism": 0.9,
+            "verbosity": 0.7,
+            "formality": 0.4
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [
+        {
+          "agent_name": "Analyst_1",
+          "score": 50.0,
+          "challenges": 4,
+          "rebuttals": 2
+        },
+        {
+          "agent_name": "Ethicist_2",
+          "score": 50.0,
+          "challenges": 4,
+          "rebuttals": 2
+        },
+        {
+          "agent_name": "Innovator_3",
+          "score": 50.0,
+          "challenges": 4,
+          "rebuttals": 2
+        }
+      ],
+      "context": {
+        "round": 2,
+        "phase": "post_rebuttal",
+        "rebuttals": 3
+      }
+    },
+    {
+      "timestamp": 186.0759379863739,
+      "datetime": "2026-01-09T11:32:53.669306",
+      "agent_count": 3,
+      "proposal_count": 3,
+      "agents": [
+        {
+          "name": "Analyst_1",
+          "agent_id": "549ceb36-88e8-4d84-8459-7cd0faad16b7",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 4,
+          "rebuttals_made": 2,
+          "personality": {
+            "creativity": 0.3,
+            "boldness": 0.4,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.5,
+            "supportiveness": 0.5,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.95,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.8,
+            "formality": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Ethicist_2",
+          "agent_id": "a5cebd69-a491-4c9c-acda-94abc2745318",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 4,
+          "rebuttals_made": 2,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.5,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.6,
+            "supportiveness": 0.6,
+            "analytical_depth": 0.8,
+            "evidence_reliance": 0.7,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.7,
+            "formality": 0.8
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Innovator_3",
+          "agent_id": "7713a4a6-9444-448c-9660-45ab4314ac62",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 4,
+          "rebuttals_made": 2,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.5,
+            "defensiveness": 0.6,
+            "supportiveness": 0.4,
+            "analytical_depth": 0.5,
+            "evidence_reliance": 0.4,
+            "confidence": 0.8,
+            "optimism": 0.9,
+            "verbosity": 0.7,
+            "formality": 0.4
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [
+        {
+          "agent_name": "Analyst_1",
+          "score": 50.0,
+          "challenges": 4,
+          "rebuttals": 2
+        },
+        {
+          "agent_name": "Ethicist_2",
+          "score": 50.0,
+          "challenges": 4,
+          "rebuttals": 2
+        },
+        {
+          "agent_name": "Innovator_3",
+          "score": 50.0,
+          "challenges": 4,
+          "rebuttals": 2
+        }
+      ],
+      "context": {
+        "phase": "CHALLENGE"
+      }
+    },
+    {
+      "timestamp": 226.68288588523865,
+      "datetime": "2026-01-09T11:33:34.276254",
+      "agent_count": 3,
+      "proposal_count": 3,
+      "agents": [
+        {
+          "name": "Analyst_1",
+          "agent_id": "549ceb36-88e8-4d84-8459-7cd0faad16b7",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 6,
+          "rebuttals_made": 2,
+          "personality": {
+            "creativity": 0.3,
+            "boldness": 0.4,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.5,
+            "supportiveness": 0.5,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.95,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.8,
+            "formality": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Ethicist_2",
+          "agent_id": "a5cebd69-a491-4c9c-acda-94abc2745318",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 6,
+          "rebuttals_made": 2,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.5,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.6,
+            "supportiveness": 0.6,
+            "analytical_depth": 0.8,
+            "evidence_reliance": 0.7,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.7,
+            "formality": 0.8
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Innovator_3",
+          "agent_id": "7713a4a6-9444-448c-9660-45ab4314ac62",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 6,
+          "rebuttals_made": 2,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.5,
+            "defensiveness": 0.6,
+            "supportiveness": 0.4,
+            "analytical_depth": 0.5,
+            "evidence_reliance": 0.4,
+            "confidence": 0.8,
+            "optimism": 0.9,
+            "verbosity": 0.7,
+            "formality": 0.4
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [
+        {
+          "agent_name": "Analyst_1",
+          "score": 50.0,
+          "challenges": 6,
+          "rebuttals": 2
+        },
+        {
+          "agent_name": "Ethicist_2",
+          "score": 50.0,
+          "challenges": 6,
+          "rebuttals": 2
+        },
+        {
+          "agent_name": "Innovator_3",
+          "score": 50.0,
+          "challenges": 6,
+          "rebuttals": 2
+        }
+      ],
+      "context": {
+        "round": 3,
+        "phase": "post_challenge",
+        "challenges": 6
+      }
+    },
+    {
+      "timestamp": 226.6830084323883,
+      "datetime": "2026-01-09T11:33:34.276375",
+      "agent_count": 3,
+      "proposal_count": 3,
+      "agents": [
+        {
+          "name": "Analyst_1",
+          "agent_id": "549ceb36-88e8-4d84-8459-7cd0faad16b7",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 6,
+          "rebuttals_made": 2,
+          "personality": {
+            "creativity": 0.3,
+            "boldness": 0.4,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.5,
+            "supportiveness": 0.5,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.95,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.8,
+            "formality": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Ethicist_2",
+          "agent_id": "a5cebd69-a491-4c9c-acda-94abc2745318",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 6,
+          "rebuttals_made": 2,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.5,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.6,
+            "supportiveness": 0.6,
+            "analytical_depth": 0.8,
+            "evidence_reliance": 0.7,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.7,
+            "formality": 0.8
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Innovator_3",
+          "agent_id": "7713a4a6-9444-448c-9660-45ab4314ac62",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 6,
+          "rebuttals_made": 2,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.5,
+            "defensiveness": 0.6,
+            "supportiveness": 0.4,
+            "analytical_depth": 0.5,
+            "evidence_reliance": 0.4,
+            "confidence": 0.8,
+            "optimism": 0.9,
+            "verbosity": 0.7,
+            "formality": 0.4
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [
+        {
+          "agent_name": "Analyst_1",
+          "score": 50.0,
+          "challenges": 6,
+          "rebuttals": 2
+        },
+        {
+          "agent_name": "Ethicist_2",
+          "score": 50.0,
+          "challenges": 6,
+          "rebuttals": 2
+        },
+        {
+          "agent_name": "Innovator_3",
+          "score": 50.0,
+          "challenges": 6,
+          "rebuttals": 2
+        }
+      ],
+      "context": {
+        "phase": "REBUTTAL"
+      }
+    },
+    {
+      "timestamp": 248.44809818267822,
+      "datetime": "2026-01-09T11:33:56.041465",
+      "agent_count": 3,
+      "proposal_count": 3,
+      "agents": [
+        {
+          "name": "Analyst_1",
+          "agent_id": "549ceb36-88e8-4d84-8459-7cd0faad16b7",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 6,
+          "rebuttals_made": 3,
+          "personality": {
+            "creativity": 0.3,
+            "boldness": 0.4,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.5,
+            "supportiveness": 0.5,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.95,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.8,
+            "formality": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Ethicist_2",
+          "agent_id": "a5cebd69-a491-4c9c-acda-94abc2745318",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 6,
+          "rebuttals_made": 3,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.5,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.6,
+            "supportiveness": 0.6,
+            "analytical_depth": 0.8,
+            "evidence_reliance": 0.7,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.7,
+            "formality": 0.8
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Innovator_3",
+          "agent_id": "7713a4a6-9444-448c-9660-45ab4314ac62",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 6,
+          "rebuttals_made": 3,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.5,
+            "defensiveness": 0.6,
+            "supportiveness": 0.4,
+            "analytical_depth": 0.5,
+            "evidence_reliance": 0.4,
+            "confidence": 0.8,
+            "optimism": 0.9,
+            "verbosity": 0.7,
+            "formality": 0.4
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [
+        {
+          "agent_name": "Analyst_1",
+          "score": 50.0,
+          "challenges": 6,
+          "rebuttals": 3
+        },
+        {
+          "agent_name": "Ethicist_2",
+          "score": 50.0,
+          "challenges": 6,
+          "rebuttals": 3
+        },
+        {
+          "agent_name": "Innovator_3",
+          "score": 50.0,
+          "challenges": 6,
+          "rebuttals": 3
+        }
+      ],
+      "context": {
+        "round": 3,
+        "phase": "post_rebuttal",
+        "rebuttals": 3
+      }
+    },
+    {
+      "timestamp": 252.45083141326904,
+      "datetime": "2026-01-09T11:34:00.044200",
+      "agent_count": 3,
+      "proposal_count": 3,
+      "agents": [
+        {
+          "name": "Analyst_1",
+          "agent_id": "549ceb36-88e8-4d84-8459-7cd0faad16b7",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 6,
+          "rebuttals_made": 3,
+          "personality": {
+            "creativity": 0.3,
+            "boldness": 0.4,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.5,
+            "supportiveness": 0.5,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.95,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.8,
+            "formality": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Ethicist_2",
+          "agent_id": "a5cebd69-a491-4c9c-acda-94abc2745318",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 6,
+          "rebuttals_made": 3,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.5,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.6,
+            "supportiveness": 0.6,
+            "analytical_depth": 0.8,
+            "evidence_reliance": 0.7,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.7,
+            "formality": 0.8
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Innovator_3",
+          "agent_id": "7713a4a6-9444-448c-9660-45ab4314ac62",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 6,
+          "rebuttals_made": 3,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.5,
+            "defensiveness": 0.6,
+            "supportiveness": 0.4,
+            "analytical_depth": 0.5,
+            "evidence_reliance": 0.4,
+            "confidence": 0.8,
+            "optimism": 0.9,
+            "verbosity": 0.7,
+            "formality": 0.4
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [
+        {
+          "agent_name": "Analyst_1",
+          "score": 50.0,
+          "challenges": 6,
+          "rebuttals": 3
+        },
+        {
+          "agent_name": "Ethicist_2",
+          "score": 50.0,
+          "challenges": 6,
+          "rebuttals": 3
+        },
+        {
+          "agent_name": "Innovator_3",
+          "score": 50.0,
+          "challenges": 6,
+          "rebuttals": 3
+        }
+      ],
+      "context": {
+        "phase": "CHALLENGE"
+      }
+    },
+    {
+      "timestamp": 290.565735578537,
+      "datetime": "2026-01-09T11:34:38.159104",
+      "agent_count": 3,
+      "proposal_count": 3,
+      "agents": [
+        {
+          "name": "Analyst_1",
+          "agent_id": "549ceb36-88e8-4d84-8459-7cd0faad16b7",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 8,
+          "rebuttals_made": 3,
+          "personality": {
+            "creativity": 0.3,
+            "boldness": 0.4,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.5,
+            "supportiveness": 0.5,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.95,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.8,
+            "formality": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Ethicist_2",
+          "agent_id": "a5cebd69-a491-4c9c-acda-94abc2745318",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 8,
+          "rebuttals_made": 3,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.5,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.6,
+            "supportiveness": 0.6,
+            "analytical_depth": 0.8,
+            "evidence_reliance": 0.7,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.7,
+            "formality": 0.8
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Innovator_3",
+          "agent_id": "7713a4a6-9444-448c-9660-45ab4314ac62",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 8,
+          "rebuttals_made": 3,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.5,
+            "defensiveness": 0.6,
+            "supportiveness": 0.4,
+            "analytical_depth": 0.5,
+            "evidence_reliance": 0.4,
+            "confidence": 0.8,
+            "optimism": 0.9,
+            "verbosity": 0.7,
+            "formality": 0.4
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [
+        {
+          "agent_name": "Analyst_1",
+          "score": 50.0,
+          "challenges": 8,
+          "rebuttals": 3
+        },
+        {
+          "agent_name": "Ethicist_2",
+          "score": 50.0,
+          "challenges": 8,
+          "rebuttals": 3
+        },
+        {
+          "agent_name": "Innovator_3",
+          "score": 50.0,
+          "challenges": 8,
+          "rebuttals": 3
+        }
+      ],
+      "context": {
+        "round": 4,
+        "phase": "post_challenge",
+        "challenges": 6
+      }
+    },
+    {
+      "timestamp": 290.5658621788025,
+      "datetime": "2026-01-09T11:34:38.159229",
+      "agent_count": 3,
+      "proposal_count": 3,
+      "agents": [
+        {
+          "name": "Analyst_1",
+          "agent_id": "549ceb36-88e8-4d84-8459-7cd0faad16b7",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 8,
+          "rebuttals_made": 3,
+          "personality": {
+            "creativity": 0.3,
+            "boldness": 0.4,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.5,
+            "supportiveness": 0.5,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.95,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.8,
+            "formality": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Ethicist_2",
+          "agent_id": "a5cebd69-a491-4c9c-acda-94abc2745318",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 8,
+          "rebuttals_made": 3,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.5,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.6,
+            "supportiveness": 0.6,
+            "analytical_depth": 0.8,
+            "evidence_reliance": 0.7,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.7,
+            "formality": 0.8
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Innovator_3",
+          "agent_id": "7713a4a6-9444-448c-9660-45ab4314ac62",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 8,
+          "rebuttals_made": 3,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.5,
+            "defensiveness": 0.6,
+            "supportiveness": 0.4,
+            "analytical_depth": 0.5,
+            "evidence_reliance": 0.4,
+            "confidence": 0.8,
+            "optimism": 0.9,
+            "verbosity": 0.7,
+            "formality": 0.4
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [
+        {
+          "agent_name": "Analyst_1",
+          "score": 50.0,
+          "challenges": 8,
+          "rebuttals": 3
+        },
+        {
+          "agent_name": "Ethicist_2",
+          "score": 50.0,
+          "challenges": 8,
+          "rebuttals": 3
+        },
+        {
+          "agent_name": "Innovator_3",
+          "score": 50.0,
+          "challenges": 8,
+          "rebuttals": 3
+        }
+      ],
+      "context": {
+        "phase": "REBUTTAL"
+      }
+    },
+    {
+      "timestamp": 312.9651219844818,
+      "datetime": "2026-01-09T11:35:00.558489",
+      "agent_count": 3,
+      "proposal_count": 3,
+      "agents": [
+        {
+          "name": "Analyst_1",
+          "agent_id": "549ceb36-88e8-4d84-8459-7cd0faad16b7",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 8,
+          "rebuttals_made": 4,
+          "personality": {
+            "creativity": 0.3,
+            "boldness": 0.4,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.5,
+            "supportiveness": 0.5,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.95,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.8,
+            "formality": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Ethicist_2",
+          "agent_id": "a5cebd69-a491-4c9c-acda-94abc2745318",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 8,
+          "rebuttals_made": 4,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.5,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.6,
+            "supportiveness": 0.6,
+            "analytical_depth": 0.8,
+            "evidence_reliance": 0.7,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.7,
+            "formality": 0.8
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Innovator_3",
+          "agent_id": "7713a4a6-9444-448c-9660-45ab4314ac62",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 8,
+          "rebuttals_made": 4,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.5,
+            "defensiveness": 0.6,
+            "supportiveness": 0.4,
+            "analytical_depth": 0.5,
+            "evidence_reliance": 0.4,
+            "confidence": 0.8,
+            "optimism": 0.9,
+            "verbosity": 0.7,
+            "formality": 0.4
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [
+        {
+          "agent_name": "Analyst_1",
+          "score": 50.0,
+          "challenges": 8,
+          "rebuttals": 4
+        },
+        {
+          "agent_name": "Ethicist_2",
+          "score": 50.0,
+          "challenges": 8,
+          "rebuttals": 4
+        },
+        {
+          "agent_name": "Innovator_3",
+          "score": 50.0,
+          "challenges": 8,
+          "rebuttals": 4
+        }
+      ],
+      "context": {
+        "round": 4,
+        "phase": "post_rebuttal",
+        "rebuttals": 3
+      }
+    },
+    {
+      "timestamp": 316.9682674407959,
+      "datetime": "2026-01-09T11:35:04.561636",
+      "agent_count": 3,
+      "proposal_count": 3,
+      "agents": [
+        {
+          "name": "Analyst_1",
+          "agent_id": "549ceb36-88e8-4d84-8459-7cd0faad16b7",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 8,
+          "rebuttals_made": 4,
+          "personality": {
+            "creativity": 0.3,
+            "boldness": 0.4,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.5,
+            "supportiveness": 0.5,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.95,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.8,
+            "formality": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Ethicist_2",
+          "agent_id": "a5cebd69-a491-4c9c-acda-94abc2745318",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 8,
+          "rebuttals_made": 4,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.5,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.6,
+            "supportiveness": 0.6,
+            "analytical_depth": 0.8,
+            "evidence_reliance": 0.7,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.7,
+            "formality": 0.8
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Innovator_3",
+          "agent_id": "7713a4a6-9444-448c-9660-45ab4314ac62",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 8,
+          "rebuttals_made": 4,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.5,
+            "defensiveness": 0.6,
+            "supportiveness": 0.4,
+            "analytical_depth": 0.5,
+            "evidence_reliance": 0.4,
+            "confidence": 0.8,
+            "optimism": 0.9,
+            "verbosity": 0.7,
+            "formality": 0.4
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [
+        {
+          "agent_name": "Analyst_1",
+          "score": 50.0,
+          "challenges": 8,
+          "rebuttals": 4
+        },
+        {
+          "agent_name": "Ethicist_2",
+          "score": 50.0,
+          "challenges": 8,
+          "rebuttals": 4
+        },
+        {
+          "agent_name": "Innovator_3",
+          "score": 50.0,
+          "challenges": 8,
+          "rebuttals": 4
+        }
+      ],
+      "context": {
+        "phase": "CHALLENGE"
+      }
+    },
+    {
+      "timestamp": 357.8102831840515,
+      "datetime": "2026-01-09T11:35:45.403651",
+      "agent_count": 3,
+      "proposal_count": 3,
+      "agents": [
+        {
+          "name": "Analyst_1",
+          "agent_id": "549ceb36-88e8-4d84-8459-7cd0faad16b7",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 10,
+          "rebuttals_made": 4,
+          "personality": {
+            "creativity": 0.3,
+            "boldness": 0.4,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.5,
+            "supportiveness": 0.5,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.95,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.8,
+            "formality": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Ethicist_2",
+          "agent_id": "a5cebd69-a491-4c9c-acda-94abc2745318",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 10,
+          "rebuttals_made": 4,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.5,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.6,
+            "supportiveness": 0.6,
+            "analytical_depth": 0.8,
+            "evidence_reliance": 0.7,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.7,
+            "formality": 0.8
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Innovator_3",
+          "agent_id": "7713a4a6-9444-448c-9660-45ab4314ac62",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 10,
+          "rebuttals_made": 4,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.5,
+            "defensiveness": 0.6,
+            "supportiveness": 0.4,
+            "analytical_depth": 0.5,
+            "evidence_reliance": 0.4,
+            "confidence": 0.8,
+            "optimism": 0.9,
+            "verbosity": 0.7,
+            "formality": 0.4
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [
+        {
+          "agent_name": "Analyst_1",
+          "score": 50.0,
+          "challenges": 10,
+          "rebuttals": 4
+        },
+        {
+          "agent_name": "Ethicist_2",
+          "score": 50.0,
+          "challenges": 10,
+          "rebuttals": 4
+        },
+        {
+          "agent_name": "Innovator_3",
+          "score": 50.0,
+          "challenges": 10,
+          "rebuttals": 4
+        }
+      ],
+      "context": {
+        "round": 5,
+        "phase": "post_challenge",
+        "challenges": 6
+      }
+    },
+    {
+      "timestamp": 357.81041979789734,
+      "datetime": "2026-01-09T11:35:45.403786",
+      "agent_count": 3,
+      "proposal_count": 3,
+      "agents": [
+        {
+          "name": "Analyst_1",
+          "agent_id": "549ceb36-88e8-4d84-8459-7cd0faad16b7",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 10,
+          "rebuttals_made": 4,
+          "personality": {
+            "creativity": 0.3,
+            "boldness": 0.4,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.5,
+            "supportiveness": 0.5,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.95,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.8,
+            "formality": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Ethicist_2",
+          "agent_id": "a5cebd69-a491-4c9c-acda-94abc2745318",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 10,
+          "rebuttals_made": 4,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.5,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.6,
+            "supportiveness": 0.6,
+            "analytical_depth": 0.8,
+            "evidence_reliance": 0.7,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.7,
+            "formality": 0.8
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Innovator_3",
+          "agent_id": "7713a4a6-9444-448c-9660-45ab4314ac62",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 10,
+          "rebuttals_made": 4,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.5,
+            "defensiveness": 0.6,
+            "supportiveness": 0.4,
+            "analytical_depth": 0.5,
+            "evidence_reliance": 0.4,
+            "confidence": 0.8,
+            "optimism": 0.9,
+            "verbosity": 0.7,
+            "formality": 0.4
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [
+        {
+          "agent_name": "Analyst_1",
+          "score": 50.0,
+          "challenges": 10,
+          "rebuttals": 4
+        },
+        {
+          "agent_name": "Ethicist_2",
+          "score": 50.0,
+          "challenges": 10,
+          "rebuttals": 4
+        },
+        {
+          "agent_name": "Innovator_3",
+          "score": 50.0,
+          "challenges": 10,
+          "rebuttals": 4
+        }
+      ],
+      "context": {
+        "phase": "REBUTTAL"
+      }
+    },
+    {
+      "timestamp": 379.2352178096771,
+      "datetime": "2026-01-09T11:36:06.828586",
+      "agent_count": 3,
+      "proposal_count": 3,
+      "agents": [
+        {
+          "name": "Analyst_1",
+          "agent_id": "549ceb36-88e8-4d84-8459-7cd0faad16b7",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 10,
+          "rebuttals_made": 5,
+          "personality": {
+            "creativity": 0.3,
+            "boldness": 0.4,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.5,
+            "supportiveness": 0.5,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.95,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.8,
+            "formality": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Ethicist_2",
+          "agent_id": "a5cebd69-a491-4c9c-acda-94abc2745318",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 10,
+          "rebuttals_made": 5,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.5,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.6,
+            "supportiveness": 0.6,
+            "analytical_depth": 0.8,
+            "evidence_reliance": 0.7,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.7,
+            "formality": 0.8
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Innovator_3",
+          "agent_id": "7713a4a6-9444-448c-9660-45ab4314ac62",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 10,
+          "rebuttals_made": 5,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.5,
+            "defensiveness": 0.6,
+            "supportiveness": 0.4,
+            "analytical_depth": 0.5,
+            "evidence_reliance": 0.4,
+            "confidence": 0.8,
+            "optimism": 0.9,
+            "verbosity": 0.7,
+            "formality": 0.4
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [
+        {
+          "agent_name": "Analyst_1",
+          "score": 50.0,
+          "challenges": 10,
+          "rebuttals": 5
+        },
+        {
+          "agent_name": "Ethicist_2",
+          "score": 50.0,
+          "challenges": 10,
+          "rebuttals": 5
+        },
+        {
+          "agent_name": "Innovator_3",
+          "score": 50.0,
+          "challenges": 10,
+          "rebuttals": 5
+        }
+      ],
+      "context": {
+        "round": 5,
+        "phase": "post_rebuttal",
+        "rebuttals": 3
+      }
+    },
+    {
+      "timestamp": 383.23685932159424,
+      "datetime": "2026-01-09T11:36:10.830228",
+      "agent_count": 3,
+      "proposal_count": 3,
+      "agents": [
+        {
+          "name": "Analyst_1",
+          "agent_id": "549ceb36-88e8-4d84-8459-7cd0faad16b7",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 10,
+          "rebuttals_made": 5,
+          "personality": {
+            "creativity": 0.3,
+            "boldness": 0.4,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.5,
+            "supportiveness": 0.5,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.95,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.8,
+            "formality": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Ethicist_2",
+          "agent_id": "a5cebd69-a491-4c9c-acda-94abc2745318",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 10,
+          "rebuttals_made": 5,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.5,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.6,
+            "supportiveness": 0.6,
+            "analytical_depth": 0.8,
+            "evidence_reliance": 0.7,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.7,
+            "formality": 0.8
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Innovator_3",
+          "agent_id": "7713a4a6-9444-448c-9660-45ab4314ac62",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 10,
+          "rebuttals_made": 5,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.5,
+            "defensiveness": 0.6,
+            "supportiveness": 0.4,
+            "analytical_depth": 0.5,
+            "evidence_reliance": 0.4,
+            "confidence": 0.8,
+            "optimism": 0.9,
+            "verbosity": 0.7,
+            "formality": 0.4
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [
+        {
+          "agent_name": "Analyst_1",
+          "score": 50.0,
+          "challenges": 10,
+          "rebuttals": 5
+        },
+        {
+          "agent_name": "Ethicist_2",
+          "score": 50.0,
+          "challenges": 10,
+          "rebuttals": 5
+        },
+        {
+          "agent_name": "Innovator_3",
+          "score": 50.0,
+          "challenges": 10,
+          "rebuttals": 5
+        }
+      ],
+      "context": {
+        "phase": "CHALLENGE"
+      }
+    },
+    {
+      "timestamp": 425.77713322639465,
+      "datetime": "2026-01-09T11:36:53.370501",
+      "agent_count": 3,
+      "proposal_count": 3,
+      "agents": [
+        {
+          "name": "Analyst_1",
+          "agent_id": "549ceb36-88e8-4d84-8459-7cd0faad16b7",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 12,
+          "rebuttals_made": 5,
+          "personality": {
+            "creativity": 0.3,
+            "boldness": 0.4,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.5,
+            "supportiveness": 0.5,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.95,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.8,
+            "formality": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Ethicist_2",
+          "agent_id": "a5cebd69-a491-4c9c-acda-94abc2745318",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 12,
+          "rebuttals_made": 5,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.5,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.6,
+            "supportiveness": 0.6,
+            "analytical_depth": 0.8,
+            "evidence_reliance": 0.7,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.7,
+            "formality": 0.8
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Innovator_3",
+          "agent_id": "7713a4a6-9444-448c-9660-45ab4314ac62",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 12,
+          "rebuttals_made": 5,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.5,
+            "defensiveness": 0.6,
+            "supportiveness": 0.4,
+            "analytical_depth": 0.5,
+            "evidence_reliance": 0.4,
+            "confidence": 0.8,
+            "optimism": 0.9,
+            "verbosity": 0.7,
+            "formality": 0.4
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [
+        {
+          "agent_name": "Analyst_1",
+          "score": 50.0,
+          "challenges": 12,
+          "rebuttals": 5
+        },
+        {
+          "agent_name": "Ethicist_2",
+          "score": 50.0,
+          "challenges": 12,
+          "rebuttals": 5
+        },
+        {
+          "agent_name": "Innovator_3",
+          "score": 50.0,
+          "challenges": 12,
+          "rebuttals": 5
+        }
+      ],
+      "context": {
+        "round": 6,
+        "phase": "post_challenge",
+        "challenges": 6
+      }
+    },
+    {
+      "timestamp": 425.77724599838257,
+      "datetime": "2026-01-09T11:36:53.370612",
+      "agent_count": 3,
+      "proposal_count": 3,
+      "agents": [
+        {
+          "name": "Analyst_1",
+          "agent_id": "549ceb36-88e8-4d84-8459-7cd0faad16b7",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 12,
+          "rebuttals_made": 5,
+          "personality": {
+            "creativity": 0.3,
+            "boldness": 0.4,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.5,
+            "supportiveness": 0.5,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.95,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.8,
+            "formality": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Ethicist_2",
+          "agent_id": "a5cebd69-a491-4c9c-acda-94abc2745318",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 12,
+          "rebuttals_made": 5,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.5,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.6,
+            "supportiveness": 0.6,
+            "analytical_depth": 0.8,
+            "evidence_reliance": 0.7,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.7,
+            "formality": 0.8
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Innovator_3",
+          "agent_id": "7713a4a6-9444-448c-9660-45ab4314ac62",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 12,
+          "rebuttals_made": 5,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.5,
+            "defensiveness": 0.6,
+            "supportiveness": 0.4,
+            "analytical_depth": 0.5,
+            "evidence_reliance": 0.4,
+            "confidence": 0.8,
+            "optimism": 0.9,
+            "verbosity": 0.7,
+            "formality": 0.4
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [
+        {
+          "agent_name": "Analyst_1",
+          "score": 50.0,
+          "challenges": 12,
+          "rebuttals": 5
+        },
+        {
+          "agent_name": "Ethicist_2",
+          "score": 50.0,
+          "challenges": 12,
+          "rebuttals": 5
+        },
+        {
+          "agent_name": "Innovator_3",
+          "score": 50.0,
+          "challenges": 12,
+          "rebuttals": 5
+        }
+      ],
+      "context": {
+        "phase": "REBUTTAL"
+      }
+    },
+    {
+      "timestamp": 447.44893050193787,
+      "datetime": "2026-01-09T11:37:15.042297",
+      "agent_count": 3,
+      "proposal_count": 3,
+      "agents": [
+        {
+          "name": "Analyst_1",
+          "agent_id": "549ceb36-88e8-4d84-8459-7cd0faad16b7",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 12,
+          "rebuttals_made": 6,
+          "personality": {
+            "creativity": 0.3,
+            "boldness": 0.4,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.5,
+            "supportiveness": 0.5,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.95,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.8,
+            "formality": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Ethicist_2",
+          "agent_id": "a5cebd69-a491-4c9c-acda-94abc2745318",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 12,
+          "rebuttals_made": 6,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.5,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.6,
+            "supportiveness": 0.6,
+            "analytical_depth": 0.8,
+            "evidence_reliance": 0.7,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.7,
+            "formality": 0.8
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Innovator_3",
+          "agent_id": "7713a4a6-9444-448c-9660-45ab4314ac62",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 12,
+          "rebuttals_made": 6,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.5,
+            "defensiveness": 0.6,
+            "supportiveness": 0.4,
+            "analytical_depth": 0.5,
+            "evidence_reliance": 0.4,
+            "confidence": 0.8,
+            "optimism": 0.9,
+            "verbosity": 0.7,
+            "formality": 0.4
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [
+        {
+          "agent_name": "Analyst_1",
+          "score": 50.0,
+          "challenges": 12,
+          "rebuttals": 6
+        },
+        {
+          "agent_name": "Ethicist_2",
+          "score": 50.0,
+          "challenges": 12,
+          "rebuttals": 6
+        },
+        {
+          "agent_name": "Innovator_3",
+          "score": 50.0,
+          "challenges": 12,
+          "rebuttals": 6
+        }
+      ],
+      "context": {
+        "round": 6,
+        "phase": "post_rebuttal",
+        "rebuttals": 3
+      }
+    },
+    {
+      "timestamp": 451.4512252807617,
+      "datetime": "2026-01-09T11:37:19.044593",
+      "agent_count": 3,
+      "proposal_count": 3,
+      "agents": [
+        {
+          "name": "Analyst_1",
+          "agent_id": "549ceb36-88e8-4d84-8459-7cd0faad16b7",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 12,
+          "rebuttals_made": 6,
+          "personality": {
+            "creativity": 0.3,
+            "boldness": 0.4,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.5,
+            "supportiveness": 0.5,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.95,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.8,
+            "formality": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Ethicist_2",
+          "agent_id": "a5cebd69-a491-4c9c-acda-94abc2745318",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 12,
+          "rebuttals_made": 6,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.5,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.6,
+            "supportiveness": 0.6,
+            "analytical_depth": 0.8,
+            "evidence_reliance": 0.7,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.7,
+            "formality": 0.8
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Innovator_3",
+          "agent_id": "7713a4a6-9444-448c-9660-45ab4314ac62",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 12,
+          "rebuttals_made": 6,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.5,
+            "defensiveness": 0.6,
+            "supportiveness": 0.4,
+            "analytical_depth": 0.5,
+            "evidence_reliance": 0.4,
+            "confidence": 0.8,
+            "optimism": 0.9,
+            "verbosity": 0.7,
+            "formality": 0.4
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [
+        {
+          "agent_name": "Analyst_1",
+          "score": 50.0,
+          "challenges": 12,
+          "rebuttals": 6
+        },
+        {
+          "agent_name": "Ethicist_2",
+          "score": 50.0,
+          "challenges": 12,
+          "rebuttals": 6
+        },
+        {
+          "agent_name": "Innovator_3",
+          "score": 50.0,
+          "challenges": 12,
+          "rebuttals": 6
+        }
+      ],
+      "context": {
+        "phase": "CHALLENGE"
+      }
+    },
+    {
+      "timestamp": 488.2885859012604,
+      "datetime": "2026-01-09T11:37:55.881954",
+      "agent_count": 3,
+      "proposal_count": 3,
+      "agents": [
+        {
+          "name": "Analyst_1",
+          "agent_id": "549ceb36-88e8-4d84-8459-7cd0faad16b7",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 14,
+          "rebuttals_made": 6,
+          "personality": {
+            "creativity": 0.3,
+            "boldness": 0.4,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.5,
+            "supportiveness": 0.5,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.95,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.8,
+            "formality": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Ethicist_2",
+          "agent_id": "a5cebd69-a491-4c9c-acda-94abc2745318",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 14,
+          "rebuttals_made": 6,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.5,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.6,
+            "supportiveness": 0.6,
+            "analytical_depth": 0.8,
+            "evidence_reliance": 0.7,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.7,
+            "formality": 0.8
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Innovator_3",
+          "agent_id": "7713a4a6-9444-448c-9660-45ab4314ac62",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 14,
+          "rebuttals_made": 6,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.5,
+            "defensiveness": 0.6,
+            "supportiveness": 0.4,
+            "analytical_depth": 0.5,
+            "evidence_reliance": 0.4,
+            "confidence": 0.8,
+            "optimism": 0.9,
+            "verbosity": 0.7,
+            "formality": 0.4
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [
+        {
+          "agent_name": "Analyst_1",
+          "score": 50.0,
+          "challenges": 14,
+          "rebuttals": 6
+        },
+        {
+          "agent_name": "Ethicist_2",
+          "score": 50.0,
+          "challenges": 14,
+          "rebuttals": 6
+        },
+        {
+          "agent_name": "Innovator_3",
+          "score": 50.0,
+          "challenges": 14,
+          "rebuttals": 6
+        }
+      ],
+      "context": {
+        "round": 7,
+        "phase": "post_challenge",
+        "challenges": 6
+      }
+    },
+    {
+      "timestamp": 488.28869915008545,
+      "datetime": "2026-01-09T11:37:55.882065",
+      "agent_count": 3,
+      "proposal_count": 3,
+      "agents": [
+        {
+          "name": "Analyst_1",
+          "agent_id": "549ceb36-88e8-4d84-8459-7cd0faad16b7",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 14,
+          "rebuttals_made": 6,
+          "personality": {
+            "creativity": 0.3,
+            "boldness": 0.4,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.5,
+            "supportiveness": 0.5,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.95,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.8,
+            "formality": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Ethicist_2",
+          "agent_id": "a5cebd69-a491-4c9c-acda-94abc2745318",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 14,
+          "rebuttals_made": 6,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.5,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.6,
+            "supportiveness": 0.6,
+            "analytical_depth": 0.8,
+            "evidence_reliance": 0.7,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.7,
+            "formality": 0.8
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Innovator_3",
+          "agent_id": "7713a4a6-9444-448c-9660-45ab4314ac62",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 14,
+          "rebuttals_made": 6,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.5,
+            "defensiveness": 0.6,
+            "supportiveness": 0.4,
+            "analytical_depth": 0.5,
+            "evidence_reliance": 0.4,
+            "confidence": 0.8,
+            "optimism": 0.9,
+            "verbosity": 0.7,
+            "formality": 0.4
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [
+        {
+          "agent_name": "Analyst_1",
+          "score": 50.0,
+          "challenges": 14,
+          "rebuttals": 6
+        },
+        {
+          "agent_name": "Ethicist_2",
+          "score": 50.0,
+          "challenges": 14,
+          "rebuttals": 6
+        },
+        {
+          "agent_name": "Innovator_3",
+          "score": 50.0,
+          "challenges": 14,
+          "rebuttals": 6
+        }
+      ],
+      "context": {
+        "phase": "REBUTTAL"
+      }
+    },
+    {
+      "timestamp": 512.0631587505341,
+      "datetime": "2026-01-09T11:38:19.656526",
+      "agent_count": 3,
+      "proposal_count": 3,
+      "agents": [
+        {
+          "name": "Analyst_1",
+          "agent_id": "549ceb36-88e8-4d84-8459-7cd0faad16b7",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 14,
+          "rebuttals_made": 7,
+          "personality": {
+            "creativity": 0.3,
+            "boldness": 0.4,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.5,
+            "supportiveness": 0.5,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.95,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.8,
+            "formality": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Ethicist_2",
+          "agent_id": "a5cebd69-a491-4c9c-acda-94abc2745318",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 14,
+          "rebuttals_made": 7,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.5,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.6,
+            "supportiveness": 0.6,
+            "analytical_depth": 0.8,
+            "evidence_reliance": 0.7,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.7,
+            "formality": 0.8
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Innovator_3",
+          "agent_id": "7713a4a6-9444-448c-9660-45ab4314ac62",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 14,
+          "rebuttals_made": 7,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.5,
+            "defensiveness": 0.6,
+            "supportiveness": 0.4,
+            "analytical_depth": 0.5,
+            "evidence_reliance": 0.4,
+            "confidence": 0.8,
+            "optimism": 0.9,
+            "verbosity": 0.7,
+            "formality": 0.4
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [
+        {
+          "agent_name": "Analyst_1",
+          "score": 50.0,
+          "challenges": 14,
+          "rebuttals": 7
+        },
+        {
+          "agent_name": "Ethicist_2",
+          "score": 50.0,
+          "challenges": 14,
+          "rebuttals": 7
+        },
+        {
+          "agent_name": "Innovator_3",
+          "score": 50.0,
+          "challenges": 14,
+          "rebuttals": 7
+        }
+      ],
+      "context": {
+        "round": 7,
+        "phase": "post_rebuttal",
+        "rebuttals": 3
+      }
+    },
+    {
+      "timestamp": 516.0661737918854,
+      "datetime": "2026-01-09T11:38:23.659542",
+      "agent_count": 3,
+      "proposal_count": 3,
+      "agents": [
+        {
+          "name": "Analyst_1",
+          "agent_id": "549ceb36-88e8-4d84-8459-7cd0faad16b7",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 14,
+          "rebuttals_made": 7,
+          "personality": {
+            "creativity": 0.3,
+            "boldness": 0.4,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.5,
+            "supportiveness": 0.5,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.95,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.8,
+            "formality": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Ethicist_2",
+          "agent_id": "a5cebd69-a491-4c9c-acda-94abc2745318",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 14,
+          "rebuttals_made": 7,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.5,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.6,
+            "supportiveness": 0.6,
+            "analytical_depth": 0.8,
+            "evidence_reliance": 0.7,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.7,
+            "formality": 0.8
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Innovator_3",
+          "agent_id": "7713a4a6-9444-448c-9660-45ab4314ac62",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 14,
+          "rebuttals_made": 7,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.5,
+            "defensiveness": 0.6,
+            "supportiveness": 0.4,
+            "analytical_depth": 0.5,
+            "evidence_reliance": 0.4,
+            "confidence": 0.8,
+            "optimism": 0.9,
+            "verbosity": 0.7,
+            "formality": 0.4
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [
+        {
+          "agent_name": "Analyst_1",
+          "score": 50.0,
+          "challenges": 14,
+          "rebuttals": 7
+        },
+        {
+          "agent_name": "Ethicist_2",
+          "score": 50.0,
+          "challenges": 14,
+          "rebuttals": 7
+        },
+        {
+          "agent_name": "Innovator_3",
+          "score": 50.0,
+          "challenges": 14,
+          "rebuttals": 7
+        }
+      ],
+      "context": {
+        "phase": "CHALLENGE"
+      }
+    },
+    {
+      "timestamp": 556.8243927955627,
+      "datetime": "2026-01-09T11:39:04.417761",
+      "agent_count": 3,
+      "proposal_count": 3,
+      "agents": [
+        {
+          "name": "Analyst_1",
+          "agent_id": "549ceb36-88e8-4d84-8459-7cd0faad16b7",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 16,
+          "rebuttals_made": 7,
+          "personality": {
+            "creativity": 0.3,
+            "boldness": 0.4,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.5,
+            "supportiveness": 0.5,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.95,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.8,
+            "formality": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Ethicist_2",
+          "agent_id": "a5cebd69-a491-4c9c-acda-94abc2745318",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 16,
+          "rebuttals_made": 7,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.5,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.6,
+            "supportiveness": 0.6,
+            "analytical_depth": 0.8,
+            "evidence_reliance": 0.7,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.7,
+            "formality": 0.8
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Innovator_3",
+          "agent_id": "7713a4a6-9444-448c-9660-45ab4314ac62",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 16,
+          "rebuttals_made": 7,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.5,
+            "defensiveness": 0.6,
+            "supportiveness": 0.4,
+            "analytical_depth": 0.5,
+            "evidence_reliance": 0.4,
+            "confidence": 0.8,
+            "optimism": 0.9,
+            "verbosity": 0.7,
+            "formality": 0.4
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [
+        {
+          "agent_name": "Analyst_1",
+          "score": 50.0,
+          "challenges": 16,
+          "rebuttals": 7
+        },
+        {
+          "agent_name": "Ethicist_2",
+          "score": 50.0,
+          "challenges": 16,
+          "rebuttals": 7
+        },
+        {
+          "agent_name": "Innovator_3",
+          "score": 50.0,
+          "challenges": 16,
+          "rebuttals": 7
+        }
+      ],
+      "context": {
+        "round": 8,
+        "phase": "post_challenge",
+        "challenges": 6
+      }
+    },
+    {
+      "timestamp": 556.8245179653168,
+      "datetime": "2026-01-09T11:39:04.417885",
+      "agent_count": 3,
+      "proposal_count": 3,
+      "agents": [
+        {
+          "name": "Analyst_1",
+          "agent_id": "549ceb36-88e8-4d84-8459-7cd0faad16b7",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 16,
+          "rebuttals_made": 7,
+          "personality": {
+            "creativity": 0.3,
+            "boldness": 0.4,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.5,
+            "supportiveness": 0.5,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.95,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.8,
+            "formality": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Ethicist_2",
+          "agent_id": "a5cebd69-a491-4c9c-acda-94abc2745318",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 16,
+          "rebuttals_made": 7,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.5,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.6,
+            "supportiveness": 0.6,
+            "analytical_depth": 0.8,
+            "evidence_reliance": 0.7,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.7,
+            "formality": 0.8
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Innovator_3",
+          "agent_id": "7713a4a6-9444-448c-9660-45ab4314ac62",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 16,
+          "rebuttals_made": 7,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.5,
+            "defensiveness": 0.6,
+            "supportiveness": 0.4,
+            "analytical_depth": 0.5,
+            "evidence_reliance": 0.4,
+            "confidence": 0.8,
+            "optimism": 0.9,
+            "verbosity": 0.7,
+            "formality": 0.4
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [
+        {
+          "agent_name": "Analyst_1",
+          "score": 50.0,
+          "challenges": 16,
+          "rebuttals": 7
+        },
+        {
+          "agent_name": "Ethicist_2",
+          "score": 50.0,
+          "challenges": 16,
+          "rebuttals": 7
+        },
+        {
+          "agent_name": "Innovator_3",
+          "score": 50.0,
+          "challenges": 16,
+          "rebuttals": 7
+        }
+      ],
+      "context": {
+        "phase": "REBUTTAL"
+      }
+    },
+    {
+      "timestamp": 579.3137741088867,
+      "datetime": "2026-01-09T11:39:26.907141",
+      "agent_count": 3,
+      "proposal_count": 3,
+      "agents": [
+        {
+          "name": "Analyst_1",
+          "agent_id": "549ceb36-88e8-4d84-8459-7cd0faad16b7",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 16,
+          "rebuttals_made": 8,
+          "personality": {
+            "creativity": 0.3,
+            "boldness": 0.4,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.5,
+            "supportiveness": 0.5,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.95,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.8,
+            "formality": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Ethicist_2",
+          "agent_id": "a5cebd69-a491-4c9c-acda-94abc2745318",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 16,
+          "rebuttals_made": 8,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.5,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.6,
+            "supportiveness": 0.6,
+            "analytical_depth": 0.8,
+            "evidence_reliance": 0.7,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.7,
+            "formality": 0.8
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Innovator_3",
+          "agent_id": "7713a4a6-9444-448c-9660-45ab4314ac62",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 16,
+          "rebuttals_made": 8,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.5,
+            "defensiveness": 0.6,
+            "supportiveness": 0.4,
+            "analytical_depth": 0.5,
+            "evidence_reliance": 0.4,
+            "confidence": 0.8,
+            "optimism": 0.9,
+            "verbosity": 0.7,
+            "formality": 0.4
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [
+        {
+          "agent_name": "Analyst_1",
+          "score": 50.0,
+          "challenges": 16,
+          "rebuttals": 8
+        },
+        {
+          "agent_name": "Ethicist_2",
+          "score": 50.0,
+          "challenges": 16,
+          "rebuttals": 8
+        },
+        {
+          "agent_name": "Innovator_3",
+          "score": 50.0,
+          "challenges": 16,
+          "rebuttals": 8
+        }
+      ],
+      "context": {
+        "round": 8,
+        "phase": "post_rebuttal",
+        "rebuttals": 3
+      }
+    },
+    {
+      "timestamp": 583.3170602321625,
+      "datetime": "2026-01-09T11:39:30.910428",
+      "agent_count": 3,
+      "proposal_count": 3,
+      "agents": [
+        {
+          "name": "Analyst_1",
+          "agent_id": "549ceb36-88e8-4d84-8459-7cd0faad16b7",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 16,
+          "rebuttals_made": 8,
+          "personality": {
+            "creativity": 0.3,
+            "boldness": 0.4,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.5,
+            "supportiveness": 0.5,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.95,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.8,
+            "formality": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Ethicist_2",
+          "agent_id": "a5cebd69-a491-4c9c-acda-94abc2745318",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 16,
+          "rebuttals_made": 8,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.5,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.6,
+            "supportiveness": 0.6,
+            "analytical_depth": 0.8,
+            "evidence_reliance": 0.7,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.7,
+            "formality": 0.8
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Innovator_3",
+          "agent_id": "7713a4a6-9444-448c-9660-45ab4314ac62",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 16,
+          "rebuttals_made": 8,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.5,
+            "defensiveness": 0.6,
+            "supportiveness": 0.4,
+            "analytical_depth": 0.5,
+            "evidence_reliance": 0.4,
+            "confidence": 0.8,
+            "optimism": 0.9,
+            "verbosity": 0.7,
+            "formality": 0.4
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [
+        {
+          "agent_name": "Analyst_1",
+          "score": 50.0,
+          "challenges": 16,
+          "rebuttals": 8
+        },
+        {
+          "agent_name": "Ethicist_2",
+          "score": 50.0,
+          "challenges": 16,
+          "rebuttals": 8
+        },
+        {
+          "agent_name": "Innovator_3",
+          "score": 50.0,
+          "challenges": 16,
+          "rebuttals": 8
+        }
+      ],
+      "context": {
+        "phase": "CHALLENGE"
+      }
+    },
+    {
+      "timestamp": 631.3090219497681,
+      "datetime": "2026-01-09T11:40:18.902390",
+      "agent_count": 3,
+      "proposal_count": 3,
+      "agents": [
+        {
+          "name": "Analyst_1",
+          "agent_id": "549ceb36-88e8-4d84-8459-7cd0faad16b7",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 18,
+          "rebuttals_made": 8,
+          "personality": {
+            "creativity": 0.3,
+            "boldness": 0.4,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.5,
+            "supportiveness": 0.5,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.95,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.8,
+            "formality": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Ethicist_2",
+          "agent_id": "a5cebd69-a491-4c9c-acda-94abc2745318",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 18,
+          "rebuttals_made": 8,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.5,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.6,
+            "supportiveness": 0.6,
+            "analytical_depth": 0.8,
+            "evidence_reliance": 0.7,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.7,
+            "formality": 0.8
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Innovator_3",
+          "agent_id": "7713a4a6-9444-448c-9660-45ab4314ac62",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 18,
+          "rebuttals_made": 8,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.5,
+            "defensiveness": 0.6,
+            "supportiveness": 0.4,
+            "analytical_depth": 0.5,
+            "evidence_reliance": 0.4,
+            "confidence": 0.8,
+            "optimism": 0.9,
+            "verbosity": 0.7,
+            "formality": 0.4
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [
+        {
+          "agent_name": "Analyst_1",
+          "score": 50.0,
+          "challenges": 18,
+          "rebuttals": 8
+        },
+        {
+          "agent_name": "Ethicist_2",
+          "score": 50.0,
+          "challenges": 18,
+          "rebuttals": 8
+        },
+        {
+          "agent_name": "Innovator_3",
+          "score": 50.0,
+          "challenges": 18,
+          "rebuttals": 8
+        }
+      ],
+      "context": {
+        "round": 9,
+        "phase": "post_challenge",
+        "challenges": 6
+      }
+    },
+    {
+      "timestamp": 631.3091497421265,
+      "datetime": "2026-01-09T11:40:18.902516",
+      "agent_count": 3,
+      "proposal_count": 3,
+      "agents": [
+        {
+          "name": "Analyst_1",
+          "agent_id": "549ceb36-88e8-4d84-8459-7cd0faad16b7",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 18,
+          "rebuttals_made": 8,
+          "personality": {
+            "creativity": 0.3,
+            "boldness": 0.4,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.5,
+            "supportiveness": 0.5,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.95,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.8,
+            "formality": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Ethicist_2",
+          "agent_id": "a5cebd69-a491-4c9c-acda-94abc2745318",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 18,
+          "rebuttals_made": 8,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.5,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.6,
+            "supportiveness": 0.6,
+            "analytical_depth": 0.8,
+            "evidence_reliance": 0.7,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.7,
+            "formality": 0.8
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Innovator_3",
+          "agent_id": "7713a4a6-9444-448c-9660-45ab4314ac62",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 18,
+          "rebuttals_made": 8,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.5,
+            "defensiveness": 0.6,
+            "supportiveness": 0.4,
+            "analytical_depth": 0.5,
+            "evidence_reliance": 0.4,
+            "confidence": 0.8,
+            "optimism": 0.9,
+            "verbosity": 0.7,
+            "formality": 0.4
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [
+        {
+          "agent_name": "Analyst_1",
+          "score": 50.0,
+          "challenges": 18,
+          "rebuttals": 8
+        },
+        {
+          "agent_name": "Ethicist_2",
+          "score": 50.0,
+          "challenges": 18,
+          "rebuttals": 8
+        },
+        {
+          "agent_name": "Innovator_3",
+          "score": 50.0,
+          "challenges": 18,
+          "rebuttals": 8
+        }
+      ],
+      "context": {
+        "phase": "REBUTTAL"
+      }
+    },
+    {
+      "timestamp": 654.5270524024963,
+      "datetime": "2026-01-09T11:40:42.120420",
+      "agent_count": 3,
+      "proposal_count": 3,
+      "agents": [
+        {
+          "name": "Analyst_1",
+          "agent_id": "549ceb36-88e8-4d84-8459-7cd0faad16b7",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 18,
+          "rebuttals_made": 9,
+          "personality": {
+            "creativity": 0.3,
+            "boldness": 0.4,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.5,
+            "supportiveness": 0.5,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.95,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.8,
+            "formality": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Ethicist_2",
+          "agent_id": "a5cebd69-a491-4c9c-acda-94abc2745318",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 18,
+          "rebuttals_made": 9,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.5,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.6,
+            "supportiveness": 0.6,
+            "analytical_depth": 0.8,
+            "evidence_reliance": 0.7,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.7,
+            "formality": 0.8
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Innovator_3",
+          "agent_id": "7713a4a6-9444-448c-9660-45ab4314ac62",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 18,
+          "rebuttals_made": 9,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.5,
+            "defensiveness": 0.6,
+            "supportiveness": 0.4,
+            "analytical_depth": 0.5,
+            "evidence_reliance": 0.4,
+            "confidence": 0.8,
+            "optimism": 0.9,
+            "verbosity": 0.7,
+            "formality": 0.4
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [
+        {
+          "agent_name": "Analyst_1",
+          "score": 50.0,
+          "challenges": 18,
+          "rebuttals": 9
+        },
+        {
+          "agent_name": "Ethicist_2",
+          "score": 50.0,
+          "challenges": 18,
+          "rebuttals": 9
+        },
+        {
+          "agent_name": "Innovator_3",
+          "score": 50.0,
+          "challenges": 18,
+          "rebuttals": 9
+        }
+      ],
+      "context": {
+        "round": 9,
+        "phase": "post_rebuttal",
+        "rebuttals": 3
+      }
+    },
+    {
+      "timestamp": 658.5300025939941,
+      "datetime": "2026-01-09T11:40:46.123371",
+      "agent_count": 3,
+      "proposal_count": 3,
+      "agents": [
+        {
+          "name": "Analyst_1",
+          "agent_id": "549ceb36-88e8-4d84-8459-7cd0faad16b7",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 18,
+          "rebuttals_made": 9,
+          "personality": {
+            "creativity": 0.3,
+            "boldness": 0.4,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.5,
+            "supportiveness": 0.5,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.95,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.8,
+            "formality": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Ethicist_2",
+          "agent_id": "a5cebd69-a491-4c9c-acda-94abc2745318",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 18,
+          "rebuttals_made": 9,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.5,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.6,
+            "supportiveness": 0.6,
+            "analytical_depth": 0.8,
+            "evidence_reliance": 0.7,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.7,
+            "formality": 0.8
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Innovator_3",
+          "agent_id": "7713a4a6-9444-448c-9660-45ab4314ac62",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 18,
+          "rebuttals_made": 9,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.5,
+            "defensiveness": 0.6,
+            "supportiveness": 0.4,
+            "analytical_depth": 0.5,
+            "evidence_reliance": 0.4,
+            "confidence": 0.8,
+            "optimism": 0.9,
+            "verbosity": 0.7,
+            "formality": 0.4
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [
+        {
+          "agent_name": "Analyst_1",
+          "score": 50.0,
+          "challenges": 18,
+          "rebuttals": 9
+        },
+        {
+          "agent_name": "Ethicist_2",
+          "score": 50.0,
+          "challenges": 18,
+          "rebuttals": 9
+        },
+        {
+          "agent_name": "Innovator_3",
+          "score": 50.0,
+          "challenges": 18,
+          "rebuttals": 9
+        }
+      ],
+      "context": {
+        "phase": "CHALLENGE"
+      }
+    },
+    {
+      "timestamp": 703.8776488304138,
+      "datetime": "2026-01-09T11:41:31.471017",
+      "agent_count": 3,
+      "proposal_count": 3,
+      "agents": [
+        {
+          "name": "Analyst_1",
+          "agent_id": "549ceb36-88e8-4d84-8459-7cd0faad16b7",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 20,
+          "rebuttals_made": 9,
+          "personality": {
+            "creativity": 0.3,
+            "boldness": 0.4,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.5,
+            "supportiveness": 0.5,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.95,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.8,
+            "formality": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Ethicist_2",
+          "agent_id": "a5cebd69-a491-4c9c-acda-94abc2745318",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 20,
+          "rebuttals_made": 9,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.5,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.6,
+            "supportiveness": 0.6,
+            "analytical_depth": 0.8,
+            "evidence_reliance": 0.7,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.7,
+            "formality": 0.8
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Innovator_3",
+          "agent_id": "7713a4a6-9444-448c-9660-45ab4314ac62",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 20,
+          "rebuttals_made": 9,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.5,
+            "defensiveness": 0.6,
+            "supportiveness": 0.4,
+            "analytical_depth": 0.5,
+            "evidence_reliance": 0.4,
+            "confidence": 0.8,
+            "optimism": 0.9,
+            "verbosity": 0.7,
+            "formality": 0.4
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [
+        {
+          "agent_name": "Analyst_1",
+          "score": 50.0,
+          "challenges": 20,
+          "rebuttals": 9
+        },
+        {
+          "agent_name": "Ethicist_2",
+          "score": 50.0,
+          "challenges": 20,
+          "rebuttals": 9
+        },
+        {
+          "agent_name": "Innovator_3",
+          "score": 50.0,
+          "challenges": 20,
+          "rebuttals": 9
+        }
+      ],
+      "context": {
+        "round": 10,
+        "phase": "post_challenge",
+        "challenges": 6
+      }
+    },
+    {
+      "timestamp": 703.8777792453766,
+      "datetime": "2026-01-09T11:41:31.471146",
+      "agent_count": 3,
+      "proposal_count": 3,
+      "agents": [
+        {
+          "name": "Analyst_1",
+          "agent_id": "549ceb36-88e8-4d84-8459-7cd0faad16b7",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 20,
+          "rebuttals_made": 9,
+          "personality": {
+            "creativity": 0.3,
+            "boldness": 0.4,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.5,
+            "supportiveness": 0.5,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.95,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.8,
+            "formality": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Ethicist_2",
+          "agent_id": "a5cebd69-a491-4c9c-acda-94abc2745318",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 20,
+          "rebuttals_made": 9,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.5,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.6,
+            "supportiveness": 0.6,
+            "analytical_depth": 0.8,
+            "evidence_reliance": 0.7,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.7,
+            "formality": 0.8
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Innovator_3",
+          "agent_id": "7713a4a6-9444-448c-9660-45ab4314ac62",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 20,
+          "rebuttals_made": 9,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.5,
+            "defensiveness": 0.6,
+            "supportiveness": 0.4,
+            "analytical_depth": 0.5,
+            "evidence_reliance": 0.4,
+            "confidence": 0.8,
+            "optimism": 0.9,
+            "verbosity": 0.7,
+            "formality": 0.4
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [
+        {
+          "agent_name": "Analyst_1",
+          "score": 50.0,
+          "challenges": 20,
+          "rebuttals": 9
+        },
+        {
+          "agent_name": "Ethicist_2",
+          "score": 50.0,
+          "challenges": 20,
+          "rebuttals": 9
+        },
+        {
+          "agent_name": "Innovator_3",
+          "score": 50.0,
+          "challenges": 20,
+          "rebuttals": 9
+        }
+      ],
+      "context": {
+        "phase": "REBUTTAL"
+      }
+    },
+    {
+      "timestamp": 729.3085060119629,
+      "datetime": "2026-01-09T11:41:56.901873",
+      "agent_count": 3,
+      "proposal_count": 3,
+      "agents": [
+        {
+          "name": "Analyst_1",
+          "agent_id": "549ceb36-88e8-4d84-8459-7cd0faad16b7",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 20,
+          "rebuttals_made": 10,
+          "personality": {
+            "creativity": 0.3,
+            "boldness": 0.4,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.5,
+            "supportiveness": 0.5,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.95,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.8,
+            "formality": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Ethicist_2",
+          "agent_id": "a5cebd69-a491-4c9c-acda-94abc2745318",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 20,
+          "rebuttals_made": 10,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.5,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.6,
+            "supportiveness": 0.6,
+            "analytical_depth": 0.8,
+            "evidence_reliance": 0.7,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.7,
+            "formality": 0.8
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Innovator_3",
+          "agent_id": "7713a4a6-9444-448c-9660-45ab4314ac62",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 20,
+          "rebuttals_made": 10,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.5,
+            "defensiveness": 0.6,
+            "supportiveness": 0.4,
+            "analytical_depth": 0.5,
+            "evidence_reliance": 0.4,
+            "confidence": 0.8,
+            "optimism": 0.9,
+            "verbosity": 0.7,
+            "formality": 0.4
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [
+        {
+          "agent_name": "Analyst_1",
+          "score": 50.0,
+          "challenges": 20,
+          "rebuttals": 10
+        },
+        {
+          "agent_name": "Ethicist_2",
+          "score": 50.0,
+          "challenges": 20,
+          "rebuttals": 10
+        },
+        {
+          "agent_name": "Innovator_3",
+          "score": 50.0,
+          "challenges": 20,
+          "rebuttals": 10
+        }
+      ],
+      "context": {
+        "round": 10,
+        "phase": "post_rebuttal",
+        "rebuttals": 3
+      }
+    },
+    {
+      "timestamp": 733.3113617897034,
+      "datetime": "2026-01-09T11:42:00.904728",
+      "agent_count": 3,
+      "proposal_count": 3,
+      "agents": [
+        {
+          "name": "Analyst_1",
+          "agent_id": "549ceb36-88e8-4d84-8459-7cd0faad16b7",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 20,
+          "rebuttals_made": 10,
+          "personality": {
+            "creativity": 0.3,
+            "boldness": 0.4,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.5,
+            "supportiveness": 0.5,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.95,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.8,
+            "formality": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Ethicist_2",
+          "agent_id": "a5cebd69-a491-4c9c-acda-94abc2745318",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 20,
+          "rebuttals_made": 10,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.5,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.6,
+            "supportiveness": 0.6,
+            "analytical_depth": 0.8,
+            "evidence_reliance": 0.7,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.7,
+            "formality": 0.8
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Innovator_3",
+          "agent_id": "7713a4a6-9444-448c-9660-45ab4314ac62",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 20,
+          "rebuttals_made": 10,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.5,
+            "defensiveness": 0.6,
+            "supportiveness": 0.4,
+            "analytical_depth": 0.5,
+            "evidence_reliance": 0.4,
+            "confidence": 0.8,
+            "optimism": 0.9,
+            "verbosity": 0.7,
+            "formality": 0.4
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [
+        {
+          "agent_name": "Analyst_1",
+          "score": 50.0,
+          "challenges": 20,
+          "rebuttals": 10
+        },
+        {
+          "agent_name": "Ethicist_2",
+          "score": 50.0,
+          "challenges": 20,
+          "rebuttals": 10
+        },
+        {
+          "agent_name": "Innovator_3",
+          "score": 50.0,
+          "challenges": 20,
+          "rebuttals": 10
+        }
+      ],
+      "context": {
+        "phase": "SCORING"
+      }
+    },
+    {
+      "timestamp": 733.3121054172516,
+      "datetime": "2026-01-09T11:42:00.905471",
+      "agent_count": 3,
+      "proposal_count": 3,
+      "agents": [
+        {
+          "name": "Analyst_1",
+          "agent_id": "549ceb36-88e8-4d84-8459-7cd0faad16b7",
+          "is_active": true,
+          "score": 50.0,
+          "proposals_made": 1,
+          "challenges_made": 20,
+          "rebuttals_made": 10,
+          "personality": {
+            "creativity": 0.3,
+            "boldness": 0.4,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.5,
+            "supportiveness": 0.5,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.95,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.8,
+            "formality": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Ethicist_2",
+          "agent_id": "a5cebd69-a491-4c9c-acda-94abc2745318",
+          "is_active": true,
+          "score": 50.0,
+          "proposals_made": 1,
+          "challenges_made": 20,
+          "rebuttals_made": 10,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.5,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.6,
+            "supportiveness": 0.6,
+            "analytical_depth": 0.8,
+            "evidence_reliance": 0.7,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.7,
+            "formality": 0.8
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Innovator_3",
+          "agent_id": "7713a4a6-9444-448c-9660-45ab4314ac62",
+          "is_active": true,
+          "score": 50.0,
+          "proposals_made": 1,
+          "challenges_made": 20,
+          "rebuttals_made": 10,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.5,
+            "defensiveness": 0.6,
+            "supportiveness": 0.4,
+            "analytical_depth": 0.5,
+            "evidence_reliance": 0.4,
+            "confidence": 0.8,
+            "optimism": 0.9,
+            "verbosity": 0.7,
+            "formality": 0.4
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [
+        {
+          "agent_name": "Analyst_1",
+          "score": 50.0,
+          "challenges": 20,
+          "rebuttals": 10
+        },
+        {
+          "agent_name": "Ethicist_2",
+          "score": 50.0,
+          "challenges": 20,
+          "rebuttals": 10
+        },
+        {
+          "agent_name": "Innovator_3",
+          "score": 50.0,
+          "challenges": 20,
+          "rebuttals": 10
+        }
+      ],
+      "context": {
+        "phase": "RESOLUTION"
+      }
+    },
+    {
+      "timestamp": 733.3123893737793,
+      "datetime": "2026-01-09T11:42:00.905756",
+      "agent_count": 3,
+      "proposal_count": 3,
+      "agents": [
+        {
+          "name": "Analyst_1",
+          "agent_id": "549ceb36-88e8-4d84-8459-7cd0faad16b7",
+          "is_active": true,
+          "score": 50.0,
+          "proposals_made": 1,
+          "challenges_made": 20,
+          "rebuttals_made": 10,
+          "personality": {
+            "creativity": 0.3,
+            "boldness": 0.4,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.5,
+            "supportiveness": 0.5,
+            "analytical_depth": 0.95,
+            "evidence_reliance": 0.95,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.8,
+            "formality": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Ethicist_2",
+          "agent_id": "a5cebd69-a491-4c9c-acda-94abc2745318",
+          "is_active": true,
+          "score": 50.0,
+          "proposals_made": 1,
+          "challenges_made": 20,
+          "rebuttals_made": 10,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.5,
+            "aggressiveness": 0.4,
+            "defensiveness": 0.6,
+            "supportiveness": 0.6,
+            "analytical_depth": 0.8,
+            "evidence_reliance": 0.7,
+            "confidence": 0.7,
+            "optimism": 0.5,
+            "verbosity": 0.7,
+            "formality": 0.8
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Innovator_3",
+          "agent_id": "7713a4a6-9444-448c-9660-45ab4314ac62",
+          "is_active": true,
+          "score": 50.0,
+          "proposals_made": 1,
+          "challenges_made": 20,
+          "rebuttals_made": 10,
+          "personality": {
+            "creativity": 0.95,
+            "boldness": 0.9,
+            "aggressiveness": 0.5,
+            "defensiveness": 0.6,
+            "supportiveness": 0.4,
+            "analytical_depth": 0.5,
+            "evidence_reliance": 0.4,
+            "confidence": 0.8,
+            "optimism": 0.9,
+            "verbosity": 0.7,
+            "formality": 0.4
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [
+        {
+          "agent_name": "Analyst_1",
+          "score": 50.0,
+          "challenges": 20,
+          "rebuttals": 10
+        },
+        {
+          "agent_name": "Ethicist_2",
+          "score": 50.0,
+          "challenges": 20,
+          "rebuttals": 10
+        },
+        {
+          "agent_name": "Innovator_3",
+          "score": 50.0,
+          "challenges": 20,
+          "rebuttals": 10
+        }
+      ],
+      "context": {
+        "phase": "completed",
+        "decision": {
+          "decision": "Winner: Analyst_1",
+          "confidence": 0.85,
+          "reasoning": "After 10 rounds of rigorous debate, Analyst_1's proposal demonstrated the strongest combination of quality, resilience to challenges, and comprehensive argumentation. The proposal scored 50.0 points, successfully defended against 20 challenges with 10 rebuttals, and maintained high argument quality throughout the debate."
+        }
+      }
+    }
+  ],
+  "events": [
+    {
+      "timestamp": 8.00947880744934,
+      "datetime": "2026-01-09T11:29:55.602846",
+      "event_type": "agent_spawn",
+      "details": {
+        "agent": "Analyst_1",
+        "reason": "bootstrap_foundation",
+        "archetype": "analyst"
+      }
+    },
+    {
+      "timestamp": 11.011739253997803,
+      "datetime": "2026-01-09T11:29:58.605107",
+      "event_type": "agent_spawn",
+      "details": {
+        "agent": "Ethicist_2",
+        "reason": "bootstrap_foundation",
+        "archetype": "ethicist"
+      }
+    },
+    {
+      "timestamp": 14.013588666915894,
+      "datetime": "2026-01-09T11:30:01.606955",
+      "event_type": "agent_spawn",
+      "details": {
+        "agent": "Innovator_3",
+        "reason": "bootstrap_foundation",
+        "archetype": "innovator"
+      }
+    },
+    {
+      "timestamp": 16.01464080810547,
+      "datetime": "2026-01-09T11:30:03.608007",
+      "event_type": "phase_start",
+      "details": {
+        "phase": "PROPOSAL"
+      }
+    },
+    {
+      "timestamp": 40.402836084365845,
+      "datetime": "2026-01-09T11:30:27.996203",
+      "event_type": "argument_quality",
+      "details": {
+        "agent": "Analyst_1",
+        "quality_score": 0.7703846153846153,
+        "strengths": [
+          "Well-supported with evidence",
+          "Highly coherent",
+          "Logically sound"
+        ],
+        "weaknesses": []
+      }
+    },
+    {
+      "timestamp": 41.40402150154114,
+      "datetime": "2026-01-09T11:30:28.997389",
+      "event_type": "argument_quality",
+      "details": {
+        "agent": "Ethicist_2",
+        "quality_score": 0.6713636363636364,
+        "strengths": [
+          "Highly coherent",
+          "Logically sound",
+          "Clear and concise"
+        ],
+        "weaknesses": [
+          "Lacks evidence"
+        ]
+      }
+    },
+    {
+      "timestamp": 42.40556883811951,
+      "datetime": "2026-01-09T11:30:29.998935",
+      "event_type": "argument_quality",
+      "details": {
+        "agent": "Innovator_3",
+        "quality_score": 0.6713636363636364,
+        "strengths": [
+          "Highly coherent",
+          "Logically sound",
+          "Clear and concise"
+        ],
+        "weaknesses": [
+          "Lacks evidence"
+        ]
+      }
+    },
+    {
+      "timestamp": 47.40938425064087,
+      "datetime": "2026-01-09T11:30:35.002750",
+      "event_type": "phase_start",
+      "details": {
+        "phase": "CHALLENGE"
+      }
+    },
+    {
+      "timestamp": 91.70791673660278,
+      "datetime": "2026-01-09T11:31:19.301283",
+      "event_type": "phase_start",
+      "details": {
+        "phase": "REBUTTAL"
+      }
+    },
+    {
+      "timestamp": 118.80313920974731,
+      "datetime": "2026-01-09T11:31:46.396505",
+      "event_type": "phase_start",
+      "details": {
+        "phase": "CHALLENGE"
+      }
+    },
+    {
+      "timestamp": 159.4085602760315,
+      "datetime": "2026-01-09T11:32:27.001926",
+      "event_type": "phase_start",
+      "details": {
+        "phase": "REBUTTAL"
+      }
+    },
+    {
+      "timestamp": 186.07596588134766,
+      "datetime": "2026-01-09T11:32:53.669333",
+      "event_type": "phase_start",
+      "details": {
+        "phase": "CHALLENGE"
+      }
+    },
+    {
+      "timestamp": 226.6830186843872,
+      "datetime": "2026-01-09T11:33:34.276384",
+      "event_type": "phase_start",
+      "details": {
+        "phase": "REBUTTAL"
+      }
+    },
+    {
+      "timestamp": 252.45085644721985,
+      "datetime": "2026-01-09T11:34:00.044222",
+      "event_type": "phase_start",
+      "details": {
+        "phase": "CHALLENGE"
+      }
+    },
+    {
+      "timestamp": 290.56587529182434,
+      "datetime": "2026-01-09T11:34:38.159241",
+      "event_type": "phase_start",
+      "details": {
+        "phase": "REBUTTAL"
+      }
+    },
+    {
+      "timestamp": 316.96829557418823,
+      "datetime": "2026-01-09T11:35:04.561662",
+      "event_type": "phase_start",
+      "details": {
+        "phase": "CHALLENGE"
+      }
+    },
+    {
+      "timestamp": 357.81043338775635,
+      "datetime": "2026-01-09T11:35:45.403799",
+      "event_type": "phase_start",
+      "details": {
+        "phase": "REBUTTAL"
+      }
+    },
+    {
+      "timestamp": 383.2368860244751,
+      "datetime": "2026-01-09T11:36:10.830252",
+      "event_type": "phase_start",
+      "details": {
+        "phase": "CHALLENGE"
+      }
+    },
+    {
+      "timestamp": 425.77725625038147,
+      "datetime": "2026-01-09T11:36:53.370622",
+      "event_type": "phase_start",
+      "details": {
+        "phase": "REBUTTAL"
+      }
+    },
+    {
+      "timestamp": 451.4512526988983,
+      "datetime": "2026-01-09T11:37:19.044619",
+      "event_type": "phase_start",
+      "details": {
+        "phase": "CHALLENGE"
+      }
+    },
+    {
+      "timestamp": 488.28871297836304,
+      "datetime": "2026-01-09T11:37:55.882079",
+      "event_type": "phase_start",
+      "details": {
+        "phase": "REBUTTAL"
+      }
+    },
+    {
+      "timestamp": 516.0662059783936,
+      "datetime": "2026-01-09T11:38:23.659572",
+      "event_type": "phase_start",
+      "details": {
+        "phase": "CHALLENGE"
+      }
+    },
+    {
+      "timestamp": 556.8245320320129,
+      "datetime": "2026-01-09T11:39:04.417898",
+      "event_type": "phase_start",
+      "details": {
+        "phase": "REBUTTAL"
+      }
+    },
+    {
+      "timestamp": 583.3170871734619,
+      "datetime": "2026-01-09T11:39:30.910453",
+      "event_type": "phase_start",
+      "details": {
+        "phase": "CHALLENGE"
+      }
+    },
+    {
+      "timestamp": 631.3091669082642,
+      "datetime": "2026-01-09T11:40:18.902533",
+      "event_type": "phase_start",
+      "details": {
+        "phase": "REBUTTAL"
+      }
+    },
+    {
+      "timestamp": 658.5300335884094,
+      "datetime": "2026-01-09T11:40:46.123400",
+      "event_type": "phase_start",
+      "details": {
+        "phase": "CHALLENGE"
+      }
+    },
+    {
+      "timestamp": 703.8777916431427,
+      "datetime": "2026-01-09T11:41:31.471159",
+      "event_type": "phase_start",
+      "details": {
+        "phase": "REBUTTAL"
+      }
+    },
+    {
+      "timestamp": 733.3111715316772,
+      "datetime": "2026-01-09T11:42:00.904540",
+      "event_type": "meta_debate",
+      "details": {
+        "triggered": true,
+        "reason": "debate_complexity"
+      }
+    },
+    {
+      "timestamp": 733.3113865852356,
+      "datetime": "2026-01-09T11:42:00.904752",
+      "event_type": "phase_start",
+      "details": {
+        "phase": "SCORING"
+      }
+    },
+    {
+      "timestamp": 733.3114080429077,
+      "datetime": "2026-01-09T11:42:00.904774",
+      "event_type": "scoring",
+      "details": {
+        "scores": {
+          "Analyst_1": 50.0,
+          "Ethicist_2": 50.0,
+          "Innovator_3": 50.0
+        }
+      }
+    },
+    {
+      "timestamp": 733.3121159076691,
+      "datetime": "2026-01-09T11:42:00.905481",
+      "event_type": "phase_start",
+      "details": {
+        "phase": "RESOLUTION"
+      }
+    },
+    {
+      "timestamp": 733.3123998641968,
+      "datetime": "2026-01-09T11:42:00.905766",
+      "event_type": "debate_completed",
+      "details": {
+        "decision": "Winner: Analyst_1"
+      }
+    },
+    {
+      "timestamp": 733.312789440155,
+      "datetime": "2026-01-09T11:42:00.906155",
+      "event_type": "knowledge_graph_final",
+      "details": {
+        "total_nodes": 224,
+        "total_edges": 912,
+        "total_concepts": 224,
+        "avg_node_degree": 8.142857142857142,
+        "most_central": [
+          [
+            "while",
+            67
+          ],
+          [
+            "proposal",
+            58
+          ],
+          [
+            "urban",
+            56
+          ],
+          [
+            "green",
+            47
+          ],
+          [
+            "cities",
+            47
+          ]
+        ],
+        "extractions": 93
+      }
+    },
+    {
+      "timestamp": 733.3129262924194,
+      "datetime": "2026-01-09T11:42:00.906292",
+      "event_type": "fluid_resourcing_final",
+      "details": {
+        "total_spawned": 3,
+        "total_terminated": 0,
+        "spawn_history": []
+      }
+    }
+  ],
+  "summary": {
+    "agent_count_change": 3,
+    "total_proposals": 3,
+    "snapshots_taken": 50,
+    "events_logged": 34,
+    "duration": 733.3165764808655
+  }
+}

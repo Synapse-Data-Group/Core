@@ -1,0 +1,135 @@
+{
+  "timestamp": "2026-01-08T17:09:29.899357",
+  "test_suite": "Benchmark Test 4 - Complex Reasoning & Decision Making",
+  "benchmarks": {
+    "multi_step_reasoning": {
+      "orchestra": {
+        "steps_completed": 3,
+        "total_steps": 3,
+        "time": 4.553794860839844e-05,
+        "features": [
+          "Dependencies",
+          "Context passing",
+          "Error handling"
+        ]
+      },
+      "langchain": {
+        "features": [
+          "Basic chains"
+        ],
+        "dependencies": false
+      },
+      "winner": "Orchestra"
+    },
+    "consensus_decision_making": {
+      "orchestra": {
+        "strategies_available": 3,
+        "results": {
+          "voting": {
+            "time": 14.392120838165283,
+            "success": false
+          },
+          "best_performer": {
+            "time": 13.294365167617798,
+            "success": false
+          },
+          "weighted_average": {
+            "time": 12.985770463943481,
+            "success": false
+          }
+        },
+        "built_in": true
+      },
+      "langchain": {
+        "strategies_available": 0,
+        "built_in": false
+      },
+      "winner": "Orchestra"
+    },
+    "semantic_task_matching": {
+      "orchestra": {
+        "methods_available": 4,
+        "results": {
+          "tfidf": {
+            "search_time_ms": 0.019073486328125,
+            "results_found": 1
+          },
+          "minhash": {
+            "search_time_ms": 1.3737678527832031,
+            "results_found": 0
+          },
+          "lsh": {
+            "search_time_ms": 1.3918876647949219,
+            "results_found": 0
+          },
+          "hybrid": {
+            "search_time_ms": 1.3692378997802734,
+            "results_found": 0
+          }
+        },
+        "external_api": false,
+        "cost": 0.0
+      },
+      "langchain": {
+        "methods_available": 0,
+        "external_api": true,
+        "estimated_cost": "Variable"
+      },
+      "winner": "Orchestra"
+    },
+    "agent_specialization": {
+      "orchestra": {
+        "total_tasks": 5,
+        "correct_assignments": 5,
+        "accuracy": 100.0,
+        "avg_routing_time_ms": 0.000762939453125,
+        "automatic": true
+      },
+      "langchain": {
+        "automatic": false,
+        "requires_manual": true
+      },
+      "winner": "Orchestra"
+    },
+    "complex_workflow_orchestration": {
+      "orchestra": {
+        "stages": 4,
+        "total_time": 36.686687707901,
+        "stage_details": [
+          {
+            "stage": "research",
+            "time": 7.575397491455078,
+            "success": true
+          },
+          {
+            "stage": "analysis",
+            "time": 12.460050106048584,
+            "success": true
+          },
+          {
+            "stage": "decision",
+            "time": 2.673309087753296,
+            "success": true
+          },
+          {
+            "stage": "implementation",
+            "time": 13.977931022644043,
+            "success": true
+          }
+        ],
+        "built_in": true
+      },
+      "langchain": {
+        "built_in": false,
+        "requires_custom": true
+      },
+      "winner": "Orchestra"
+    }
+  },
+  "summary": {
+    "total_benchmarks": 5,
+    "orchestra_wins": 5,
+    "langchain_wins": 0,
+    "overall_winner": "Orchestra"
+  }
+}

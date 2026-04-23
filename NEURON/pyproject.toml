@@ -1,0 +1,65 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neuron-intelligence"
+version = "0.1.0"
+description = "Self-organizing neural intelligence system with dynamic specialist creation"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "Apache-2.0"}
+authors = [
+    {name = "Synapse Data / Ivan Lluch"}
+]
+keywords = [
+    "ai",
+    "neural-network",
+    "collective-intelligence",
+    "self-organizing",
+    "adaptive-ai",
+    "research",
+    "behavioral-ai"
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+
+dependencies = []
+
+[project.optional-dependencies]
+openai = ["openai>=1.0.0"]
+anthropic = ["anthropic>=0.18.0"]
+google = ["google-generativeai>=0.3.0"]
+ollama = ["requests>=2.31.0"]
+all = [
+    "openai>=1.0.0",
+    "anthropic>=0.18.0",
+    "google-generativeai>=0.3.0",
+    "requests>=2.31.0"
+]
+dev = [
+    "pytest>=7.0.0",
+    "black>=23.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/synapse-data/neuron"
+Documentation = "https://github.com/synapse-data/neuron#readme"
+Repository = "https://github.com/synapse-data/neuron"
+Issues = "https://github.com/synapse-data/neuron/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["neuron*"]
+
+[tool.black]
+line-length = 100
+target-version = ['py310']

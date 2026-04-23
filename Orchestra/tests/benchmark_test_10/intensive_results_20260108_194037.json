@@ -1,0 +1,42 @@
+{
+  "timestamp": "2026-01-08T19:09:14.429115",
+  "test_suite": "Intensive Test 10 - End-to-End Applications",
+  "total_llm_calls": 50,
+  "total_cost": 1.3700099999999997,
+  "total_time": 1883.1966943740845,
+  "benchmarks": {
+    "customer_support": {
+      "total_queries": 50,
+      "resolved": 50,
+      "resolution_rate": 100.0,
+      "total_time_seconds": 647.266585111618,
+      "total_cost_usd": 0.03672149999999999,
+      "total_tokens": 11362,
+      "avg_response_time": 12.945312595367431
+    },
+    "content_pipeline": {
+      "articles_started": 10,
+      "articles_completed": 10,
+      "total_stages": 50,
+      "total_time_seconds": 869.3868641853333,
+      "total_cost_usd": 1.3700099999999997,
+      "total_tokens": 24041,
+      "avg_stage_times": {
+        "Research key points and gather information": 18.585531139373778,
+        "Create detailed outline with main sections": 14.967416334152222,
+        "Write introduction and first section": 17.09789891242981,
+        "Write remaining sections and conclusion": 16.782196736335756,
+        "Edit, refine, and polish the content": 19.50553402900696
+      }
+    },
+    "data_analysis": {
+      "datasets_analyzed": 10,
+      "successful_analyses": 10,
+      "total_perspectives": 50,
+      "total_time_seconds": 170.6334843635559,
+      "total_cost_usd": 0.23916899999999996,
+      "total_tokens": 4215,
+      "avg_time_per_dataset": 17.06334843635559
+    }
+  }
+}

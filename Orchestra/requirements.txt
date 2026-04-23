@@ -1,0 +1,2 @@
+cognitive-load-monitor>=1.0.0
+synapse-meo>=1.0.0

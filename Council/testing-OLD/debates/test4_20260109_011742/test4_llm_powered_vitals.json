@@ -1,0 +1,528 @@
+{
+  "test_name": "test4_llm_powered",
+  "start_time": "2026-01-09T01:17:43.593995",
+  "duration_seconds": 148.75084352493286,
+  "total_snapshots": 7,
+  "total_events": 5,
+  "snapshots": [
+    {
+      "timestamp": 2.5021798610687256,
+      "datetime": "2026-01-09T01:17:46.096177",
+      "agent_count": 3,
+      "proposal_count": 0,
+      "agents": [
+        {
+          "name": "Privacy_Advocate",
+          "agent_id": "9152e865-d012-4c78-94f8-a3d0179bd5b9",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.7,
+            "boldness": 0.8,
+            "aggressiveness": 0.6,
+            "analytical_depth": 0.85,
+            "evidence_reliance": 0.8
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Transparency_Proponent",
+          "agent_id": "6aac6fd9-f1fb-4251-81df-995545766833",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.7,
+            "aggressiveness": 0.5,
+            "analytical_depth": 0.9,
+            "evidence_reliance": 0.95
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Industry_Rep",
+          "agent_id": "49068746-6baf-4c0b-aee9-d5df158dc15f",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.75,
+            "boldness": 0.6,
+            "aggressiveness": 0.7,
+            "analytical_depth": 0.75,
+            "optimism": 0.8
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [],
+      "context": {
+        "phase": "initialization",
+        "llm_powered": true
+      }
+    },
+    {
+      "timestamp": 11.595185041427612,
+      "datetime": "2026-01-09T01:17:55.189183",
+      "agent_count": 3,
+      "proposal_count": 0,
+      "agents": [
+        {
+          "name": "Privacy_Advocate",
+          "agent_id": "9152e865-d012-4c78-94f8-a3d0179bd5b9",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.7,
+            "boldness": 0.8,
+            "aggressiveness": 0.6,
+            "analytical_depth": 0.85,
+            "evidence_reliance": 0.8
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Transparency_Proponent",
+          "agent_id": "6aac6fd9-f1fb-4251-81df-995545766833",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.7,
+            "aggressiveness": 0.5,
+            "analytical_depth": 0.9,
+            "evidence_reliance": 0.95
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Industry_Rep",
+          "agent_id": "49068746-6baf-4c0b-aee9-d5df158dc15f",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.75,
+            "boldness": 0.6,
+            "aggressiveness": 0.7,
+            "analytical_depth": 0.75,
+            "optimism": 0.8
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [],
+      "context": {
+        "phase": "PROPOSAL"
+      }
+    },
+    {
+      "timestamp": 51.80672812461853,
+      "datetime": "2026-01-09T01:18:35.400726",
+      "agent_count": 3,
+      "proposal_count": 0,
+      "agents": [
+        {
+          "name": "Privacy_Advocate",
+          "agent_id": "9152e865-d012-4c78-94f8-a3d0179bd5b9",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.7,
+            "boldness": 0.8,
+            "aggressiveness": 0.6,
+            "analytical_depth": 0.85,
+            "evidence_reliance": 0.8
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Transparency_Proponent",
+          "agent_id": "6aac6fd9-f1fb-4251-81df-995545766833",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.7,
+            "aggressiveness": 0.5,
+            "analytical_depth": 0.9,
+            "evidence_reliance": 0.95
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Industry_Rep",
+          "agent_id": "49068746-6baf-4c0b-aee9-d5df158dc15f",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.75,
+            "boldness": 0.6,
+            "aggressiveness": 0.7,
+            "analytical_depth": 0.75,
+            "optimism": 0.8
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [],
+      "context": {
+        "phase": "post_proposal",
+        "proposals": 3
+      }
+    },
+    {
+      "timestamp": 52.807716608047485,
+      "datetime": "2026-01-09T01:18:36.401714",
+      "agent_count": 3,
+      "proposal_count": 0,
+      "agents": [
+        {
+          "name": "Privacy_Advocate",
+          "agent_id": "9152e865-d012-4c78-94f8-a3d0179bd5b9",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.7,
+            "boldness": 0.8,
+            "aggressiveness": 0.6,
+            "analytical_depth": 0.85,
+            "evidence_reliance": 0.8
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Transparency_Proponent",
+          "agent_id": "6aac6fd9-f1fb-4251-81df-995545766833",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.7,
+            "aggressiveness": 0.5,
+            "analytical_depth": 0.9,
+            "evidence_reliance": 0.95
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Industry_Rep",
+          "agent_id": "49068746-6baf-4c0b-aee9-d5df158dc15f",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.75,
+            "boldness": 0.6,
+            "aggressiveness": 0.7,
+            "analytical_depth": 0.75,
+            "optimism": 0.8
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [],
+      "context": {
+        "phase": "CHALLENGE"
+      }
+    },
+    {
+      "timestamp": 117.51380014419556,
+      "datetime": "2026-01-09T01:19:41.107797",
+      "agent_count": 3,
+      "proposal_count": 0,
+      "agents": [
+        {
+          "name": "Privacy_Advocate",
+          "agent_id": "9152e865-d012-4c78-94f8-a3d0179bd5b9",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.7,
+            "boldness": 0.8,
+            "aggressiveness": 0.6,
+            "analytical_depth": 0.85,
+            "evidence_reliance": 0.8
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Transparency_Proponent",
+          "agent_id": "6aac6fd9-f1fb-4251-81df-995545766833",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.7,
+            "aggressiveness": 0.5,
+            "analytical_depth": 0.9,
+            "evidence_reliance": 0.95
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Industry_Rep",
+          "agent_id": "49068746-6baf-4c0b-aee9-d5df158dc15f",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.75,
+            "boldness": 0.6,
+            "aggressiveness": 0.7,
+            "analytical_depth": 0.75,
+            "optimism": 0.8
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [],
+      "context": {
+        "phase": "post_challenge",
+        "round": 1
+      }
+    },
+    {
+      "timestamp": 117.51403737068176,
+      "datetime": "2026-01-09T01:19:41.108033",
+      "agent_count": 3,
+      "proposal_count": 0,
+      "agents": [
+        {
+          "name": "Privacy_Advocate",
+          "agent_id": "9152e865-d012-4c78-94f8-a3d0179bd5b9",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.7,
+            "boldness": 0.8,
+            "aggressiveness": 0.6,
+            "analytical_depth": 0.85,
+            "evidence_reliance": 0.8
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Transparency_Proponent",
+          "agent_id": "6aac6fd9-f1fb-4251-81df-995545766833",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.7,
+            "aggressiveness": 0.5,
+            "analytical_depth": 0.9,
+            "evidence_reliance": 0.95
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Industry_Rep",
+          "agent_id": "49068746-6baf-4c0b-aee9-d5df158dc15f",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.75,
+            "boldness": 0.6,
+            "aggressiveness": 0.7,
+            "analytical_depth": 0.75,
+            "optimism": 0.8
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [],
+      "context": {
+        "phase": "REBUTTAL"
+      }
+    },
+    {
+      "timestamp": 148.7491636276245,
+      "datetime": "2026-01-09T01:20:12.343160",
+      "agent_count": 3,
+      "proposal_count": 0,
+      "agents": [
+        {
+          "name": "Privacy_Advocate",
+          "agent_id": "9152e865-d012-4c78-94f8-a3d0179bd5b9",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.7,
+            "boldness": 0.8,
+            "aggressiveness": 0.6,
+            "analytical_depth": 0.85,
+            "evidence_reliance": 0.8
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Transparency_Proponent",
+          "agent_id": "6aac6fd9-f1fb-4251-81df-995545766833",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.7,
+            "aggressiveness": 0.5,
+            "analytical_depth": 0.9,
+            "evidence_reliance": 0.95
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Industry_Rep",
+          "agent_id": "49068746-6baf-4c0b-aee9-d5df158dc15f",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.75,
+            "boldness": 0.6,
+            "aggressiveness": 0.7,
+            "analytical_depth": 0.75,
+            "optimism": 0.8
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [],
+      "context": {
+        "phase": "post_rebuttal",
+        "round": 1
+      }
+    }
+  ],
+  "events": [
+    {
+      "timestamp": 5.569773197174072,
+      "datetime": "2026-01-09T01:17:49.163770",
+      "event_type": "real_web_search",
+      "details": {
+        "agent": "Privacy_Advocate",
+        "query": "AI transparency regulations privacy concerns",
+        "results": "Web search results for 'AI transparency regulations privacy concerns':\n\n1. Search completed\n   Web search was performed but results could not be parsed. This is expected behavior for the framework demonstration.\n\n"
+      }
+    },
+    {
+      "timestamp": 9.59442663192749,
+      "datetime": "2026-01-09T01:17:53.188424",
+      "event_type": "real_web_search",
+      "details": {
+        "agent": "Transparency_Proponent",
+        "query": "AI accountability transparency requirements",
+        "results": "Web search results for 'AI accountability transparency requirements':\n\n1. Search completed\n   Web search was performed but results could not be parsed. This is expected behavior for the framework demonstration.\n\n"
+      }
+    },
+    {
+      "timestamp": 11.59521198272705,
+      "datetime": "2026-01-09T01:17:55.189207",
+      "event_type": "phase_start",
+      "details": {
+        "phase": "PROPOSAL"
+      }
+    },
+    {
+      "timestamp": 52.80773878097534,
+      "datetime": "2026-01-09T01:18:36.401734",
+      "event_type": "phase_start",
+      "details": {
+        "phase": "CHALLENGE"
+      }
+    },
+    {
+      "timestamp": 117.51405596733093,
+      "datetime": "2026-01-09T01:19:41.108051",
+      "event_type": "phase_start",
+      "details": {
+        "phase": "REBUTTAL"
+      }
+    }
+  ],
+  "summary": {
+    "agent_count_change": 0,
+    "total_proposals": 0,
+    "snapshots_taken": 7,
+    "events_logged": 5,
+    "duration": 148.75084805488586
+  }
+}

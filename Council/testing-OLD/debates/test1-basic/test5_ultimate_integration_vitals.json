@@ -1,0 +1,396 @@
+{
+  "test_name": "test5_ultimate_integration",
+  "start_time": "2026-01-09T00:50:40.949944",
+  "duration_seconds": 0.009576797485351562,
+  "total_snapshots": 2,
+  "total_events": 3,
+  "snapshots": [
+    {
+      "timestamp": 0.00026607513427734375,
+      "datetime": "2026-01-09T00:50:40.950210",
+      "agent_count": 2,
+      "proposal_count": 0,
+      "agents": [
+        {
+          "name": "Dr_Safety",
+          "agent_id": "b6da8415-13fd-496e-bfca-331dc067e721",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.4,
+            "aggressiveness": 0.5,
+            "analytical_depth": 0.9
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Prof_Innovation",
+          "agent_id": "dbe5bdab-fb85-4ee8-82aa-a2107d967b87",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.9,
+            "boldness": 0.8,
+            "aggressiveness": 0.6,
+            "optimism": 0.8
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [],
+      "context": {
+        "phase": "initialization",
+        "features": [
+          "fluid_resourcing",
+          "emotions",
+          "reputation",
+          "web_tools"
+        ]
+      }
+    },
+    {
+      "timestamp": 0.008939743041992188,
+      "datetime": "2026-01-09T00:50:40.958883",
+      "agent_count": 7,
+      "proposal_count": 3,
+      "agents": [
+        {
+          "name": "Dr_Safety",
+          "agent_id": "b6da8415-13fd-496e-bfca-331dc067e721",
+          "is_active": true,
+          "score": 57.575581395348834,
+          "proposals_made": 1,
+          "challenges_made": 2,
+          "rebuttals_made": 1,
+          "personality": {
+            "creativity": 0.6,
+            "boldness": 0.4,
+            "aggressiveness": 0.5,
+            "analytical_depth": 0.9
+          },
+          "exploration_rate": 0.2985,
+          "memory_size": 1
+        },
+        {
+          "name": "Prof_Innovation",
+          "agent_id": "dbe5bdab-fb85-4ee8-82aa-a2107d967b87",
+          "is_active": true,
+          "score": 56.13162790697673,
+          "proposals_made": 1,
+          "challenges_made": 2,
+          "rebuttals_made": 1,
+          "personality": {
+            "creativity": 0.9,
+            "boldness": 0.8,
+            "aggressiveness": 0.6,
+            "optimism": 0.8
+          },
+          "exploration_rate": 0.2985,
+          "memory_size": 1
+        },
+        {
+          "name": "Innovator_1",
+          "agent_id": "e3fd27c6-4ba4-4d82-9ef5-7fa73562ff00",
+          "is_active": true,
+          "score": 52.97413953488372,
+          "proposals_made": 1,
+          "challenges_made": 3,
+          "rebuttals_made": 2,
+          "personality": {
+            "creativity": 0.993217667860364,
+            "boldness": 0.9106826884351634,
+            "aggressiveness": 0.4843525279550623,
+            "defensiveness": 0.47925885714040717,
+            "supportiveness": 0.47514429263395613,
+            "analytical_depth": 0.6565245259351159,
+            "evidence_reliance": 0.3399842107426849,
+            "confidence": 0.8299057103758394,
+            "optimism": 0.8458346869553591,
+            "verbosity": 0.7061479274130605,
+            "formality": 0.48340200112866477
+          },
+          "exploration_rate": 0.2985,
+          "memory_size": 1
+        },
+        {
+          "name": "Innovator_2",
+          "agent_id": "0afbe757-f885-4e95-9768-4bdcaaf25b1b",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 3,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 1.0,
+            "boldness": 0.8667088501105229,
+            "aggressiveness": 0.4911728102455833,
+            "defensiveness": 0.519527405645739,
+            "supportiveness": 0.39299160121134336,
+            "analytical_depth": 0.5642215992512722,
+            "evidence_reliance": 0.30382112032314096,
+            "confidence": 0.9939512025442189,
+            "optimism": 0.7476621988890036,
+            "verbosity": 0.7420538855093506,
+            "formality": 0.4754117155021014
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 1
+        },
+        {
+          "name": "Innovator_3",
+          "agent_id": "f119b1d4-36a8-4b10-9c76-d68175faff58",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 1.0,
+            "boldness": 1.0,
+            "aggressiveness": 0.3871379976300765,
+            "defensiveness": 0.5891909512147405,
+            "supportiveness": 0.49289585404776814,
+            "analytical_depth": 0.510507157335968,
+            "evidence_reliance": 0.4380158034225253,
+            "confidence": 0.8208179630673643,
+            "optimism": 0.930259229856119,
+            "verbosity": 0.8446547103369773,
+            "formality": 0.39101306349451265
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 1
+        },
+        {
+          "name": "Innovator_4",
+          "agent_id": "f83c7d2d-5a74-4eae-a235-651912ab320a",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 1,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.8210707235225728,
+            "boldness": 0.8100514049881762,
+            "aggressiveness": 0.5718120839157645,
+            "defensiveness": 0.6463069678862043,
+            "supportiveness": 0.504536035391481,
+            "analytical_depth": 0.6107111416087565,
+            "evidence_reliance": 0.4945959137269666,
+            "confidence": 0.6242111844153758,
+            "optimism": 0.8905512245529452,
+            "verbosity": 0.6879629763232314,
+            "formality": 0.5842404168455219
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 1
+        },
+        {
+          "name": "Innovator_5",
+          "agent_id": "deb70b8a-6b78-4d8e-ad5a-6e8305915848",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 1.0,
+            "boldness": 0.9881524490639427,
+            "aggressiveness": 0.47249862840044704,
+            "defensiveness": 0.5603232295286763,
+            "supportiveness": 0.5314444976760893,
+            "analytical_depth": 0.56948854134161,
+            "evidence_reliance": 0.36374632012154606,
+            "confidence": 0.8376638865955821,
+            "optimism": 0.8101611135047557,
+            "verbosity": 0.6109279818850578,
+            "formality": 0.505793157854698
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 1
+        }
+      ],
+      "proposals": [
+        {
+          "agent_name": "Dr_Safety",
+          "score": 56.97104186046511,
+          "challenges": 3,
+          "rebuttals": 1
+        },
+        {
+          "agent_name": "Prof_Innovation",
+          "score": 55.632882790697664,
+          "challenges": 2,
+          "rebuttals": 1
+        },
+        {
+          "agent_name": "Innovator_1",
+          "score": 52.675174548837205,
+          "challenges": 6,
+          "rebuttals": 2
+        }
+      ],
+      "context": {
+        "phase": "completed",
+        "decision": {
+          "decision": "Accept proposal from Dr_Safety",
+          "winning_proposal": {
+            "proposal_id": "8a41d5ad-67ef-4982-97c5-54e5fe5dcf89",
+            "agent_id": "b6da8415-13fd-496e-bfca-331dc067e721",
+            "agent_name": "Dr_Safety",
+            "content": "Through systematic analysis of How should humanity approach artificial general intelligence (AGI) development?, we can identify multiple interdependent factors. I propose a conservative approach to How should humanity approach artificial general intelligence (AGI) development? with minimal risk. This approach balances effectiveness with feasibility.",
+            "timestamp": 1767916240.9507341,
+            "score": 56.97104186046511,
+            "challenges": [
+              {
+                "agent_id": "dbe5bdab-fb85-4ee8-82aa-a2107d967b87",
+                "agent_name": "Prof_Innovation",
+                "content": "A critical weakness in Through systematic analysis of How should humanity approach artificial general intelligence (AGI) development?, we can identify multiple interdependent factors. I propose a conservative approach to How should humanity approach artificial general intelligence (AGI) development? with minimal risk. This approach balances effectiveness with feasibility. is its failure to account for edge cases. This oversight could lead to cascading failures under stress conditions. A more robust alternative would incorporate fail-safes and contingency planning.",
+                "message_type": "challenge",
+                "timestamp": 1767916240.9520864,
+                "phase": "challenge",
+                "target_agent_id": "b6da8415-13fd-496e-bfca-331dc067e721",
+                "metadata": {
+                  "proposal_id": "8a41d5ad-67ef-4982-97c5-54e5fe5dcf89"
+                }
+              },
+              {
+                "agent_id": "e3fd27c6-4ba4-4d82-9ef5-7fa73562ff00",
+                "agent_name": "Innovator_1",
+                "content": "The proposal claims to solve the problem comprehensively. However, what evidence supports this claim? Concrete metrics and validation criteria are required.",
+                "message_type": "challenge",
+                "timestamp": 1767916240.9540563,
+                "phase": "challenge",
+                "target_agent_id": "b6da8415-13fd-496e-bfca-331dc067e721",
+                "metadata": {
+                  "proposal_id": "8a41d5ad-67ef-4982-97c5-54e5fe5dcf89"
+                }
+              },
+              {
+                "agent_id": "0afbe757-f885-4e95-9768-4bdcaaf25b1b",
+                "agent_name": "Innovator_2",
+                "content": "A critical weakness in Through systematic analysis of How should humanity approach artificial general intelligence (AGI) development?, we can identify multiple interdependent factors. I propose a conservative approach to How should humanity approach artificial general intelligence (AGI) development? with minimal risk. This approach balances effectiveness with feasibility. is its failure to account for edge cases. This oversight could lead to cascading failures under stress conditions. A more robust alternative would incorporate fail-safes and contingency planning.",
+                "message_type": "challenge",
+                "timestamp": 1767916240.954338,
+                "phase": "challenge",
+                "target_agent_id": "b6da8415-13fd-496e-bfca-331dc067e721",
+                "metadata": {
+                  "proposal_id": "8a41d5ad-67ef-4982-97c5-54e5fe5dcf89"
+                }
+              }
+            ],
+            "rebuttals": [
+              {
+                "agent_id": "b6da8415-13fd-496e-bfca-331dc067e721",
+                "agent_name": "Dr_Safety",
+                "content": "While I understand the concern, the underlying analysis actually supports my proposal when examined more carefully. In fact, this reinforces the need for my proposed approach.",
+                "message_type": "rebuttal",
+                "timestamp": 1767916240.9553661,
+                "phase": "rebuttal",
+                "target_agent_id": "dbe5bdab-fb85-4ee8-82aa-a2107d967b87",
+                "metadata": {
+                  "proposal_id": "8a41d5ad-67ef-4982-97c5-54e5fe5dcf89",
+                  "challenge_agent": "Prof_Innovation"
+                }
+              }
+            ]
+          },
+          "all_scores": {
+            "8a41d5ad-67ef-4982-97c5-54e5fe5dcf89": 56.97104186046511,
+            "3a4ba967-3ac6-4519-b50d-eba15ae7f16c": 55.632882790697664,
+            "fab3b9a2-62d9-4b94-b7f7-6b1233af289a": 52.675174548837205
+          },
+          "reasoning": "After evaluating 3 proposals through adaptive scoring, I have determined that Dr_Safety's proposal is the strongest with a score of 57.0 points. This decision is made with lower confidence due to close competition. The proposal faced 3 challenges. The proposer provided 1 rebuttals, demonstrating strong defensive reasoning. The proposal demonstrates systematic analysis. This decision adapts to the specific context and learned patterns from previous debates.",
+          "confidence": 0.39091946146878476,
+          "score_variance": 1.7948439640965168,
+          "timestamp": 1767916240.9571397
+        }
+      }
+    }
+  ],
+  "events": [
+    {
+      "timestamp": 0.008917808532714844,
+      "datetime": "2026-01-09T00:50:40.958862",
+      "event_type": "emotions_final",
+      "details": {
+        "Dr_Safety": {
+          "agent_id": "b6da8415-13fd-496e-bfca-331dc067e721",
+          "current_state": "neutral",
+          "intensity": 0.5,
+          "modifiers": {
+            "aggressiveness": 0.0,
+            "creativity": 0.0,
+            "confidence": 0.0,
+            "defensiveness": 0.0,
+            "supportiveness": 0.0
+          },
+          "history_length": 0
+        },
+        "Prof_Innovation": {
+          "agent_id": "dbe5bdab-fb85-4ee8-82aa-a2107d967b87",
+          "current_state": "neutral",
+          "intensity": 0.5,
+          "modifiers": {
+            "aggressiveness": 0.0,
+            "creativity": 0.0,
+            "confidence": 0.0,
+            "defensiveness": 0.0,
+            "supportiveness": 0.0
+          },
+          "history_length": 0
+        }
+      }
+    },
+    {
+      "timestamp": 0.008933544158935547,
+      "datetime": "2026-01-09T00:50:40.958877",
+      "event_type": "reputation_final",
+      "details": {
+        "Dr_Safety": {
+          "agent_id": "b6da8415-13fd-496e-bfca-331dc067e721",
+          "overall_score": 50.0,
+          "proposal_success_rate": 0.5,
+          "challenge_accuracy": 0.5,
+          "rebuttal_effectiveness": 0.5,
+          "consistency_score": 0.5,
+          "trust_network_size": 0,
+          "debates_participated": 0
+        },
+        "Prof_Innovation": {
+          "agent_id": "dbe5bdab-fb85-4ee8-82aa-a2107d967b87",
+          "overall_score": 50.0,
+          "proposal_success_rate": 0.5,
+          "challenge_accuracy": 0.5,
+          "rebuttal_effectiveness": 0.5,
+          "consistency_score": 0.5,
+          "trust_network_size": 0,
+          "debates_participated": 0
+        }
+      }
+    },
+    {
+      "timestamp": 0.00895071029663086,
+      "datetime": "2026-01-09T00:50:40.958894",
+      "event_type": "debate_completed",
+      "details": {
+        "decision": "Accept proposal from Dr_Safety"
+      }
+    }
+  ],
+  "summary": {
+    "agent_count_change": 5,
+    "total_proposals": 3,
+    "snapshots_taken": 2,
+    "events_logged": 3,
+    "duration": 0.009578704833984375
+  }
+}

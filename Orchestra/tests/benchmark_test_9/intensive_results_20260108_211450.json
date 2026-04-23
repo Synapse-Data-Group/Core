@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-01-08T20:59:33.349658",
+  "test_suite": "Intensive Test 9 - Production Workload",
+  "total_llm_calls": 50,
+  "total_cost": 0.03209649999999998,
+  "total_time": 917.0693159103394,
+  "benchmarks": {
+    "burst_load": {
+      "total_tasks": 50,
+      "successful": 50,
+      "success_rate": 1.0,
+      "total_time_seconds": 917.0681841373444,
+      "total_cost_usd": 0.03209649999999998,
+      "total_tokens": 2218,
+      "throughput_tasks_per_sec": 0.05452157305733307,
+      "agents_used": 5,
+      "parallel_execution": true
+    }
+  }
+}

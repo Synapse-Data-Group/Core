@@ -1,0 +1,77 @@
+{
+  "timestamp": "2026-01-08T17:21:35.568530",
+  "test_suite": "Benchmark Test 7 - Agent Coordination & Team Dynamics",
+  "benchmarks": {
+    "hierarchical_team_coordination": {
+      "orchestra": {
+        "team_size": 5,
+        "has_leader": true,
+        "setup_time": 4.76837158203125e-07,
+        "built_in": true
+      },
+      "langchain": {
+        "built_in": false,
+        "requires_custom": true
+      },
+      "winner": "Orchestra"
+    },
+    "peer_to_peer_collaboration": {
+      "orchestra": {
+        "peers": 5,
+        "message_bus": true,
+        "messages": 3,
+        "time": 9.5367431640625e-07
+      },
+      "langchain": {
+        "message_bus": false,
+        "requires_custom": true
+      },
+      "winner": "Orchestra"
+    },
+    "broadcast_communication": {
+      "orchestra": {
+        "recipients": 6,
+        "simultaneous": true,
+        "time": 9.5367431640625e-07,
+        "built_in": true
+      },
+      "langchain": {
+        "built_in": false,
+        "simultaneous": false
+      },
+      "winner": "Orchestra"
+    },
+    "pipeline_workflow": {
+      "orchestra": {
+        "stages": 5,
+        "sequential": true,
+        "context_passing": true,
+        "time": 4.76837158203125e-07
+      },
+      "langchain": {
+        "built_in": false,
+        "requires_custom": true
+      },
+      "winner": "Orchestra"
+    },
+    "consensus_negotiation": {
+      "orchestra": {
+        "participants": 4,
+        "consensus_method": "Voting",
+        "time": 10.778246402740479,
+        "built_in": true
+      },
+      "langchain": {
+        "built_in": false,
+        "requires_manual": true
+      },
+      "winner": "Orchestra"
+    }
+  },
+  "summary": {
+    "total_benchmarks": 5,
+    "orchestra_wins": 5,
+    "langchain_wins": 0,
+    "overall_winner": "Orchestra"
+  }
+}

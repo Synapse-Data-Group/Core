@@ -1,0 +1,1189 @@
+{
+  "test_name": "test2_fluid_resourcing",
+  "start_time": "2026-01-09T00:50:31.646895",
+  "duration_seconds": 0.012489080429077148,
+  "total_snapshots": 7,
+  "total_events": 6,
+  "snapshots": [
+    {
+      "timestamp": 0.0002377033233642578,
+      "datetime": "2026-01-09T00:50:31.647133",
+      "agent_count": 2,
+      "proposal_count": 0,
+      "agents": [
+        {
+          "name": "Initial_Agent_1",
+          "agent_id": "5a81a338-8d06-4258-8a81-766a0537c274",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.6644057484197532,
+            "boldness": 0.6392386944057358,
+            "aggressiveness": 0.5492176399217193,
+            "defensiveness": 0.4915490106930747,
+            "supportiveness": 0.5815195257143613,
+            "analytical_depth": 0.6123663236892882,
+            "evidence_reliance": 0.6493324432978791,
+            "confidence": 0.49721873721947923,
+            "optimism": 0.6072998411698327,
+            "verbosity": 0.325996349385234,
+            "formality": 0.5125791431528479
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Initial_Agent_2",
+          "agent_id": "4eb04522-18c5-4282-9b1e-32d2cc69f74f",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.7982756807976938,
+            "boldness": 0.6984211526499777,
+            "aggressiveness": 0.6689396397290952,
+            "defensiveness": 0.3345931944276321,
+            "supportiveness": 0.5482526540262992,
+            "analytical_depth": 0.8188109310143548,
+            "evidence_reliance": 0.6379987594895083,
+            "confidence": 0.6408085977180724,
+            "optimism": 0.7467805994517123,
+            "verbosity": 0.40706069851562426,
+            "formality": 0.6623821339986825
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [],
+      "context": {
+        "phase": "initialization",
+        "fluid_enabled": true
+      }
+    },
+    {
+      "timestamp": 0.0015499591827392578,
+      "datetime": "2026-01-09T00:50:31.648445",
+      "agent_count": 3,
+      "proposal_count": 2,
+      "agents": [
+        {
+          "name": "Initial_Agent_1",
+          "agent_id": "5a81a338-8d06-4258-8a81-766a0537c274",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.6644057484197532,
+            "boldness": 0.6392386944057358,
+            "aggressiveness": 0.5492176399217193,
+            "defensiveness": 0.4915490106930747,
+            "supportiveness": 0.5815195257143613,
+            "analytical_depth": 0.6123663236892882,
+            "evidence_reliance": 0.6493324432978791,
+            "confidence": 0.49721873721947923,
+            "optimism": 0.6072998411698327,
+            "verbosity": 0.325996349385234,
+            "formality": 0.5125791431528479
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Initial_Agent_2",
+          "agent_id": "4eb04522-18c5-4282-9b1e-32d2cc69f74f",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.7982756807976938,
+            "boldness": 0.6984211526499777,
+            "aggressiveness": 0.6689396397290952,
+            "defensiveness": 0.3345931944276321,
+            "supportiveness": 0.5482526540262992,
+            "analytical_depth": 0.8188109310143548,
+            "evidence_reliance": 0.6379987594895083,
+            "confidence": 0.6408085977180724,
+            "optimism": 0.7467805994517123,
+            "verbosity": 0.40706069851562426,
+            "formality": 0.6623821339986825
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Innovator_1",
+          "agent_id": "4c5f21c9-7a17-45cd-92ef-57dcf7ecfb8a",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.8287049417181064,
+            "boldness": 0.9494322320321711,
+            "aggressiveness": 0.3933409774464468,
+            "defensiveness": 0.6705205876757074,
+            "supportiveness": 0.43514108984208155,
+            "analytical_depth": 0.4011154909057577,
+            "evidence_reliance": 0.49483665926790005,
+            "confidence": 0.8771766764446809,
+            "optimism": 0.7325127000742535,
+            "verbosity": 0.7432347837466116,
+            "formality": 0.31143435591218466
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [
+        {
+          "agent_name": "Initial_Agent_1",
+          "score": 0.0,
+          "challenges": 0,
+          "rebuttals": 0
+        },
+        {
+          "agent_name": "Initial_Agent_2",
+          "score": 0.0,
+          "challenges": 0,
+          "rebuttals": 0
+        }
+      ],
+      "context": {
+        "event": "agent_spawned",
+        "agent": "Innovator_1"
+      }
+    },
+    {
+      "timestamp": 0.0028612613677978516,
+      "datetime": "2026-01-09T00:50:31.649756",
+      "agent_count": 4,
+      "proposal_count": 3,
+      "agents": [
+        {
+          "name": "Initial_Agent_1",
+          "agent_id": "5a81a338-8d06-4258-8a81-766a0537c274",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 1,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.6644057484197532,
+            "boldness": 0.6392386944057358,
+            "aggressiveness": 0.5492176399217193,
+            "defensiveness": 0.4915490106930747,
+            "supportiveness": 0.5815195257143613,
+            "analytical_depth": 0.6123663236892882,
+            "evidence_reliance": 0.6493324432978791,
+            "confidence": 0.49721873721947923,
+            "optimism": 0.6072998411698327,
+            "verbosity": 0.325996349385234,
+            "formality": 0.5125791431528479
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Initial_Agent_2",
+          "agent_id": "4eb04522-18c5-4282-9b1e-32d2cc69f74f",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 2,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.7982756807976938,
+            "boldness": 0.6984211526499777,
+            "aggressiveness": 0.6689396397290952,
+            "defensiveness": 0.3345931944276321,
+            "supportiveness": 0.5482526540262992,
+            "analytical_depth": 0.8188109310143548,
+            "evidence_reliance": 0.6379987594895083,
+            "confidence": 0.6408085977180724,
+            "optimism": 0.7467805994517123,
+            "verbosity": 0.40706069851562426,
+            "formality": 0.6623821339986825
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Innovator_1",
+          "agent_id": "4c5f21c9-7a17-45cd-92ef-57dcf7ecfb8a",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 1,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.8287049417181064,
+            "boldness": 0.9494322320321711,
+            "aggressiveness": 0.3933409774464468,
+            "defensiveness": 0.6705205876757074,
+            "supportiveness": 0.43514108984208155,
+            "analytical_depth": 0.4011154909057577,
+            "evidence_reliance": 0.49483665926790005,
+            "confidence": 0.8771766764446809,
+            "optimism": 0.7325127000742535,
+            "verbosity": 0.7432347837466116,
+            "formality": 0.31143435591218466
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Innovator_2",
+          "agent_id": "b8dad4ec-0992-4deb-92d3-4bf21e3b3d5d",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.7955627460624057,
+            "boldness": 0.9722846703588691,
+            "aggressiveness": 0.44346003638607595,
+            "defensiveness": 0.4992430331779991,
+            "supportiveness": 0.2976781873799568,
+            "analytical_depth": 0.3929761181185524,
+            "evidence_reliance": 0.44291216802369915,
+            "confidence": 0.9053180482907037,
+            "optimism": 0.9259892704053102,
+            "verbosity": 0.6085397923268341,
+            "formality": 0.2569306549671883
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [
+        {
+          "agent_name": "Initial_Agent_1",
+          "score": 0.0,
+          "challenges": 1,
+          "rebuttals": 0
+        },
+        {
+          "agent_name": "Initial_Agent_2",
+          "score": 0.0,
+          "challenges": 1,
+          "rebuttals": 0
+        },
+        {
+          "agent_name": "Innovator_1",
+          "score": 0.0,
+          "challenges": 2,
+          "rebuttals": 0
+        }
+      ],
+      "context": {
+        "event": "agent_spawned",
+        "agent": "Innovator_2"
+      }
+    },
+    {
+      "timestamp": 0.004283428192138672,
+      "datetime": "2026-01-09T00:50:31.651178",
+      "agent_count": 5,
+      "proposal_count": 3,
+      "agents": [
+        {
+          "name": "Initial_Agent_1",
+          "agent_id": "5a81a338-8d06-4258-8a81-766a0537c274",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 1,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.6644057484197532,
+            "boldness": 0.6392386944057358,
+            "aggressiveness": 0.5492176399217193,
+            "defensiveness": 0.4915490106930747,
+            "supportiveness": 0.5815195257143613,
+            "analytical_depth": 0.6123663236892882,
+            "evidence_reliance": 0.6493324432978791,
+            "confidence": 0.49721873721947923,
+            "optimism": 0.6072998411698327,
+            "verbosity": 0.325996349385234,
+            "formality": 0.5125791431528479
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Initial_Agent_2",
+          "agent_id": "4eb04522-18c5-4282-9b1e-32d2cc69f74f",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 2,
+          "rebuttals_made": 1,
+          "personality": {
+            "creativity": 0.7982756807976938,
+            "boldness": 0.6984211526499777,
+            "aggressiveness": 0.6689396397290952,
+            "defensiveness": 0.3345931944276321,
+            "supportiveness": 0.5482526540262992,
+            "analytical_depth": 0.8188109310143548,
+            "evidence_reliance": 0.6379987594895083,
+            "confidence": 0.6408085977180724,
+            "optimism": 0.7467805994517123,
+            "verbosity": 0.40706069851562426,
+            "formality": 0.6623821339986825
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Innovator_1",
+          "agent_id": "4c5f21c9-7a17-45cd-92ef-57dcf7ecfb8a",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 1,
+          "rebuttals_made": 2,
+          "personality": {
+            "creativity": 0.8287049417181064,
+            "boldness": 0.9494322320321711,
+            "aggressiveness": 0.3933409774464468,
+            "defensiveness": 0.6705205876757074,
+            "supportiveness": 0.43514108984208155,
+            "analytical_depth": 0.4011154909057577,
+            "evidence_reliance": 0.49483665926790005,
+            "confidence": 0.8771766764446809,
+            "optimism": 0.7325127000742535,
+            "verbosity": 0.7432347837466116,
+            "formality": 0.31143435591218466
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Innovator_2",
+          "agent_id": "b8dad4ec-0992-4deb-92d3-4bf21e3b3d5d",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 2,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.7955627460624057,
+            "boldness": 0.9722846703588691,
+            "aggressiveness": 0.44346003638607595,
+            "defensiveness": 0.4992430331779991,
+            "supportiveness": 0.2976781873799568,
+            "analytical_depth": 0.3929761181185524,
+            "evidence_reliance": 0.44291216802369915,
+            "confidence": 0.9053180482907037,
+            "optimism": 0.9259892704053102,
+            "verbosity": 0.6085397923268341,
+            "formality": 0.2569306549671883
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Innovator_3",
+          "agent_id": "6948fd9f-d21f-4102-853b-680718ccb718",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 1.0,
+            "boldness": 0.8574850938570879,
+            "aggressiveness": 0.44324695700088246,
+            "defensiveness": 0.6380216132057853,
+            "supportiveness": 0.4661574588904661,
+            "analytical_depth": 0.4247309075319358,
+            "evidence_reliance": 0.41534159208350907,
+            "confidence": 0.9970703671143645,
+            "optimism": 0.7378388370053276,
+            "verbosity": 0.7118685870229193,
+            "formality": 0.44791412699409944
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [
+        {
+          "agent_name": "Initial_Agent_1",
+          "score": 0.0,
+          "challenges": 1,
+          "rebuttals": 0
+        },
+        {
+          "agent_name": "Initial_Agent_2",
+          "score": 0.0,
+          "challenges": 2,
+          "rebuttals": 1
+        },
+        {
+          "agent_name": "Innovator_1",
+          "score": 0.0,
+          "challenges": 3,
+          "rebuttals": 2
+        }
+      ],
+      "context": {
+        "event": "agent_spawned",
+        "agent": "Innovator_3"
+      }
+    },
+    {
+      "timestamp": 0.0058155059814453125,
+      "datetime": "2026-01-09T00:50:31.652710",
+      "agent_count": 6,
+      "proposal_count": 3,
+      "agents": [
+        {
+          "name": "Initial_Agent_1",
+          "agent_id": "5a81a338-8d06-4258-8a81-766a0537c274",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 2,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.6644057484197532,
+            "boldness": 0.6392386944057358,
+            "aggressiveness": 0.5492176399217193,
+            "defensiveness": 0.4915490106930747,
+            "supportiveness": 0.5815195257143613,
+            "analytical_depth": 0.6123663236892882,
+            "evidence_reliance": 0.6493324432978791,
+            "confidence": 0.49721873721947923,
+            "optimism": 0.6072998411698327,
+            "verbosity": 0.325996349385234,
+            "formality": 0.5125791431528479
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Initial_Agent_2",
+          "agent_id": "4eb04522-18c5-4282-9b1e-32d2cc69f74f",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 3,
+          "rebuttals_made": 1,
+          "personality": {
+            "creativity": 0.7982756807976938,
+            "boldness": 0.6984211526499777,
+            "aggressiveness": 0.6689396397290952,
+            "defensiveness": 0.3345931944276321,
+            "supportiveness": 0.5482526540262992,
+            "analytical_depth": 0.8188109310143548,
+            "evidence_reliance": 0.6379987594895083,
+            "confidence": 0.6408085977180724,
+            "optimism": 0.7467805994517123,
+            "verbosity": 0.40706069851562426,
+            "formality": 0.6623821339986825
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Innovator_1",
+          "agent_id": "4c5f21c9-7a17-45cd-92ef-57dcf7ecfb8a",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 2,
+          "rebuttals_made": 2,
+          "personality": {
+            "creativity": 0.8287049417181064,
+            "boldness": 0.9494322320321711,
+            "aggressiveness": 0.3933409774464468,
+            "defensiveness": 0.6705205876757074,
+            "supportiveness": 0.43514108984208155,
+            "analytical_depth": 0.4011154909057577,
+            "evidence_reliance": 0.49483665926790005,
+            "confidence": 0.8771766764446809,
+            "optimism": 0.7325127000742535,
+            "verbosity": 0.7432347837466116,
+            "formality": 0.31143435591218466
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Innovator_2",
+          "agent_id": "b8dad4ec-0992-4deb-92d3-4bf21e3b3d5d",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 3,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.7955627460624057,
+            "boldness": 0.9722846703588691,
+            "aggressiveness": 0.44346003638607595,
+            "defensiveness": 0.4992430331779991,
+            "supportiveness": 0.2976781873799568,
+            "analytical_depth": 0.3929761181185524,
+            "evidence_reliance": 0.44291216802369915,
+            "confidence": 0.9053180482907037,
+            "optimism": 0.9259892704053102,
+            "verbosity": 0.6085397923268341,
+            "formality": 0.2569306549671883
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Innovator_3",
+          "agent_id": "6948fd9f-d21f-4102-853b-680718ccb718",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 1,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 1.0,
+            "boldness": 0.8574850938570879,
+            "aggressiveness": 0.44324695700088246,
+            "defensiveness": 0.6380216132057853,
+            "supportiveness": 0.4661574588904661,
+            "analytical_depth": 0.4247309075319358,
+            "evidence_reliance": 0.41534159208350907,
+            "confidence": 0.9970703671143645,
+            "optimism": 0.7378388370053276,
+            "verbosity": 0.7118685870229193,
+            "formality": 0.44791412699409944
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Innovator_4",
+          "agent_id": "947a1bd0-1bd7-429e-b525-6dbdad6c2015",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 1.0,
+            "boldness": 1.0,
+            "aggressiveness": 0.585915946854388,
+            "defensiveness": 0.6414659258058963,
+            "supportiveness": 0.4372437557959368,
+            "analytical_depth": 0.4754165376221225,
+            "evidence_reliance": 0.4146025690388331,
+            "confidence": 0.7735170040098,
+            "optimism": 0.9448344273292272,
+            "verbosity": 0.6697549357607534,
+            "formality": 0.5210543079247998
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [
+        {
+          "agent_name": "Initial_Agent_1",
+          "score": 0.0,
+          "challenges": 3,
+          "rebuttals": 0
+        },
+        {
+          "agent_name": "Initial_Agent_2",
+          "score": 0.0,
+          "challenges": 4,
+          "rebuttals": 1
+        },
+        {
+          "agent_name": "Innovator_1",
+          "score": 0.0,
+          "challenges": 4,
+          "rebuttals": 2
+        }
+      ],
+      "context": {
+        "event": "agent_spawned",
+        "agent": "Innovator_4"
+      }
+    },
+    {
+      "timestamp": 0.0076503753662109375,
+      "datetime": "2026-01-09T00:50:31.654545",
+      "agent_count": 7,
+      "proposal_count": 3,
+      "agents": [
+        {
+          "name": "Initial_Agent_1",
+          "agent_id": "5a81a338-8d06-4258-8a81-766a0537c274",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 2,
+          "rebuttals_made": 2,
+          "personality": {
+            "creativity": 0.6644057484197532,
+            "boldness": 0.6392386944057358,
+            "aggressiveness": 0.5492176399217193,
+            "defensiveness": 0.4915490106930747,
+            "supportiveness": 0.5815195257143613,
+            "analytical_depth": 0.6123663236892882,
+            "evidence_reliance": 0.6493324432978791,
+            "confidence": 0.49721873721947923,
+            "optimism": 0.6072998411698327,
+            "verbosity": 0.325996349385234,
+            "formality": 0.5125791431528479
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Initial_Agent_2",
+          "agent_id": "4eb04522-18c5-4282-9b1e-32d2cc69f74f",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 3,
+          "rebuttals_made": 2,
+          "personality": {
+            "creativity": 0.7982756807976938,
+            "boldness": 0.6984211526499777,
+            "aggressiveness": 0.6689396397290952,
+            "defensiveness": 0.3345931944276321,
+            "supportiveness": 0.5482526540262992,
+            "analytical_depth": 0.8188109310143548,
+            "evidence_reliance": 0.6379987594895083,
+            "confidence": 0.6408085977180724,
+            "optimism": 0.7467805994517123,
+            "verbosity": 0.40706069851562426,
+            "formality": 0.6623821339986825
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Innovator_1",
+          "agent_id": "4c5f21c9-7a17-45cd-92ef-57dcf7ecfb8a",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 1,
+          "challenges_made": 2,
+          "rebuttals_made": 4,
+          "personality": {
+            "creativity": 0.8287049417181064,
+            "boldness": 0.9494322320321711,
+            "aggressiveness": 0.3933409774464468,
+            "defensiveness": 0.6705205876757074,
+            "supportiveness": 0.43514108984208155,
+            "analytical_depth": 0.4011154909057577,
+            "evidence_reliance": 0.49483665926790005,
+            "confidence": 0.8771766764446809,
+            "optimism": 0.7325127000742535,
+            "verbosity": 0.7432347837466116,
+            "formality": 0.31143435591218466
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Innovator_2",
+          "agent_id": "b8dad4ec-0992-4deb-92d3-4bf21e3b3d5d",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 3,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.7955627460624057,
+            "boldness": 0.9722846703588691,
+            "aggressiveness": 0.44346003638607595,
+            "defensiveness": 0.4992430331779991,
+            "supportiveness": 0.2976781873799568,
+            "analytical_depth": 0.3929761181185524,
+            "evidence_reliance": 0.44291216802369915,
+            "confidence": 0.9053180482907037,
+            "optimism": 0.9259892704053102,
+            "verbosity": 0.6085397923268341,
+            "formality": 0.2569306549671883
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Innovator_3",
+          "agent_id": "6948fd9f-d21f-4102-853b-680718ccb718",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 1,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 1.0,
+            "boldness": 0.8574850938570879,
+            "aggressiveness": 0.44324695700088246,
+            "defensiveness": 0.6380216132057853,
+            "supportiveness": 0.4661574588904661,
+            "analytical_depth": 0.4247309075319358,
+            "evidence_reliance": 0.41534159208350907,
+            "confidence": 0.9970703671143645,
+            "optimism": 0.7378388370053276,
+            "verbosity": 0.7118685870229193,
+            "formality": 0.44791412699409944
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Innovator_4",
+          "agent_id": "947a1bd0-1bd7-429e-b525-6dbdad6c2015",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 3,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 1.0,
+            "boldness": 1.0,
+            "aggressiveness": 0.585915946854388,
+            "defensiveness": 0.6414659258058963,
+            "supportiveness": 0.4372437557959368,
+            "analytical_depth": 0.4754165376221225,
+            "evidence_reliance": 0.4146025690388331,
+            "confidence": 0.7735170040098,
+            "optimism": 0.9448344273292272,
+            "verbosity": 0.6697549357607534,
+            "formality": 0.5210543079247998
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        },
+        {
+          "name": "Innovator_5",
+          "agent_id": "6b98335b-a2be-4122-968d-107944bc7255",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.9717825769910655,
+            "boldness": 0.8928380442784197,
+            "aggressiveness": 0.6055886500588114,
+            "defensiveness": 0.6353973985833326,
+            "supportiveness": 0.5140988234472974,
+            "analytical_depth": 0.5640872858673668,
+            "evidence_reliance": 0.4465858664462124,
+            "confidence": 0.738558051332034,
+            "optimism": 0.9415465902243975,
+            "verbosity": 0.7237052265870967,
+            "formality": 0.5630791440909257
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 0
+        }
+      ],
+      "proposals": [
+        {
+          "agent_name": "Initial_Agent_1",
+          "score": 0.0,
+          "challenges": 4,
+          "rebuttals": 2
+        },
+        {
+          "agent_name": "Initial_Agent_2",
+          "score": 0.0,
+          "challenges": 5,
+          "rebuttals": 2
+        },
+        {
+          "agent_name": "Innovator_1",
+          "score": 0.0,
+          "challenges": 5,
+          "rebuttals": 4
+        }
+      ],
+      "context": {
+        "event": "agent_spawned",
+        "agent": "Innovator_5"
+      }
+    },
+    {
+      "timestamp": 0.010290384292602539,
+      "datetime": "2026-01-09T00:50:31.657186",
+      "agent_count": 7,
+      "proposal_count": 3,
+      "agents": [
+        {
+          "name": "Initial_Agent_1",
+          "agent_id": "5a81a338-8d06-4258-8a81-766a0537c274",
+          "is_active": true,
+          "score": 52.67450282240556,
+          "proposals_made": 1,
+          "challenges_made": 2,
+          "rebuttals_made": 2,
+          "personality": {
+            "creativity": 0.6644057484197532,
+            "boldness": 0.6392386944057358,
+            "aggressiveness": 0.5492176399217193,
+            "defensiveness": 0.4915490106930747,
+            "supportiveness": 0.5815195257143613,
+            "analytical_depth": 0.6123663236892882,
+            "evidence_reliance": 0.6493324432978791,
+            "confidence": 0.49721873721947923,
+            "optimism": 0.6072998411698327,
+            "verbosity": 0.325996349385234,
+            "formality": 0.5125791431528479
+          },
+          "exploration_rate": 0.2985,
+          "memory_size": 1
+        },
+        {
+          "name": "Initial_Agent_2",
+          "agent_id": "4eb04522-18c5-4282-9b1e-32d2cc69f74f",
+          "is_active": true,
+          "score": 61.63306513243595,
+          "proposals_made": 1,
+          "challenges_made": 3,
+          "rebuttals_made": 2,
+          "personality": {
+            "creativity": 0.7982756807976938,
+            "boldness": 0.6984211526499777,
+            "aggressiveness": 0.6689396397290952,
+            "defensiveness": 0.3345931944276321,
+            "supportiveness": 0.5482526540262992,
+            "analytical_depth": 0.8188109310143548,
+            "evidence_reliance": 0.6379987594895083,
+            "confidence": 0.6408085977180724,
+            "optimism": 0.7467805994517123,
+            "verbosity": 0.40706069851562426,
+            "formality": 0.6623821339986825
+          },
+          "exploration_rate": 0.2985,
+          "memory_size": 1
+        },
+        {
+          "name": "Innovator_1",
+          "agent_id": "4c5f21c9-7a17-45cd-92ef-57dcf7ecfb8a",
+          "is_active": true,
+          "score": 66.0235987190621,
+          "proposals_made": 1,
+          "challenges_made": 2,
+          "rebuttals_made": 4,
+          "personality": {
+            "creativity": 0.8287049417181064,
+            "boldness": 0.9494322320321711,
+            "aggressiveness": 0.3933409774464468,
+            "defensiveness": 0.6705205876757074,
+            "supportiveness": 0.43514108984208155,
+            "analytical_depth": 0.4011154909057577,
+            "evidence_reliance": 0.49483665926790005,
+            "confidence": 0.8771766764446809,
+            "optimism": 0.7325127000742535,
+            "verbosity": 0.7432347837466116,
+            "formality": 0.31143435591218466
+          },
+          "exploration_rate": 0.2985,
+          "memory_size": 1
+        },
+        {
+          "name": "Innovator_2",
+          "agent_id": "b8dad4ec-0992-4deb-92d3-4bf21e3b3d5d",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 3,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.7955627460624057,
+            "boldness": 0.9722846703588691,
+            "aggressiveness": 0.44346003638607595,
+            "defensiveness": 0.4992430331779991,
+            "supportiveness": 0.2976781873799568,
+            "analytical_depth": 0.3929761181185524,
+            "evidence_reliance": 0.44291216802369915,
+            "confidence": 0.9053180482907037,
+            "optimism": 0.9259892704053102,
+            "verbosity": 0.6085397923268341,
+            "formality": 0.2569306549671883
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 1
+        },
+        {
+          "name": "Innovator_3",
+          "agent_id": "6948fd9f-d21f-4102-853b-680718ccb718",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 1,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 1.0,
+            "boldness": 0.8574850938570879,
+            "aggressiveness": 0.44324695700088246,
+            "defensiveness": 0.6380216132057853,
+            "supportiveness": 0.4661574588904661,
+            "analytical_depth": 0.4247309075319358,
+            "evidence_reliance": 0.41534159208350907,
+            "confidence": 0.9970703671143645,
+            "optimism": 0.7378388370053276,
+            "verbosity": 0.7118685870229193,
+            "formality": 0.44791412699409944
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 1
+        },
+        {
+          "name": "Innovator_4",
+          "agent_id": "947a1bd0-1bd7-429e-b525-6dbdad6c2015",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 3,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 1.0,
+            "boldness": 1.0,
+            "aggressiveness": 0.585915946854388,
+            "defensiveness": 0.6414659258058963,
+            "supportiveness": 0.4372437557959368,
+            "analytical_depth": 0.4754165376221225,
+            "evidence_reliance": 0.4146025690388331,
+            "confidence": 0.7735170040098,
+            "optimism": 0.9448344273292272,
+            "verbosity": 0.6697549357607534,
+            "formality": 0.5210543079247998
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 1
+        },
+        {
+          "name": "Innovator_5",
+          "agent_id": "6b98335b-a2be-4122-968d-107944bc7255",
+          "is_active": true,
+          "score": 0.0,
+          "proposals_made": 0,
+          "challenges_made": 0,
+          "rebuttals_made": 0,
+          "personality": {
+            "creativity": 0.9717825769910655,
+            "boldness": 0.8928380442784197,
+            "aggressiveness": 0.6055886500588114,
+            "defensiveness": 0.6353973985833326,
+            "supportiveness": 0.5140988234472974,
+            "analytical_depth": 0.5640872858673668,
+            "evidence_reliance": 0.4465858664462124,
+            "confidence": 0.738558051332034,
+            "optimism": 0.9415465902243975,
+            "verbosity": 0.7237052265870967,
+            "formality": 0.5630791440909257
+          },
+          "exploration_rate": 0.3,
+          "memory_size": 1
+        }
+      ],
+      "proposals": [
+        {
+          "agent_name": "Initial_Agent_1",
+          "score": 63.09908019322623,
+          "challenges": 4,
+          "rebuttals": 2
+        },
+        {
+          "agent_name": "Initial_Agent_2",
+          "score": 59.92155422932045,
+          "challenges": 5,
+          "rebuttals": 2
+        },
+        {
+          "agent_name": "Innovator_1",
+          "score": 58.19176004147091,
+          "challenges": 5,
+          "rebuttals": 4
+        }
+      ],
+      "context": {
+        "phase": "completed",
+        "decision": {
+          "decision": "Accept proposal from Initial_Agent_1",
+          "winning_proposal": {
+            "proposal_id": "25ac8448-4c9b-46ec-940d-495d7f289800",
+            "agent_id": "5a81a338-8d06-4258-8a81-766a0537c274",
+            "agent_name": "Initial_Agent_1",
+            "content": "The conventional wisdom about How should we balance economic growth with environmental protection? may be fundamentally flawed. A novel approach could yield breakthrough results. This offers clear advantages.",
+            "timestamp": 1767916231.6476855,
+            "score": 63.09908019322623,
+            "challenges": [
+              {
+                "agent_id": "4eb04522-18c5-4282-9b1e-32d2cc69f74f",
+                "agent_name": "Initial_Agent_2",
+                "content": "Consider a scenario where initial assumptions prove incorrect. This directly contradicts the proposal's core premise. The implications undermine the entire approach.",
+                "message_type": "challenge",
+                "timestamp": 1767916231.6489632,
+                "phase": "challenge",
+                "target_agent_id": "5a81a338-8d06-4258-8a81-766a0537c274",
+                "metadata": {
+                  "proposal_id": "25ac8448-4c9b-46ec-940d-495d7f289800"
+                }
+              },
+              {
+                "agent_id": "4eb04522-18c5-4282-9b1e-32d2cc69f74f",
+                "agent_name": "Initial_Agent_2",
+                "content": "Consider a scenario where initial assumptions prove incorrect. This directly contradicts the proposal's core premise. The implications undermine the entire approach.",
+                "message_type": "challenge",
+                "timestamp": 1767916231.651594,
+                "phase": "challenge",
+                "target_agent_id": "5a81a338-8d06-4258-8a81-766a0537c274",
+                "metadata": {
+                  "proposal_id": "25ac8448-4c9b-46ec-940d-495d7f289800"
+                }
+              },
+              {
+                "agent_id": "6948fd9f-d21f-4102-853b-680718ccb718",
+                "agent_name": "Innovator_3",
+                "content": "Consider a scenario where initial assumptions prove incorrect. This directly contradicts the proposal's core premise. The implications undermine the entire approach.",
+                "message_type": "challenge",
+                "timestamp": 1767916231.6520379,
+                "phase": "challenge",
+                "target_agent_id": "5a81a338-8d06-4258-8a81-766a0537c274",
+                "metadata": {
+                  "proposal_id": "25ac8448-4c9b-46ec-940d-495d7f289800"
+                }
+              },
+              {
+                "agent_id": "947a1bd0-1bd7-429e-b525-6dbdad6c2015",
+                "agent_name": "Innovator_4",
+                "content": "The proposal claims to solve the problem comprehensively. However, what evidence supports this claim? Concrete metrics and validation criteria are required.",
+                "message_type": "challenge",
+                "timestamp": 1767916231.6527536,
+                "phase": "challenge",
+                "target_agent_id": "5a81a338-8d06-4258-8a81-766a0537c274",
+                "metadata": {
+                  "proposal_id": "25ac8448-4c9b-46ec-940d-495d7f289800",
+                  "late_entry": true
+                }
+              }
+            ],
+            "rebuttals": [
+              {
+                "agent_id": "5a81a338-8d06-4258-8a81-766a0537c274",
+                "agent_name": "Initial_Agent_1",
+                "content": "While I understand the concern, the underlying analysis actually supports my proposal when examined more carefully. In fact, this reinforces the need for my proposed approach.",
+                "message_type": "rebuttal",
+                "timestamp": 1767916231.6532662,
+                "phase": "rebuttal",
+                "target_agent_id": "4eb04522-18c5-4282-9b1e-32d2cc69f74f",
+                "metadata": {
+                  "proposal_id": "25ac8448-4c9b-46ec-940d-495d7f289800",
+                  "challenge_agent": "Initial_Agent_2"
+                }
+              },
+              {
+                "agent_id": "5a81a338-8d06-4258-8a81-766a0537c274",
+                "agent_name": "Initial_Agent_1",
+                "content": "Reframing the challenge reveals it as an opportunity rather than an obstacle. Within the broader context, this apparent conflict resolves naturally through proper implementation.",
+                "message_type": "rebuttal",
+                "timestamp": 1767916231.6534367,
+                "phase": "rebuttal",
+                "target_agent_id": "6948fd9f-d21f-4102-853b-680718ccb718",
+                "metadata": {
+                  "proposal_id": "25ac8448-4c9b-46ec-940d-495d7f289800",
+                  "challenge_agent": "Innovator_3"
+                }
+              }
+            ]
+          },
+          "all_scores": {
+            "25ac8448-4c9b-46ec-940d-495d7f289800": 63.09908019322623,
+            "fc671c40-c3b6-4a20-a209-fce2c4254f4b": 59.92155422932045,
+            "ddb69b75-8f33-45ef-bafe-e3c1da7d2283": 58.19176004147091
+          },
+          "reasoning": "After evaluating 3 proposals through adaptive scoring, I have determined that Initial_Agent_1's proposal is the strongest with a score of 63.1 points. This decision is made with moderate confidence. The proposal faced 4 challenges. The proposer provided 2 rebuttals, demonstrating strong defensive reasoning. The proposal demonstrates innovation. This decision adapts to the specific context and learned patterns from previous debates. Historical data supports similar approaches with 60% success rate.",
+          "confidence": 0.46188314406240516,
+          "score_variance": 2.0322579193114594,
+          "timestamp": 1767916231.6553433
+        }
+      }
+    }
+  ],
+  "events": [
+    {
+      "timestamp": 0.0015447139739990234,
+      "datetime": "2026-01-09T00:50:31.648440",
+      "event_type": "agent_spawn",
+      "details": {
+        "agent": "Innovator_1",
+        "reason": "lack_of_diversity",
+        "archetype": "innovator"
+      }
+    },
+    {
+      "timestamp": 0.0028553009033203125,
+      "datetime": "2026-01-09T00:50:31.649750",
+      "event_type": "agent_spawn",
+      "details": {
+        "agent": "Innovator_2",
+        "reason": "lack_of_diversity",
+        "archetype": "innovator"
+      }
+    },
+    {
+      "timestamp": 0.004277467727661133,
+      "datetime": "2026-01-09T00:50:31.651173",
+      "event_type": "agent_spawn",
+      "details": {
+        "agent": "Innovator_3",
+        "reason": "lack_of_diversity",
+        "archetype": "innovator"
+      }
+    },
+    {
+      "timestamp": 0.005809783935546875,
+      "datetime": "2026-01-09T00:50:31.652705",
+      "event_type": "agent_spawn",
+      "details": {
+        "agent": "Innovator_4",
+        "reason": "lack_of_diversity",
+        "archetype": "innovator"
+      }
+    },
+    {
+      "timestamp": 0.0076446533203125,
+      "datetime": "2026-01-09T00:50:31.654540",
+      "event_type": "agent_spawn",
+      "details": {
+        "agent": "Innovator_5",
+        "reason": "lack_of_diversity",
+        "archetype": "innovator"
+      }
+    },
+    {
+      "timestamp": 0.010301351547241211,
+      "datetime": "2026-01-09T00:50:31.657196",
+      "event_type": "debate_completed",
+      "details": {
+        "decision": "Accept proposal from Initial_Agent_1"
+      }
+    }
+  ],
+  "summary": {
+    "agent_count_change": 5,
+    "total_proposals": 3,
+    "snapshots_taken": 7,
+    "events_logged": 6,
+    "duration": 0.012493133544921875
+  }
+}
